@@ -52,23 +52,26 @@ a{color:var(--yellow)}
 .formula text.fill{fill:rgba(238,243,236,.8);stroke:none;opacity:0;animation:fadein 1.2s ease forwards 3.2s}
 @keyframes write{to{stroke-dashoffset:0}}
 @keyframes fadein{to{opacity:.85}}
-.sling{position:relative;z-index:5;width:min(300px,68vw);aspect-ratio:1;margin:clamp(40px,7vh,70px) auto 0;touch-action:none}
+.sling{position:relative;z-index:5;-webkit-user-select:none;user-select:none;width:min(300px,68vw);aspect-ratio:1;margin:clamp(40px,7vh,70px) auto 0;touch-action:none}
 .sling svg.band{position:absolute;inset:-60%;width:220%;height:220%;pointer-events:none;overflow:visible}
 .band line{stroke:var(--chalk);stroke-width:3;stroke-linecap:round;stroke-dasharray:7 7;opacity:0;transition:opacity .2s}
 .sling.pulling .band line{opacity:.85}
 .fork{position:absolute;bottom:-30px;width:12px;height:70px;border-radius:6px;background:linear-gradient(90deg,var(--wood),var(--wood-2),var(--wood));opacity:.0}
-.mascot{position:absolute;inset:0;cursor:grab;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;will-change:transform;
-  filter:drop-shadow(0 26px 30px rgba(0,0,0,.45))}
+.mascot{position:absolute;inset:0;cursor:grab;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;-webkit-touch-callout:none;
+  -webkit-tap-highlight-color:transparent;touch-action:none;will-change:transform;z-index:2}
+.shadow{position:absolute;left:18%;right:18%;bottom:-6%;height:12%;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.45),transparent);
+  transition:opacity .25s,transform .25s;pointer-events:none}
+.sling.pulling .shadow,.sling.flying .shadow{opacity:.35;transform:scale(.8)}
 .mascot:active{cursor:grabbing}
 .mascot img{width:100%;height:100%;object-fit:contain;pointer-events:none}
-.mascot.idle{animation:breathe 4.5s ease-in-out infinite}
+.mascot.idle img{animation:breathe 4.5s ease-in-out infinite}
 @keyframes breathe{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
 .hint{position:absolute;right:-8%;top:6%;transform:rotate(8deg);font:600 clamp(20px,5vw,28px)/1 var(--hand);color:var(--yellow);pointer-events:none;
   transition:opacity .4s}
 .hint svg{display:block;width:70px;height:40px;margin:4px 0 0 -30px;fill:none;stroke:var(--yellow);stroke-width:2.2;stroke-linecap:round}
 .sling.used .hint{opacity:0}
-.title{margin:clamp(22px,4vh,34px) 0 0;font:700 clamp(54px,14vw,112px)/.9 var(--hand);letter-spacing:.5px}
-.title u{text-decoration:none;position:relative;white-space:nowrap}
+.title{margin:clamp(22px,4vh,34px) 0 0;font:700 clamp(48px,12.5vw,112px)/.95 var(--hand);letter-spacing:.5px;max-width:100%}
+.title u{text-decoration:none;position:relative;display:inline-block;max-width:100%}
 .title u::after{content:"";position:absolute;left:2%;right:2%;bottom:-.06em;height:.16em;border-radius:40%;
   background:var(--yellow);opacity:.85;transform:rotate(-1.2deg);filter:blur(.3px)}
 .stores{display:flex;justify-content:center;margin-top:clamp(26px,4vh,40px)}
@@ -160,7 +163,7 @@ a{color:var(--yellow)}
   box-shadow:0 18px 30px rgba(0,0,0,.35),inset 0 -18px 30px rgba(0,0,0,.05);transition:transform .35s var(--ease)}
 .note:hover{transform:rotate(0) scale(1.04)}
 .note::before{content:"";position:absolute;left:50%;top:-10px;width:70px;height:20px;margin-left:-35px;background:rgba(255,255,255,.5);transform:rotate(-3deg)}
-.note .ic{width:34px;height:34px}
+.note .ic{display:block;width:34px;height:34px}
 .note .ic svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .note h4{margin:8px 0 6px;font:800 19px/1.1 var(--sans)}
 .note p{margin:0;font:700 26px/1.1 var(--hand);opacity:.85}
@@ -173,7 +176,7 @@ a{color:var(--yellow)}
   background:linear-gradient(90deg,transparent 44px,var(--margin) 44px 46px,transparent 46px),repeating-linear-gradient(180deg,var(--paper) 0 27px,var(--rule) 27px 28px);
   border-radius:4px;box-shadow:0 18px 34px rgba(0,0,0,.4);transform:rotate(var(--r));transition:transform .35s var(--ease)}
 .card-doc:hover{transform:rotate(0) translateY(-4px)}
-.card-doc .ic{position:absolute;left:10px;width:26px;height:26px;color:var(--red)}
+.card-doc .ic{position:absolute;left:10px;display:block;width:26px;height:26px;color:var(--red)}
 .card-doc .ic svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .card-doc b{font:700 30px/1 var(--hand)}
 .card-doc .chev{margin-left:auto;font:700 28px/1 var(--hand);color:var(--red)}
