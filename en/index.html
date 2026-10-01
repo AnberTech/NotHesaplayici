@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en" data-page="index">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grade Calculator — Average, Final Exam &amp; GPA Calculator</title>
+<meta name="description" content="Calculate your course average, the final exam grade you need and your GPA. Ad-free, offline, 16 languages, PDF transcripts. iOS and Android.">
+<meta property="og:title" content="Grade Calculator — Average, Final Exam &amp; GPA Calculator">
+<meta property="og:description" content="Calculate your course average, the final exam grade you need and your GPA. Ad-free, offline, 16 languages, PDF transcripts. iOS and Android.">
+<meta property="og:image" content="https://anbertech.github.io/NotHesaplayici/assets/img/icon-512.png">
+<link rel="canonical" href="https://anbertech.github.io/NotHesaplayici/en/">
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/NotHesaplayici/">
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/NotHesaplayici/en/">
+<link rel="icon" href="../assets/img/favicon.png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+<div class="bg"><i></i><i></i><i></i></div>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="./"><img src="../assets/img/favicon.png" alt="" width="32" height="32"><span>Grade Calculator</span></a>
+<nav><a href="./" class="on">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a class="lang" href="../" hreflang="tr" title="Türkçe">🌐 TR</a><button id="theme" aria-label="Theme">◐</button></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap grid2">
+<div class="copy">
+<span class="pill">For iOS and Android</span>
+<h1>Calculate your grade,<br><em>plan your future.</em></h1>
+<p class="lead">Course average, the final exam score you need, and your GPA — all in one app. No ads, no account, fully offline.</p>
+<div class="stores"><span class="store"><span><small>Coming soon</small>Download on the App Store</span></span>
+<span class="store"><span><small>Coming soon</small>Get it on Google Play</span></span></div>
+<ul class="trust"><li>✓ No ads</li><li>✓ No account</li><li>✓ Offline</li><li>✓ 16 languages</li></ul>
+</div>
+<div class="visual"><div class="phone big tilt"><img src="../assets/img/en_3.jpg" alt="Calculate"></div>
+<div class="phone small tilt2"><img src="../assets/img/en_4.jpg" alt="GPA"></div>
+<div class="glow"></div></div>
+</div></section>
+
+<section class="sec" id="demo"><div class="wrap">
+<div class="head reveal"><h2>Try it live</h2><p>Test the app right here before you download. Change the values and the result updates instantly.</p></div>
+<div class="demo reveal">
+<div class="tabs" role="tablist"><button class="on" data-tab="a">Average</button><button data-tab="b">Needed final</button><button data-tab="c">GPA</button></div>
+
+<div class="pane on" id="pane-a"><div class="fields">
+<label>Midterm grade<input id="a-v" type="number" min="0" max="100" value="62"></label>
+<label>Final grade<input id="a-f" type="number" min="0" max="100" value="75"></label>
+<label>Midterm weight (%)<input id="a-w" type="number" min="0" max="100" value="40"></label></div>
+<div class="out"><div><small>Your average</small><b id="a-r">0</b></div><div><small>Letter grade</small><b id="a-l" class="letter">—</b></div></div>
+<input type="range" id="a-fs" min="0" max="100" value="75" aria-label="Final grade"></div>
+
+<div class="pane" id="pane-b"><div class="fields">
+<label>Midterm grade<input id="b-v" type="number" min="0" max="100" value="55"></label>
+<label>Midterm weight (%)<input id="b-w" type="number" min="0" max="100" value="40"></label>
+<label>Passing grade<input id="b-p" type="number" min="0" max="100" value="50"></label></div>
+<div class="out one"><div><small>Final grade needed</small><b id="b-r">0</b></div></div><p class="note" id="b-n"></p></div>
+
+<div class="pane" id="pane-c"><div id="rows"></div>
+<button class="ghost" id="addrow">+ Add course</button>
+<div class="out"><div><small>GPA</small><b id="c-r">0.00</b></div><div><small>Total credits</small><b id="c-k">0</b></div></div></div>
+<template id="rowtpl"><div class="row"><input class="cn" placeholder="Course"><input class="cc" type="number" min="0" value="3" aria-label="Credit"><select class="cg" aria-label="Grade"><option>AA</option><option>BA</option><option>BB</option><option>CB</option><option>CC</option><option>DC</option><option>DD</option><option>FD</option><option>FF</option></select><button class="x" aria-label="remove">×</button></div></template>
+</div></div></section>
+
+<section class="sec"><div class="wrap"><div class="head reveal"><h2>Why Grade Calculator?</h2></div><div class="cards"><div class="card reveal"><div class="ico">🎯</div><h3>Average calculator</h3><p>Enter midterm, final and weights; see your average and letter grade instantly.</p></div><div class="card reveal"><div class="ico">🧮</div><h3>Needed final</h3><p>Find out what you must score on the final to pass the course.</p></div><div class="card reveal"><div class="ico">📚</div><h3>GPA tracking</h3><p>Save your courses and let the app track term and cumulative GPA.</p></div><div class="card reveal"><div class="ico">🎚️</div><h3>Your own grade scale</h3><p>Edit letter-grade ranges and coefficients to match your university.</p></div><div class="card reveal"><div class="ico">📄</div><h3>PDF transcript</h3><p>Share your courses and averages as a PDF with one tap.</p></div><div class="card reveal"><div class="ico">🌍</div><h3>16 languages</h3><p>English, Turkish, German, Japanese, Arabic and more.</p></div><div class="card reveal"><div class="ico">🔒</div><h3>Privacy first</h3><p>No account, no ads, no tracking. Your data stays on your device.</p></div><div class="card reveal"><div class="ico">✈️</div><h3>Works offline</h3><p>No internet needed; works anywhere, anytime.</p></div></div></div></section>
+
+<section class="sec shots"><div class="wrap"><div class="head reveal"><h2>A look inside</h2></div><div class="strip"><figure class="reveal"><div class="phone"><img loading="lazy" src="../assets/img/en_1.jpg" alt="Home"></div><figcaption>Home</figcaption></figure><figure class="reveal"><div class="phone"><img loading="lazy" src="../assets/img/en_2.jpg" alt="Calculate"></div><figcaption>Calculate</figcaption></figure><figure class="reveal"><div class="phone"><img loading="lazy" src="../assets/img/en_3.jpg" alt="My Courses"></div><figcaption>My Courses</figcaption></figure><figure class="reveal"><div class="phone"><img loading="lazy" src="../assets/img/en_4.jpg" alt="GPA"></div><figcaption>GPA</figcaption></figure><figure class="reveal"><div class="phone"><img loading="lazy" src="../assets/img/en_5.jpg" alt="Settings"></div><figcaption>Settings</figcaption></figure></div></div></section>
+
+<section class="sec"><div class="wrap"><div class="cta reveal"><img src="../assets/img/icon-512.png" alt="" width="96" height="96"><h2>Give it a try</h2><p>Free. Ad-free. No account.</p><div class="stores"><span class="store"><span><small>Coming soon</small>Download on the App Store</span></span>
+<span class="store"><span><small>Coming soon</small>Get it on Google Play</span></span></div></div></div></section></main>
+<footer><div class="wrap"><div class="fl"><img src="../assets/img/favicon.png" alt="" width="24" height="24"> <b>anberTech</b></div>
+<p>© 2026 anberTech. All rights reserved.</p><p class="mut">PDF documents created by the app have no official validity.</p>
+<p><a href="mailto:destek.anbertech@gmail.com">destek.anbertech@gmail.com</a></p></div></footer>
+<script>window.I18N={lang:"en",need:"Final grade needed",impossible:"Not reachable even with 100",already:"You pass even without the final"};</script>
+<script src="../assets/app.js"></script>
+</body></html>

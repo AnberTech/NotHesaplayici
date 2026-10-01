@@ -1,229 +1,33 @@
-<!DOCTYPE html>
-<html lang="tr">
+<!doctype html>
+<html lang="tr" data-page="support">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Not Hesaplayıcı – Destek</title>
-<link rel="icon" type="image/png" href="nh_icon.png" />
-<link rel="apple-touch-icon" href="nh_icon.png" />
-<meta name="theme-color" content="#1B3A31" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&display=swap" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700;800;900&display=swap" />
-<style>
-:root{
-  color-scheme:dark;
-  --board:#1B3A31;--board-2:#15302A;--board-3:#10251F;--chalk:#EEF3EC;--chalk-dim:rgba(238,243,236,.62);
-  --yellow:#F6E27A;--pink:#F4A6B8;--sky:#A7D8F5;
-  --paper:#FBFAF5;--rule:#CFE0F2;--margin:#E57B73;--ink:#1D2433;--ink-2:#5B6474;--red:#D8342C;
-  --blue:#0A84FF;--green:#34C759;--orange:#FF9500;--apple-red:#FF3B30;
-  --wood:#6B4A2E;--wood-2:#8A6240;
-  --hand:"Caveat","Patrick Hand","Segoe Print","Comic Sans MS",cursive;
-  --sans:"Nunito",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  --ease:cubic-bezier(.2,.9,.25,1);
-}
-*,*::before,*::after{box-sizing:border-box}
-[hidden]{display:none!important}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--board-3);color:var(--chalk);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-img{display:block;max-width:100%}
-a{color:var(--yellow)}
-:focus-visible{outline:2px dashed var(--yellow);outline-offset:4px;border-radius:10px}
-
-/* board surface used by every section */
-.board-bg{position:relative;isolation:isolate;background:
-  radial-gradient(90% 70% at 30% 20%,rgba(255,255,255,.06),transparent 60%),
-  radial-gradient(70% 60% at 80% 70%,rgba(255,255,255,.04),transparent 60%),
-  linear-gradient(180deg,var(--board),var(--board-2))}
-.board-bg::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.2;
-  background:url("nh_doodles.png") 0 0/900px auto repeat}
-.board-bg::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.35;mix-blend-mode:overlay;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.7' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E")}
-.chalk{font-family:var(--hand);color:var(--chalk);text-shadow:0 0 1px rgba(255,255,255,.55),0 0 10px rgba(255,255,255,.12)}
-.progress{position:fixed;left:0;top:env(safe-area-inset-top,0px);height:4px;width:0;z-index:95;border-radius:0 3px 3px 0;
-  background:linear-gradient(90deg,var(--blue),var(--green),var(--orange),var(--apple-red))}
-
-/* ============ HERO ============ */
-.hero{min-height:min(94svh,920px);display:grid;place-items:center;padding:56px 16px 150px;text-align:center;overflow:hidden}
-.formula{position:absolute;left:50%;top:clamp(18px,4vh,40px);transform:translateX(-50%) rotate(-2deg);width:min(760px,94vw);height:auto;pointer-events:none}
-.formula text{font-family:var(--hand);font-size:34px;fill:none;stroke:var(--chalk);stroke-width:1.1;stroke-dasharray:1200;stroke-dashoffset:1200;
-  animation:write 3.2s ease forwards .6s;opacity:.85}
-.formula text.fill{fill:rgba(238,243,236,.8);stroke:none;opacity:0;animation:fadein 1.2s ease forwards 3.2s}
-@keyframes write{to{stroke-dashoffset:0}}
-@keyframes fadein{to{opacity:.85}}
-.sling{position:relative;z-index:5;-webkit-user-select:none;user-select:none;width:min(300px,68vw);aspect-ratio:1;margin:clamp(40px,7vh,70px) auto 0;touch-action:none}
-.sling svg.band{position:absolute;inset:-60%;width:220%;height:220%;pointer-events:none;overflow:visible}
-.band line{stroke:var(--chalk);stroke-width:3;stroke-linecap:round;stroke-dasharray:7 7;opacity:0;transition:opacity .2s}
-.sling.pulling .band line{opacity:.85}
-.fork{position:absolute;bottom:-30px;width:12px;height:70px;border-radius:6px;background:linear-gradient(90deg,var(--wood),var(--wood-2),var(--wood));opacity:.0}
-.mascot{position:absolute;inset:0;cursor:grab;user-select:none;-webkit-user-select:none;-webkit-user-drag:none;-webkit-touch-callout:none;
-  -webkit-tap-highlight-color:transparent;touch-action:none;will-change:transform;z-index:2}
-.shadow{position:absolute;left:18%;right:18%;bottom:-6%;height:12%;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.45),transparent);
-  transition:opacity .25s,transform .25s;pointer-events:none}
-.sling.pulling .shadow,.sling.flying .shadow{opacity:.35;transform:scale(.8)}
-.mascot:active{cursor:grabbing}
-.mascot img{width:100%;height:100%;object-fit:contain;pointer-events:none}
-.mascot.idle img{animation:breathe 4.5s ease-in-out infinite}
-@keyframes breathe{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-10px) rotate(2deg)}}
-.hint{position:absolute;right:-8%;top:6%;transform:rotate(8deg);font:600 clamp(20px,5vw,28px)/1 var(--hand);color:var(--yellow);pointer-events:none;
-  transition:opacity .4s}
-.hint svg{display:block;width:70px;height:40px;margin:4px 0 0 -30px;fill:none;stroke:var(--yellow);stroke-width:2.2;stroke-linecap:round}
-.sling.used .hint{opacity:0}
-.title{margin:clamp(22px,4vh,34px) 0 0;font:700 clamp(48px,12.5vw,112px)/.95 var(--hand);letter-spacing:.5px;max-width:100%}
-.title u{text-decoration:none;position:relative;display:inline-block;max-width:100%}
-.title u::after{content:"";position:absolute;left:2%;right:2%;bottom:-.06em;height:.16em;border-radius:40%;
-  background:var(--yellow);opacity:.85;transform:rotate(-1.2deg);filter:blur(.3px)}
-.stores{display:flex;justify-content:center;margin-top:clamp(26px,4vh,40px)}
-.stores a{display:block;border-radius:12px;transition:transform .3s var(--ease)}
-.stores a:hover{transform:translateY(-4px) rotate(-1deg) scale(1.04)}
-.stores img{height:clamp(46px,12vw,54px);width:auto;aspect-ratio:1062/318;object-fit:cover;filter:drop-shadow(0 12px 26px rgba(0,0,0,.45))}
-.ledge{position:absolute;left:0;right:0;bottom:0;height:46px;background:linear-gradient(180deg,#8A6240,#6B4A2E 60%,#4E3520);
-  box-shadow:0 -6px 16px rgba(0,0,0,.35),inset 0 2px 0 rgba(255,255,255,.18)}
-.ledge i{position:absolute;bottom:26px;height:12px;border-radius:6px;box-shadow:0 2px 3px rgba(0,0,0,.35)}
-.ledge .c1{left:14%;width:64px;background:#F3F1EA;transform:rotate(-4deg)}
-.ledge .c2{left:22%;width:42px;background:var(--yellow);transform:rotate(3deg)}
-.ledge .c3{left:27%;width:36px;background:var(--pink)}
-.ledge .eraser{right:16%;bottom:22px;width:110px;height:30px;border-radius:6px;background:linear-gradient(180deg,#3D4A63 0 55%,#D9D2C3 55%);transform:rotate(-3deg)}
-
-/* ============ EXAM PAPER CALCULATOR ============ */
-.exam{padding:clamp(56px,10vh,110px) 16px clamp(60px,10vh,110px)}
-.exam-in{max-width:1080px;margin:0 auto;display:grid;gap:clamp(22px,4vw,44px);align-items:start}
-@media (min-width:920px){.exam-in{grid-template-columns:1fr 1.05fr}}
-.sheet{position:relative;background:
-   linear-gradient(90deg,transparent 46px,var(--margin) 46px 48px,transparent 48px),
-   repeating-linear-gradient(180deg,var(--paper) 0 31px,var(--rule) 31px 32px);
-  color:var(--ink);border-radius:6px;padding:40px clamp(18px,4vw,34px) 34px clamp(60px,9vw,74px);
-  box-shadow:0 30px 60px rgba(0,0,0,.45),0 2px 0 rgba(0,0,0,.08);transform:rotate(-.8deg)}
-.sheet.b{transform:rotate(.9deg)}
-.tape{position:absolute;top:-14px;width:120px;height:30px;background:rgba(246,226,122,.75);box-shadow:0 2px 4px rgba(0,0,0,.15)}
-.tape.l{left:16%;transform:rotate(-6deg)}.tape.r{right:14%;transform:rotate(5deg)}
-.sheet h3{margin:0 0 6px;font:700 32px/1.1 var(--hand);color:var(--ink)}
-.lbl{display:block;margin:16px 0 8px;font:800 14px/1 var(--sans);letter-spacing:.02em;color:var(--blue)}
-.seg{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;padding:4px;border-radius:999px;background:#E9ECF1;gap:2px}
-.seg button{border:0;border-radius:999px;background:none;padding:10px 6px;min-height:44px;font:700 clamp(13px,3.3vw,15px)/1 var(--sans);color:#3B4250;cursor:pointer;
-  transition:background .25s,box-shadow .25s,color .25s}
-.seg button[aria-pressed="true"]{background:#fff;color:#111;box-shadow:0 3px 10px rgba(0,0,0,.12)}
-.weights{display:grid;grid-template-columns:repeat(var(--n,2),1fr);gap:10px;margin-top:10px}
-.field{display:grid;gap:4px}
-.field span{font:700 12px/1 var(--sans);color:var(--ink-2)}
-.field input{width:100%;padding:11px 12px;border-radius:12px;border:1.5px solid #D6DCE5;background:#fff;color:var(--ink);text-align:center;
-  font:700 18px/1 var(--sans);font-variant-numeric:tabular-nums;-moz-appearance:textfield}
-.field input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 4px rgba(10,132,255,.15)}
-.field input::-webkit-outer-spin-button,.field input::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}
-.weights[hidden],.row-final[hidden],.row-odev[hidden]{display:none!important}
-.go{margin-top:20px;width:100%;padding:15px;border-radius:16px;border:1.5px solid rgba(10,132,255,.55);background:rgba(10,132,255,.07);
-  color:var(--blue);font:800 17px/1 var(--sans);cursor:pointer;transition:transform .2s,background .2s}
-.go:hover{background:rgba(10,132,255,.13)}
-.go:active{transform:scale(.98)}
-.res-head{text-align:center;margin-bottom:6px}
-.res-head small{display:block;font:800 13px/1 var(--sans);letter-spacing:.3em;color:var(--ink-2)}
-.res-head span{font:600 15px/1.6 var(--sans);color:var(--ink-2)}
-.grades{list-style:none;margin:0;padding:0;display:grid;gap:0}
-.grades li{position:relative;display:flex;align-items:center;justify-content:space-between;height:32px;font-variant-numeric:tabular-nums}
-.pill{display:inline-grid;place-items:center;min-width:52px;height:24px;padding:0 10px;border-radius:999px;font:800 13px/1 var(--sans)}
-.pa{color:#2E9E4C;background:rgba(52,199,89,.16);border:1px solid rgba(52,199,89,.45)}
-.pb{color:#1E72D6;background:rgba(10,132,255,.14);border:1px solid rgba(10,132,255,.4)}
-.pd{color:#D9790A;background:rgba(255,149,0,.16);border:1px solid rgba(255,149,0,.45)}
-.val{font:800 19px/1 var(--sans);color:var(--ink)}
-.val.no{font-size:15px;color:var(--apple-red)}
-.val.low{color:var(--apple-red)}
-.grades li.best::after{content:"";position:absolute;right:-12px;top:50%;width:92px;height:40px;margin-top:-20px;border:2.5px solid var(--red);border-radius:50%;
-  transform:rotate(-6deg);opacity:.85;animation:circle .6s var(--ease)}
-@keyframes circle{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
-.warn{margin:8px 0 0;font:700 14px/1.4 var(--sans);color:var(--apple-red)}
-.quip{margin:14px 0 0;min-height:2.2em;font:700 clamp(24px,5.4vw,30px)/1.15 var(--hand);color:var(--red);transform:rotate(-1.5deg);text-align:center}
-.quip.pop{animation:scrib .45s var(--ease)}
-@keyframes scrib{from{opacity:0;transform:rotate(-1.5deg) translateY(8px)}}
-.avg{display:flex;align-items:center;justify-content:center;gap:24px;padding:10px 0 34px}
-.avg b{font:900 clamp(64px,15vw,88px)/1 var(--sans);letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums}
-.avg .letter{position:relative;display:grid;place-items:center;width:104px;height:84px;font:700 50px/1 var(--hand);color:var(--red)}
-.avg .letter::before{content:"";position:absolute;inset:0;border:3px solid var(--red);border-radius:50%;transform:rotate(-8deg)}
-.avg .letter small{position:absolute;bottom:-26px;left:50%;transform:translateX(-50%);white-space:nowrap;font:800 12px/1 var(--sans);color:var(--ink-2)}
-[data-mode="avg"] .only-target,[data-mode="target"] .only-avg{display:none!important}
-
-/* ============ PINNED SCREENS ============ */
-.pinned{padding:clamp(56px,10vh,100px) 0 clamp(40px,8vh,80px);overflow:hidden}
-.pins{display:flex;gap:clamp(18px,3vw,34px);justify-content:center;align-items:flex-start;padding:24px 16px 30px;overflow-x:auto;
-  scroll-snap-type:x mandatory;scrollbar-width:none}
-.pins::-webkit-scrollbar{display:none}
-.pin{position:relative;flex:0 0 auto;width:clamp(150px,17vw,210px);margin:0;scroll-snap-align:center;transform:rotate(var(--r));
-  transition:transform .45s var(--ease)}
-.pin:nth-child(even){margin-top:34px}
-.pin:hover{transform:rotate(0) translateY(-10px) scale(1.04);z-index:2}
-.pin img{width:100%;border-radius:22px;border:4px solid #0F1512;box-shadow:0 26px 50px rgba(0,0,0,.5)}
-.pin::before{content:"";position:absolute;left:50%;top:-12px;width:26px;height:26px;margin-left:-13px;border-radius:50%;z-index:2;
-  background:radial-gradient(circle at 35% 30%,#fff,var(--c,#E5484D) 45%,rgba(0,0,0,.4));box-shadow:0 4px 8px rgba(0,0,0,.45)}
-@media (max-width:760px){.pins{justify-content:flex-start;padding-inline:22vw}.pin{width:52vw}}
-
-/* ============ STICKY NOTES (the app's four doors) ============ */
-.notes{max-width:1080px;margin:0 auto;padding:0 16px clamp(40px,8vh,80px);display:grid;gap:22px;grid-template-columns:repeat(2,1fr)}
-@media (min-width:860px){.notes{grid-template-columns:repeat(4,1fr)}}
-.note{position:relative;padding:18px 16px 20px;min-height:150px;color:#1B1B1B;transform:rotate(var(--r));
-  box-shadow:0 18px 30px rgba(0,0,0,.35),inset 0 -18px 30px rgba(0,0,0,.05);transition:transform .35s var(--ease)}
-.note:hover{transform:rotate(0) scale(1.04)}
-.note::before{content:"";position:absolute;left:50%;top:-10px;width:70px;height:20px;margin-left:-35px;background:rgba(255,255,255,.5);transform:rotate(-3deg)}
-.note .ic{display:block;width:34px;height:34px}
-.note .ic svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.note h4{margin:8px 0 6px;font:800 19px/1.1 var(--sans)}
-.note p{margin:0;font:700 26px/1.1 var(--hand);opacity:.85}
-.n1{background:#BFE0FF;color:#0B4F99}.n2{background:#C9F2D3;color:#16713A}.n3{background:#FFE0B3;color:#9A5200}.n4{background:#FFD0CC;color:#A1231A}
-
-/* ============ DOCS + FOOT ============ */
-.docs{max-width:900px;margin:0 auto;padding:clamp(30px,6vh,60px) 16px 0;display:grid;gap:18px}
-@media (min-width:680px){.docs{grid-template-columns:1fr 1fr}}
-.card-doc{position:relative;display:flex;align-items:center;gap:14px;padding:20px 20px 20px 62px;text-decoration:none;color:var(--ink);
-  background:linear-gradient(90deg,transparent 44px,var(--margin) 44px 46px,transparent 46px),repeating-linear-gradient(180deg,var(--paper) 0 27px,var(--rule) 27px 28px);
-  border-radius:4px;box-shadow:0 18px 34px rgba(0,0,0,.4);transform:rotate(var(--r));transition:transform .35s var(--ease)}
-.card-doc:hover{transform:rotate(0) translateY(-4px)}
-.card-doc .ic{position:absolute;left:10px;display:block;width:26px;height:26px;color:var(--red)}
-.card-doc .ic svg{width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.card-doc b{font:700 30px/1 var(--hand)}
-.card-doc .chev{margin-left:auto;font:700 28px/1 var(--hand);color:var(--red)}
-.foot{padding:clamp(56px,10vh,90px) 16px 70px;text-align:center;color:var(--chalk-dim);font-size:14px;position:relative}
-.foot img{width:74px;margin:0 auto 10px;filter:drop-shadow(0 10px 16px rgba(0,0,0,.4))}
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01ms!important}
-  .formula text{stroke-dashoffset:0}.formula text.fill{opacity:.85}}
-
-/* ============ DOCUMENT PAGES (notebook) ============ */
-.dhead{padding:24px 16px 70px;overflow:hidden}
-.dhead-in{max-width:800px;margin:0 auto}
-.back{display:inline-flex;align-items:center;gap:10px;padding:8px 16px 8px 10px;border-radius:999px;color:var(--chalk);text-decoration:none;font-weight:800;font-size:15px;
-  background:rgba(255,255,255,.08);border:1.5px dashed rgba(238,243,236,.4);transition:background .3s,transform .3s var(--ease)}
-.back:hover{background:rgba(255,255,255,.14);transform:translateX(-3px)}
-.back img{width:26px;height:26px;border-radius:7px}
-.dtitle{margin:22px 0 0;font:700 clamp(40px,9vw,68px)/.95 var(--hand);text-wrap:balance}
-.doc{max-width:800px;margin:-40px auto 0;padding:0 16px;position:relative;z-index:3}
-.doc .content{position:relative;color:var(--ink);border-radius:6px;padding:44px clamp(18px,4vw,40px) 40px clamp(62px,9vw,80px);
-  background:linear-gradient(90deg,transparent 46px,var(--margin) 46px 48px,transparent 48px),repeating-linear-gradient(180deg,var(--paper) 0 31px,var(--rule) 31px 32px);
-  box-shadow:0 34px 70px rgba(0,0,0,.45)}
-.doc .content::before{content:"";position:absolute;top:-14px;left:40%;width:130px;height:30px;background:rgba(246,226,122,.75);transform:rotate(-4deg)}
-.doc h2{margin:30px 0 6px;font:700 30px/1.1 var(--hand);color:var(--ink)}
-.doc hr{border:0;border-top:1.5px dashed #C9D3DE;margin:20px 0}
-.doc p,.doc li{color:#2F3746;font-size:16.5px;line-height:1.95;max-width:66ch}
-.doc p{margin:0 0 8px}
-.doc ul{margin:6px 0 10px;padding-left:22px}
-.doc li::marker{color:var(--red)}
-.doc strong{color:var(--ink)}
-.doc a{color:var(--blue);font-weight:800;word-break:break-word}
-
-</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Destek — Not Hesaplayıcı</title>
+<meta name="description" content="Vize-final ortalaması, geçmek için gereken final notu ve GANO hesaplama. Reklamsız, çevrimdışı, 16 dil, PDF not dökümü. iOS ve Android.">
+<meta property="og:title" content="Destek — Not Hesaplayıcı">
+<meta property="og:description" content="Vize-final ortalaması, geçmek için gereken final notu ve GANO hesaplama. Reklamsız, çevrimdışı, 16 dil, PDF not dökümü. iOS ve Android.">
+<meta property="og:image" content="https://anbertech.github.io/NotHesaplayici/assets/img/icon-512.png">
+<link rel="canonical" href="https://anbertech.github.io/NotHesaplayici/support.html">
+<link rel="alternate" hreflang="tr" href="https://anbertech.github.io/NotHesaplayici/support.html">
+<link rel="alternate" hreflang="en" href="https://anbertech.github.io/NotHesaplayici/en/support.html">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="progress" aria-hidden="true"></div>
-<header class="dhead board-bg">
-  <div class="dhead-in">
-    <a class="back" href="index.html"><span aria-hidden="true">&lsaquo;</span><img src="nh_icon.png" alt="" />Not Hesaplayıcı</a>
-    <h1 class="dtitle chalk">Destek</h1>
-  </div>
-</header>
-<main class="doc board-bg" style="padding-bottom:10px">
-  <div class="content">
-    <p>Not Hesaplayıcı ile ilgili tüm sorularınız için bize ulaşabilirsiniz:</p>
-    <p>📩 <a href="mailto:destek.anbertech@gmail.com">destek.anbertech@gmail.com</a></p>
-  </div>
-</main>
-<footer class="foot board-bg">© 2025 Not Hesaplayıcı – AnberTech</footer>
-<script>(function(){var b=document.querySelector(".progress");function p(){var h=document.documentElement.scrollHeight-innerHeight;b.style.width=(h>0?scrollY/h*100:0)+"%"}addEventListener("scroll",p,{passive:true});p()})();</script>
-</body>
-</html>
+<div class="bg"><i></i><i></i><i></i></div>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="./"><img src="assets/img/favicon.png" alt="" width="32" height="32"><span>Not Hesaplayıcı</span></a>
+<nav><a href="./">Ana Sayfa</a><a href="support.html" class="on">Destek</a><a href="privacy.html">Gizlilik</a><a class="lang" href="en/support.html" hreflang="en" title="English">🌐 EN</a><button id="theme" aria-label="Theme">◐</button></nav>
+</div></header>
+<main><section class="sec page"><div class="wrap narrow">
+<div class="head"><h1>Nasıl yardımcı olabiliriz?</h1><p>Sorun, öneri ya da görüşün için bize yaz; genellikle birkaç iş günü içinde dönüş yaparız.</p>
+<a class="btn" href="mailto:destek.anbertech@gmail.com">✉️ E-posta gönder</a><p class="mut">destek.anbertech@gmail.com</p></div>
+<h2>Sık sorulan sorular</h2><details class="reveal"><summary>Verilerim nerede saklanıyor?</summary><p>Dersler, notlar ve tercihlerin yalnızca cihazında saklanır. Sunucularımıza hiçbir şey gönderilmez.</p></details><details class="reveal"><summary>Not skalasını değiştirebilir miyim?</summary><p>Evet. Ayarlar bölümünden harf notu aralıklarını, katsayıları ve geçme koşullarını üniversitene göre düzenleyebilirsin.</p></details><details class="reveal"><summary>Dili nasıl değiştiririm?</summary><p>Ayarlar → Dil bölümünden 16 dilden birini seçebilirsin. Varsayılan olarak cihaz dili kullanılır.</p></details><details class="reveal"><summary>PDF not dökümü resmi geçerli mi?</summary><p>Hayır. PDF yalnızca bilgilendirme amaçlıdır ve resmi bir belge değildir.</p></details><details class="reveal"><summary>Telefon değiştirdim, verilerim nerede?</summary><p>Veriler cihazda tutulduğundan, cihaz yedekleme (iCloud / Google yedekleme) ayarlarına bağlıdır. Yedeğinden geri yükleyebilirsin.</p></details><details class="reveal"><summary>Uygulama ücretli mi, reklam var mı?</summary><p>Hayır. Reklam ve uygulama içi satın alma yoktur.</p></details></div></section></main>
+<footer><div class="wrap"><div class="fl"><img src="assets/img/favicon.png" alt="" width="24" height="24"> <b>anberTech</b></div>
+<p>© 2026 anberTech. Tüm hakları saklıdır.</p><p class="mut">Uygulamanın oluşturduğu PDF belgelerin resmi geçerliliği yoktur.</p>
+<p><a href="mailto:destek.anbertech@gmail.com">destek.anbertech@gmail.com</a></p></div></footer>
+<script>window.I18N={lang:"tr",need:"Gereken final notu",impossible:"100 üzerinden bile yetmiyor",already:"Final olmadan da geçiyorsun"};</script>
+<script src="assets/app.js"></script>
+</body></html>
