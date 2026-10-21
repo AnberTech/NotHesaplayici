@@ -1,0 +1,81 @@
+{
+  "pv_title": "Informativa sulla privacy",
+  "pv_desc": "Informativa sulla privacy di Calcolo Voti: l'app non raccoglie dati personali, non mostra annunci pubblicitari e non effettua alcun tracciamento; i tuoi corsi e voti rimangono sul tuo dispositivo.",
+  "pv_updated": "Ultimo aggiornamento:",
+  "pv_date": "30 settembre 2026",
+  "pv_dev": "Sviluppatore:",
+  "pv_contact": "Contatti:",
+  "pv_sections": [
+    [
+      "In breve",
+      "<p>Calcolo Voti <b>non raccoglie i tuoi dati personali</b>. Non è richiesto alcun account, non mostra annunci pubblicitari e non utilizza strumenti di analisi o tracciamento di terze parti. I corsi e i voti che inserisci vengono memorizzati solo sul tuo dispositivo.</p>"
+    ],
+    [
+      "Dati che raccogliamo",
+      "<p>L'app non raccoglie, trasmette o vende il tuo nome, indirizzo email, posizione, identificativi del dispositivo, identificativi pubblicitari o altre informazioni personali simili.</p>"
+    ],
+    [
+      "Dati memorizzati sul tuo dispositivo",
+      "<p>I nomi dei corsi, i semestri, i crediti, i voti, i pesi, la tua scala dei voti personalizzata e le tue preferenze (tema, lingua) vengono memorizzati <b>solo sul tuo dispositivo</b>. Questi dati non vengono mai inviati ai nostri server. Quando disinstalli l'app, questi dati vengono rimossi dal tuo dispositivo.</p>"
+    ],
+    [
+      "Connessione a Internet",
+      "<p>L'app funziona senza una connessione a Internet. Non ha bisogno di Internet per inviare i tuoi dati da nessuna parte.</p>"
+    ],
+    [
+      "Esportazione e condivisione di PDF",
+      "<p>Se scegli di creare e condividere un report dei voti in formato PDF, il file viene trasferito tramite il pannello di condivisione del tuo dispositivo all'app o alla persona che scegli. Questo processo è interamente sotto il tuo controllo; non vediamo né memorizziamo mai il file. I PDF creati con l'app non hanno alcuna validità ufficiale.</p>"
+    ],
+    [
+      "Terze parti",
+      "<p>L'app non contiene servizi di terze parti per la pubblicità, l'analisi, la segnalazione di arresti anomali o il tracciamento degli utenti. Gli store di app (Apple App Store e Google Play) possono trattare dati secondo le proprie informative sulla privacy quando scarichi l'app; questo esula dal nostro controllo.</p>"
+    ],
+    [
+      "Privacy dei minori",
+      "<p>Poiché l'app non raccoglie dati personali, non raccoglie nemmeno dati dei minori.</p>"
+    ],
+    [
+      "Sicurezza",
+      "<p>Poiché i tuoi dati rimangono sul tuo dispositivo, la sicurezza del dispositivo (blocco dello schermo, impostazioni di backup, ecc.) determina la sicurezza dei tuoi dati. I servizi di backup del dispositivo (iCloud, backup di Google) possono eseguire il backup dei tuoi dati in base alle tue impostazioni.</p>"
+    ],
+    [
+      "Modifiche",
+      "<p>Se questa informativa viene aggiornata, la nuova versione verrà pubblicata su questa pagina e la data di \"Ultimo aggiornamento\" cambierà.</p>"
+    ],
+    [
+      "Contatti",
+      "<p>Domande:</p>"
+    ]
+  ],
+  "sp_title": "Come possiamo aiutarti?",
+  "sp_desc": "Assistenza per Calcolo Voti: domande frequenti e contatti via email.",
+  "sp_lead": "Domande, commenti o idee? Scrivici — di solito rispondiamo entro pochi giorni lavorativi.",
+  "sp_btn": "Invia un'email",
+  "sp_faq_h2": "Domande frequenti",
+  "sp_faq": [
+    [
+      "Dove vengono memorizzati i miei dati?",
+      "I tuoi corsi, voti e preferenze vengono memorizzati solo sul tuo dispositivo. Nulla viene inviato ai nostri server."
+    ],
+    [
+      "Posso modificare la scala dei voti?",
+      "Sì. In Impostazioni puoi modificare gli intervalli dei voti in lettere, i punteggi associati ai voti e le condizioni di superamento per adattarli alla tua università."
+    ],
+    [
+      "Come cambio la lingua?",
+      "Vai su Impostazioni → Lingua e scegli una delle 17 lingue. Per impostazione predefinita, l'app usa la lingua del tuo dispositivo."
+    ],
+    [
+      "Il report dei voti in formato PDF è ufficiale?",
+      "No. Il PDF ha solo scopo informativo e non ha alcuna validità ufficiale."
+    ],
+    [
+      "Ho cambiato telefono — dove sono i miei dati?",
+      "I dati risiedono sul tuo dispositivo, quindi dipende dal backup del dispositivo (iCloud / backup di Google). Ripristina i dati dal tuo backup."
+    ],
+    [
+      "L'app è a pagamento? Ci sono annunci pubblicitari?",
+      "No. L'app è gratuita, senza annunci pubblicitari né acquisti in-app."
+    ]
+  ]
+}

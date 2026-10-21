@@ -1,0 +1,33 @@
+{
+  "pv_title": "Privacy Policy",
+  "pv_desc": "Grade Calculator privacy policy: the app collects no personal data, shows no ads and does no tracking; your courses and grades stay on your device.",
+  "pv_updated": "Last updated:",
+  "pv_date": "September 30, 2026",
+  "pv_dev": "Developer:",
+  "pv_contact": "Contact:",
+  "pv_sections": [
+    ["In short", "<p>Grade Calculator <b>does not collect personal data from you</b>. No account is required, it shows no ads, and it uses no third-party analytics or tracking tools. The courses and grades you enter are stored only on your device.</p>"],
+    ["Data we collect", "<p>The app does not collect, transmit or sell your name, email address, location, device identifiers, advertising identifiers or any similar personal information.</p>"],
+    ["Data stored on your device", "<p>Course names, terms, credits, grades, weights, your custom grade scale and your preferences (theme, language) are stored <b>only on your device</b>. This data is never sent to our servers. When you uninstall the app, this data is removed from your device.</p>"],
+    ["Internet connection", "<p>The app works without an internet connection. It does not need the internet to send your data anywhere.</p>"],
+    ["PDF export and sharing", "<p>If you choose to create and share a grade report PDF, the file is passed through your device's share sheet to the app or person you choose. This is entirely under your control; we never see or store the file. PDFs created with the app have no official validity.</p>"],
+    ["Third parties", "<p>The app contains no third-party service for advertising, analytics, crash reporting or user tracking. The app stores (Apple App Store and Google Play) may process data under their own privacy policies when you download the app; this is outside our control.</p>"],
+    ["Children's privacy", "<p>Because the app collects no personal data, it does not collect data from children either.</p>"],
+    ["Security", "<p>Because your data stays on your device, the security of your device (screen lock, backup settings, etc.) determines the security of your data. Device backup services (iCloud, Google backup) may back up your data according to your own settings.</p>"],
+    ["Changes", "<p>If this policy is updated, the new version will be published on this page and the \"Last updated\" date will change.</p>"],
+    ["Contact", "<p>Questions:</p>"]
+  ],
+  "sp_title": "How can we help?",
+  "sp_desc": "Grade Calculator support: frequently asked questions and contact by email.",
+  "sp_lead": "Questions, feedback or ideas? Write to us — we usually reply within a few business days.",
+  "sp_btn": "Send an email",
+  "sp_faq_h2": "Frequently asked questions",
+  "sp_faq": [
+    ["Where is my data stored?", "Your courses, grades and preferences are stored only on your device. Nothing is sent to our servers."],
+    ["Can I change the grade scale?", "Yes. In Settings you can edit letter-grade ranges, grade points and pass conditions to match your university."],
+    ["How do I change the language?", "Go to Settings → Language and pick one of 17 languages. By default the app follows your device language."],
+    ["Is the PDF transcript official?", "No. The PDF is for information only and has no official validity."],
+    ["I changed phones — where is my data?", "Data lives on your device, so it depends on your device backup (iCloud / Google backup). Restore from your backup."],
+    ["Is the app paid? Are there ads?", "No. The app is free, with no ads and no in-app purchases."]
+  ]
+}

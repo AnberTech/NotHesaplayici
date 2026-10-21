@@ -1,0 +1,81 @@
+{
+  "pv_title": "Política de privacidad",
+  "pv_desc": "Política de privacidad de Calculadora de notas: la aplicación no recopila datos personales, no muestra anuncios ni realiza seguimiento; tus materias y notas permanecen en tu dispositivo.",
+  "pv_updated": "Última actualización:",
+  "pv_date": "30 de septiembre de 2026",
+  "pv_dev": "Desarrollador:",
+  "pv_contact": "Contacto:",
+  "pv_sections": [
+    [
+      "En resumen",
+      "<p>Calculadora de notas <b>no recopila tus datos personales</b>. No requiere una cuenta, no muestra anuncios y no utiliza herramientas de análisis ni de seguimiento de terceros. Las materias y notas que introduces se almacenan únicamente en tu dispositivo.</p>"
+    ],
+    [
+      "Datos que recopilamos",
+      "<p>La aplicación no recopila, transmite ni vende tu nombre, dirección de correo electrónico, ubicación, identificadores del dispositivo, identificadores publicitarios ni ningún dato personal similar.</p>"
+    ],
+    [
+      "Datos almacenados en tu dispositivo",
+      "<p>Los nombres de las materias, los semestres, los créditos, las notas, las ponderaciones, tu escala de calificación personalizada y tus preferencias (tema, idioma) se almacenan <b>únicamente en tu dispositivo</b>. Estos datos nunca se envían a nuestros servidores. Cuando desinstalas la aplicación, estos datos se eliminan de tu dispositivo.</p>"
+    ],
+    [
+      "Conexión a Internet",
+      "<p>La aplicación funciona sin conexión a Internet. No necesita Internet para enviar tus datos a ningún sitio.</p>"
+    ],
+    [
+      "Exportación y uso compartido de PDF",
+      "<p>Si decides crear y compartir un PDF con el informe de notas, el archivo se transfiere mediante el menú para compartir de tu dispositivo a la aplicación o persona que elijas. Esto está totalmente bajo tu control; nunca vemos ni almacenamos el archivo. Los PDF creados con la aplicación no tienen validez oficial.</p>"
+    ],
+    [
+      "Terceros",
+      "<p>La aplicación no contiene ningún servicio de terceros para publicidad, análisis, informes de errores o seguimiento de usuarios. Las tiendas de aplicaciones (Apple App Store y Google Play) pueden tratar datos conforme a sus propias políticas de privacidad cuando descargas la aplicación; esto queda fuera de nuestro control.</p>"
+    ],
+    [
+      "Privacidad de los menores",
+      "<p>Dado que la aplicación no recopila datos personales, tampoco recopila datos de menores.</p>"
+    ],
+    [
+      "Seguridad",
+      "<p>Dado que tus datos permanecen en tu dispositivo, la seguridad de tu dispositivo (bloqueo de pantalla, ajustes de copia de seguridad, etc.) determina la seguridad de tus datos. Los servicios de copia de seguridad del dispositivo (iCloud, copia de seguridad de Google) pueden incluir tus datos en copias de seguridad según tus propios ajustes.</p>"
+    ],
+    [
+      "Cambios",
+      "<p>Si se actualiza esta política, la nueva versión se publicará en esta página y cambiará la fecha de \"Última actualización\".</p>"
+    ],
+    [
+      "Contacto",
+      "<p>Preguntas:</p>"
+    ]
+  ],
+  "sp_title": "¿Cómo podemos ayudarte?",
+  "sp_desc": "Soporte de Calculadora de notas: preguntas frecuentes y contacto por correo electrónico.",
+  "sp_lead": "¿Tienes preguntas, comentarios o ideas? Escríbenos; solemos responder en unos pocos días laborables.",
+  "sp_btn": "Enviar un correo electrónico",
+  "sp_faq_h2": "Preguntas frecuentes",
+  "sp_faq": [
+    [
+      "¿Dónde se almacenan mis datos?",
+      "Tus materias, notas y preferencias se almacenan únicamente en tu dispositivo. No se envía nada a nuestros servidores."
+    ],
+    [
+      "¿Puedo cambiar la escala de calificación?",
+      "Sí. En Ajustes puedes editar los intervalos de las calificaciones con letra, los puntos de calificación y las condiciones para aprobar a fin de adaptarlos a tu universidad."
+    ],
+    [
+      "¿Cómo cambio el idioma?",
+      "Ve a Ajustes → Idioma y elige uno de los 17 idiomas. De forma predeterminada, la aplicación utiliza el idioma de tu dispositivo."
+    ],
+    [
+      "¿Es oficial el informe de notas en PDF?",
+      "No. El PDF es solo informativo y no tiene validez oficial."
+    ],
+    [
+      "He cambiado de teléfono. ¿Dónde están mis datos?",
+      "Los datos se guardan en tu dispositivo, por lo que dependen de la copia de seguridad de este (copia de seguridad de iCloud / Google). Restáuralos desde tu copia de seguridad."
+    ],
+    [
+      "¿La aplicación es de pago? ¿Tiene anuncios?",
+      "No. La aplicación es gratuita, no tiene anuncios ni compras dentro de la aplicación."
+    ]
+  ]
+}

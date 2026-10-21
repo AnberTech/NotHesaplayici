@@ -1,0 +1,81 @@
+{
+  "pv_title": "Politique de confidentialité",
+  "pv_desc": "Politique de confidentialité de Calculateur de notes : l’application ne collecte aucune donnée personnelle, n’affiche aucune publicité et n’effectue aucun suivi ; vos cours et vos notes restent sur votre appareil.",
+  "pv_updated": "Dernière mise à jour :",
+  "pv_date": "30 septembre 2026",
+  "pv_dev": "Développeur :",
+  "pv_contact": "Contact :",
+  "pv_sections": [
+    [
+      "En bref",
+      "<p>Calculateur de notes <b>ne collecte aucune donnée personnelle vous concernant</b>. Aucun compte n’est requis, l’application n’affiche aucune publicité et n’utilise aucun outil tiers d’analyse ou de suivi. Les cours et les notes que vous saisissez sont stockés uniquement sur votre appareil.</p>"
+    ],
+    [
+      "Données que nous collectons",
+      "<p>L’application ne collecte, ne transmet ni ne vend votre nom, votre adresse e-mail, votre localisation, les identifiants de votre appareil, vos identifiants publicitaires ou toute autre information personnelle similaire.</p>"
+    ],
+    [
+      "Données stockées sur votre appareil",
+      "<p>Les noms des cours, les semestres, les crédits, les notes, les pondérations, votre barème de notation personnalisé et vos préférences (thème, langue) sont stockés <b>uniquement sur votre appareil</b>. Ces données ne sont jamais envoyées à nos serveurs. Lorsque vous désinstallez l’application, ces données sont supprimées de votre appareil.</p>"
+    ],
+    [
+      "Connexion à Internet",
+      "<p>L’application fonctionne sans connexion à Internet. Elle n’a pas besoin d’Internet pour envoyer vos données où que ce soit.</p>"
+    ],
+    [
+      "Exportation et partage de PDF",
+      "<p>Si vous choisissez de créer et de partager un relevé de notes au format PDF, le fichier est transmis à l’application ou à la personne de votre choix via le menu de partage de votre appareil. Vous contrôlez entièrement cette opération ; nous ne consultons ni ne stockons jamais le fichier. Les PDF créés avec l’application n’ont aucune valeur officielle.</p>"
+    ],
+    [
+      "Tiers",
+      "<p>L’application ne contient aucun service tiers de publicité, d’analyse, de rapport de plantage ou de suivi des utilisateurs. Les boutiques d’applications (Apple App Store et Google Play) peuvent traiter des données conformément à leurs propres politiques de confidentialité lorsque vous téléchargez l’application ; cela échappe à notre contrôle.</p>"
+    ],
+    [
+      "Confidentialité des données des enfants",
+      "<p>Puisque l’application ne collecte aucune donnée personnelle, elle ne collecte pas non plus de données concernant les enfants.</p>"
+    ],
+    [
+      "Sécurité",
+      "<p>Puisque vos données restent sur votre appareil, la sécurité de votre appareil (verrouillage de l’écran, paramètres de sauvegarde, etc.) détermine la sécurité de vos données. Les services de sauvegarde de l’appareil (iCloud, sauvegarde Google) peuvent sauvegarder vos données selon vos propres paramètres.</p>"
+    ],
+    [
+      "Modifications",
+      "<p>Si cette politique est mise à jour, la nouvelle version sera publiée sur cette page et la date de « Dernière mise à jour » sera modifiée.</p>"
+    ],
+    [
+      "Contact",
+      "<p>Questions :</p>"
+    ]
+  ],
+  "sp_title": "Comment pouvons-nous vous aider ?",
+  "sp_desc": "Assistance pour Calculateur de notes : questions fréquentes et contact par e-mail.",
+  "sp_lead": "Des questions, des commentaires ou des idées ? Écrivez-nous — nous répondons généralement sous quelques jours ouvrés.",
+  "sp_btn": "Envoyer un e-mail",
+  "sp_faq_h2": "Questions fréquentes",
+  "sp_faq": [
+    [
+      "Où mes données sont-elles stockées ?",
+      "Vos cours, vos notes et vos préférences sont stockés uniquement sur votre appareil. Rien n’est envoyé à nos serveurs."
+    ],
+    [
+      "Puis-je modifier le barème de notation ?",
+      "Oui. Dans Réglages, vous pouvez modifier les plages des notes en lettres, les points associés aux notes et les conditions de réussite pour les adapter à votre université."
+    ],
+    [
+      "Comment changer la langue ?",
+      "Accédez à Réglages → Langue et choisissez l’une des 17 langues. Par défaut, l’application utilise la langue de votre appareil."
+    ],
+    [
+      "Le relevé de notes au format PDF est-il officiel ?",
+      "Non. Le PDF est fourni uniquement à titre informatif et n’a aucune valeur officielle."
+    ],
+    [
+      "J’ai changé de téléphone — où sont mes données ?",
+      "Les données sont stockées sur votre appareil ; leur récupération dépend donc de la sauvegarde de votre appareil (iCloud / sauvegarde Google). Restaurez-les à partir de votre sauvegarde."
+    ],
+    [
+      "L’application est-elle payante ? Y a-t-il des publicités ?",
+      "Non. L’application est gratuite, sans publicité ni achats intégrés."
+    ]
+  ]
+}

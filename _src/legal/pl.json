@@ -1,0 +1,81 @@
+{
+  "pv_title": "Polityka prywatności",
+  "pv_desc": "Polityka prywatności aplikacji Kalkulator ocen: aplikacja nie zbiera danych osobowych, nie wyświetla reklam i nie śledzi użytkowników; Twoje przedmioty i oceny pozostają na Twoim urządzeniu.",
+  "pv_updated": "Ostatnia aktualizacja:",
+  "pv_date": "30 września 2026",
+  "pv_dev": "Deweloper:",
+  "pv_contact": "Kontakt:",
+  "pv_sections": [
+    [
+      "W skrócie",
+      "<p>Kalkulator ocen <b>nie zbiera Twoich danych osobowych</b>. Nie wymaga konta, nie wyświetla reklam ani nie korzysta z narzędzi analitycznych lub śledzących innych firm. Wprowadzone przez Ciebie przedmioty i oceny są przechowywane wyłącznie na Twoim urządzeniu.</p>"
+    ],
+    [
+      "Zbierane dane",
+      "<p>Aplikacja nie zbiera, nie przesyła ani nie sprzedaje Twojego imienia i nazwiska, adresu e-mail, lokalizacji, identyfikatorów urządzenia, identyfikatorów reklamowych ani żadnych podobnych danych osobowych.</p>"
+    ],
+    [
+      "Dane przechowywane na Twoim urządzeniu",
+      "<p>Nazwy przedmiotów, semestry, punkty, oceny, wagi, Twoja własna skala ocen oraz preferencje (motyw, język) są przechowywane <b>wyłącznie na Twoim urządzeniu</b>. Dane te nigdy nie są przesyłane na nasze serwery. Po odinstalowaniu aplikacji dane te zostają usunięte z Twojego urządzenia.</p>"
+    ],
+    [
+      "Połączenie z internetem",
+      "<p>Aplikacja działa bez połączenia z internetem. Nie potrzebuje internetu do przesyłania Twoich danych w jakiekolwiek miejsce.</p>"
+    ],
+    [
+      "Eksport do PDF i udostępnianie",
+      "<p>Jeśli zdecydujesz się utworzyć i udostępnić zestawienie ocen w formacie PDF, plik zostanie przekazany za pośrednictwem panelu udostępniania Twojego urządzenia do wybranej aplikacji lub osoby. Masz nad tym pełną kontrolę; nigdy nie mamy wglądu do tego pliku ani go nie przechowujemy. Pliki PDF utworzone w aplikacji nie mają mocy urzędowej.</p>"
+    ],
+    [
+      "Podmioty trzecie",
+      "<p>Aplikacja nie zawiera żadnych usług podmiotów trzecich służących do wyświetlania reklam, analityki, raportowania awarii ani śledzenia użytkowników. Sklepy z aplikacjami (Apple App Store i Google Play) mogą przetwarzać dane zgodnie z własnymi politykami prywatności podczas pobierania aplikacji; pozostaje to poza naszą kontrolą.</p>"
+    ],
+    [
+      "Prywatność dzieci",
+      "<p>Ponieważ aplikacja nie zbiera danych osobowych, nie zbiera również danych dzieci.</p>"
+    ],
+    [
+      "Bezpieczeństwo",
+      "<p>Ponieważ Twoje dane pozostają na Twoim urządzeniu, bezpieczeństwo urządzenia (blokada ekranu, ustawienia kopii zapasowych itp.) decyduje o bezpieczeństwie Twoich danych. Usługi tworzenia kopii zapasowych urządzenia (iCloud, kopia zapasowa Google) mogą tworzyć kopie zapasowe Twoich danych zgodnie z Twoimi ustawieniami.</p>"
+    ],
+    [
+      "Zmiany",
+      "<p>Jeśli niniejsza polityka zostanie zaktualizowana, nowa wersja zostanie opublikowana na tej stronie, a data „Ostatnia aktualizacja” ulegnie zmianie.</p>"
+    ],
+    [
+      "Kontakt",
+      "<p>Pytania:</p>"
+    ]
+  ],
+  "sp_title": "Jak możemy pomóc?",
+  "sp_desc": "Pomoc dotycząca aplikacji Kalkulator ocen: najczęściej zadawane pytania i kontakt e-mailowy.",
+  "sp_lead": "Masz pytania, uwagi lub pomysły? Napisz do nas — zwykle odpowiadamy w ciągu kilku dni roboczych.",
+  "sp_btn": "Wyślij e-mail",
+  "sp_faq_h2": "Najczęściej zadawane pytania",
+  "sp_faq": [
+    [
+      "Gdzie są przechowywane moje dane?",
+      "Twoje przedmioty, oceny i preferencje są przechowywane wyłącznie na Twoim urządzeniu. Nic nie jest przesyłane na nasze serwery."
+    ],
+    [
+      "Czy mogę zmienić skalę ocen?",
+      "Tak. W Ustawieniach możesz edytować zakresy ocen literowych, wartości punktowe ocen i warunki zaliczenia, aby dostosować je do swojej uczelni."
+    ],
+    [
+      "Jak zmienić język?",
+      "Przejdź do Ustawienia → Język i wybierz jeden z 17 języków. Domyślnie aplikacja używa języka Twojego urządzenia."
+    ],
+    [
+      "Czy zestawienie ocen w formacie PDF jest dokumentem urzędowym?",
+      "Nie. Plik PDF służy wyłącznie celom informacyjnym i nie ma mocy urzędowej."
+    ],
+    [
+      "Mam nowy telefon — gdzie są moje dane?",
+      "Dane są przechowywane na Twoim urządzeniu, więc ich dostępność zależy od kopii zapasowej urządzenia (iCloud / kopia zapasowa Google). Przywróć dane z kopii zapasowej."
+    ],
+    [
+      "Czy aplikacja jest płatna? Czy zawiera reklamy?",
+      "Nie. Aplikacja jest bezpłatna, nie zawiera reklam ani zakupów w aplikacji."
+    ]
+  ]
+}

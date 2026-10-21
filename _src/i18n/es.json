@@ -1,0 +1,278 @@
+{
+  "brand": "Calculadora de notas",
+  "title": "Calculadora de notas – Nota del examen final, media ponderada de la asignatura y GPA",
+  "meta_desc": "Calcula la media ponderada de una asignatura con el parcial y los trabajos, averigua qué necesitas sacar en el examen final y controla tu GPA y tus créditos. Calculadora web gratis y app para iPhone sin anuncios, sin cuenta y sin conexión.",
+  "nav_home": "Inicio",
+  "nav_support": "Ayuda",
+  "nav_privacy": "Privacidad",
+  "aria_theme": "Tema claro / oscuro",
+  "aria_lang": "Idioma",
+  "store_alt": "Descargar en App Store",
+  "soon": "Próximamente",
+  "pill": "Para iPhone y iPad · Android próximamente",
+  "h1_html": "Conoce tu nota,<br><em>planifica tu futuro.</em>",
+  "lead": "El promedio de la asignatura, la nota que necesitas en el examen final y tu GPA, todo en una app. Sin anuncios, sin cuenta y totalmente sin conexión.",
+  "trust": [
+    "Gratis",
+    "Sin anuncios",
+    "Sin cuenta",
+    "Sin conexión"
+  ],
+  "demo_h2": "Calcula ahora",
+  "demo_p": "Pruébala aquí antes de descargar la app. Cambia los valores y el resultado se actualizará al instante.",
+  "tab_avg": "Promedio",
+  "tab_need": "Final necesario",
+  "tab_gpa": "GPA",
+  "f_mid": "Nota del parcial",
+  "f_mid_w": "Peso del parcial (%)",
+  "f_hw": "Nota del trabajo",
+  "f_hw_w": "Peso del trabajo (%)",
+  "f_final": "Nota del examen final",
+  "f_final_w": "Peso del examen final",
+  "f_scale": "Escala de calificación",
+  "f_min_final": "Nota final mínima",
+  "f_target": "Nota en letra objetivo",
+  "out_avg": "Tu promedio",
+  "out_letter": "Nota en letra",
+  "out_need": "Nota final necesaria",
+  "out_gpa": "GPA",
+  "out_credits": "Créditos totales",
+  "add_course": "+ Añadir asignatura",
+  "ph_course": "Nombre de la asignatura",
+  "aria_credit": "Créditos",
+  "aria_letter": "Nota en letra",
+  "aria_remove": "Eliminar asignatura",
+  "msg_impossible": "Ni siquiera un 100 en el examen final basta para conseguir esta nota.",
+  "msg_already": "Ya tienes asegurada esta nota, saques lo que saques en el examen final.",
+  "msg_min_final": "Tu nota del examen final está por debajo del mínimo, así que suspendes la asignatura.",
+  "msg_baraj": "Debido al mínimo exigido, necesitas al menos un %d en el examen final.",
+  "msg_weights": "Los pesos del parcial y del trabajo no pueden sumar más de 100.",
+  "demo_courses": [
+    "Cálculo",
+    "Física",
+    "Biología"
+  ],
+  "scale_aa": "AA–FF (escala de 4.00)",
+  "scale_a1": "A1–F1 (escala de 4.00)",
+  "scale_us": "A–F (EE. UU., 4.0)",
+  "th_letter": "Nota",
+  "th_min": "Promedio mínimo",
+  "th_coef": "Puntos",
+  "th_need": "Final necesario",
+  "why_h2": "¿Por qué elegir Calculadora de notas?",
+  "cards": [
+    [
+      "Promedio de la asignatura",
+      "Introduce las notas del parcial, el examen final y los trabajos con sus pesos para ver al instante tu promedio y tu nota en letra."
+    ],
+    [
+      "Final necesario",
+      "Consulta en una sola pantalla la nota mínima que necesitas en el examen final para obtener cada nota en letra."
+    ],
+    [
+      "Seguimiento del GPA",
+      "Guarda tus asignaturas por semestre; tu promedio semestral y tu promedio general acumulado se actualizan automáticamente."
+    ],
+    [
+      "Tu propia escala de calificación",
+      "Edita los intervalos de las notas en letra y sus puntos para adaptarlos a tu universidad."
+    ],
+    [
+      "Informe de notas en PDF",
+      "Comparte tus asignaturas y tu promedio como PDF con un solo toque."
+    ],
+    [
+      "17 idiomas",
+      "Inglés, español, alemán, japonés, árabe, turco y muchos más."
+    ],
+    [
+      "Privacidad ante todo",
+      "Sin cuenta, anuncios ni seguimiento. Tus datos permanecen en tu dispositivo."
+    ],
+    [
+      "Funciona sin conexión",
+      "No necesitas internet: durante los exámenes, en la biblioteca o donde quieras."
+    ]
+  ],
+  "tools_h2": "Calculadoras gratuitas",
+  "tools_p": "Úsalas en el navegador sin descargar nada. No necesitas registrarte y las notas que introduces nunca salen de tu dispositivo.",
+  "shots_h2": "Descubre la app",
+  "cap_home": "Inicio",
+  "cap_calc": "Calcular",
+  "cap_courses": "Mis materias",
+  "cap_gpa": "Promedio",
+  "cap_settings": "Ajustes",
+  "cap_report": "Informe de notas",
+  "faq_h2": "Preguntas frecuentes",
+  "faq_home": [
+    [
+      "¿Cómo calculo el promedio de una asignatura?",
+      "Multiplica cada nota por su peso y suma los resultados. Con un parcial del 40% y un examen final del 60%: promedio = parcial × 0.40 + final × 0.60. Un 62 en el parcial y un 75 en el final dan 62 × 0.40 + 75 × 0.60 = 69.8. Si hay un trabajo, añade también su nota ponderada; los pesos deben sumar 100%."
+    ],
+    [
+      "¿Qué necesito sacar en el examen final para aprobar?",
+      "Final necesario = (promedio objetivo − parcial × peso del parcial) ÷ peso del final. Con un 55 en un parcial que vale el 40% y un promedio mínimo de 50 para aprobar: (50 − 22) ÷ 0.60 = 46.7, así que necesitas al menos un 47 en el examen final. Calculadora de notas lo calcula a la vez para todas las notas en letra."
+    ],
+    [
+      "¿Cómo se calcula el GPA?",
+      "Multiplica los puntos de cada asignatura (A = 4.0, B = 3.0 …) por sus créditos, suma los resultados y divide entre el total de créditos. El resultado es tu promedio de calificaciones o GPA en una escala de 4.0."
+    ],
+    [
+      "¿Los intervalos de las notas en letra son iguales en todas partes?",
+      "No. Los intervalos y los puntos varían entre países, universidades e incluso asignaturas. En la app puedes editar la escala de calificación para adaptarla exactamente a la tuya."
+    ],
+    [
+      "¿Qué es una nota mínima en el examen final?",
+      "Algunas universidades te hacen suspender si tu nota del examen final está por debajo de un valor determinado, por ejemplo 30, 45 o 50, aunque tu promedio sea suficiente. Introduce el mínimo y la nota final necesaria lo tendrá en cuenta."
+    ],
+    [
+      "¿Calculadora de notas es gratis?",
+      "Sí. La app es gratis en App Store, sin anuncios, suscripciones ni compras dentro de la app. Las calculadoras de este sitio también son gratuitas."
+    ],
+    [
+      "¿Dónde se guardan mis notas?",
+      "Solo en tu dispositivo. No necesitas una cuenta y no se envía nada a ningún servidor. Las notas que introduces en las calculadoras web nunca salen de tu navegador."
+    ],
+    [
+      "¿Hay una versión para Android?",
+      "La versión para Android llegará próximamente a Google Play. Por ahora, la app está disponible para iPhone y iPad (iOS 17.6 o posterior) en App Store."
+    ]
+  ],
+  "cta_h2": "Controla todas tus asignaturas desde un solo lugar",
+  "cta_p": "Gratis. Sin anuncios. Sin cuenta.",
+  "rights": "Todos los derechos reservados.",
+  "pdf_note": "Los documentos PDF creados por la app no tienen validez oficial.",
+  "tool_cta_title": "Guarda tus notas en la app",
+  "tool_cta_text": "Añade tus asignaturas una sola vez a Calculadora de notas: cuando recibas las notas del parcial y del examen final, tu promedio, nota en letra y GPA se actualizarán automáticamente. Gratis, sin anuncios y sin conexión.",
+  "other_tools": "Más calculadoras",
+  "scale_note": "Los intervalos de las notas en letra varían entre universidades. Puedes editar tu propia escala en la app.",
+  "fin_slug": "calculadora-nota-final",
+  "fin_name": "Calculadora de nota final",
+  "fin_title": "Calculadora de nota final – ¿Qué necesito sacar en el examen final? | Calculadora de notas",
+  "fin_desc": "Introduce la nota del parcial y sus pesos para saber qué nota necesitas en el examen final para aprobar u obtener cada nota en letra (A, B, C …). Admite una nota final mínima. Gratis y sin registro.",
+  "fin_h1_html": "¿Qué necesito sacar <em>en el examen final?</em>",
+  "fin_sub": "Introduce la nota del parcial y descubre qué nota necesitas en el examen final para aprobar y conseguir cada nota en letra.",
+  "fin_card": "Calcula qué nota necesitas en el examen final para aprobar o alcanzar tu nota objetivo.",
+  "fin_body": [
+    [
+      "¿Cómo se calcula la nota final necesaria?",
+      "Tu promedio es la suma ponderada de tus notas: <b>promedio = parcial × peso del parcial + final × peso del final</b>. Al despejar el final se obtiene <b>final necesario = (promedio objetivo − parcial × peso del parcial) ÷ peso del final</b>. Si tienes una nota de un trabajo, su parte también se resta del objetivo. El resultado siempre se redondea hacia arriba: si necesitas 46.2, debes sacar 47."
+    ],
+    [
+      "Ejemplo resuelto",
+      "Has sacado un <b>55</b> en el parcial, que vale un <b>40%</b>; el examen final vale un <b>60%</b> y necesitas un promedio de <b>50</b> para aprobar. El parcial aporta 55 × 0.40 = 22 puntos. El final debe aportar los 50 − 22 = 28 puntos restantes: 28 ÷ 0.60 = 46.7. Por tanto, necesitas al menos un <b>47</b> en el examen final. El mismo cálculo da 80 para un promedio de 70 y 97 para 80."
+    ],
+    [
+      "¿Qué cambia si hay una nota final mínima?",
+      "En muchas universidades suspendes si la nota del examen final está por debajo de un valor establecido, aunque tu promedio sea suficiente. Si introduces un mínimo, la nota final que necesitas será la <b>más alta</b> de las dos: el resultado de la fórmula del promedio o la nota mínima."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "¿Cómo averiguo qué necesito sacar en el examen final?",
+      "Introduce la nota del parcial, su peso y el promedio que necesitas. La calculadora usa (objetivo − parcial × peso del parcial) ÷ peso del final y muestra el resultado para cada nota en letra."
+    ],
+    [
+      "El resultado es superior a 100. ¿Qué significa?",
+      "Ni siquiera una nota perfecta en el examen final te permitirá conseguir esa calificación. Consulta la fila de la nota inmediatamente inferior."
+    ],
+    [
+      "El resultado es 0. ¿Qué significa?",
+      "Las notas del parcial y los trabajos ya te aseguran esa calificación. Si existe una nota final mínima, todavía tendrás que alcanzarla."
+    ],
+    [
+      "¿Puedo usarla para una recuperación o un examen extraordinario?",
+      "Sí. Si la nota de la recuperación sustituye a la del examen final, el cálculo es el mismo; solo tienes que tratar la recuperación como el final."
+    ],
+    [
+      "Mi universidad utiliza otros intervalos de notas.",
+      "Esta página ofrece escalas habituales. Si la tuya es diferente, puedes configurar tu escala de calificación exacta en la app."
+    ]
+  ],
+  "avg_slug": "calculadora-promedio-curso",
+  "avg_name": "Calculadora del promedio de la asignatura",
+  "avg_title": "Calculadora de media ponderada – Promedio y nota de la asignatura | Calculadora de notas",
+  "avg_desc": "Introduce las notas del parcial, el examen final y los trabajos con sus pesos para calcular al instante la media ponderada, el promedio de la asignatura y la nota en letra. Gratis, sin registro y desde el navegador.",
+  "avg_h1_html": "Calculadora del <em>promedio de la asignatura</em>",
+  "avg_sub": "Introduce las notas del parcial, el examen final y los trabajos con sus pesos para ver al instante tu promedio y tu nota en letra.",
+  "avg_card": "Calcula la media ponderada y la nota en letra de tu asignatura a partir del parcial, el examen final y los trabajos.",
+  "avg_body": [
+    [
+      "¿Cómo se calcula el promedio de una asignatura?",
+      "Cada nota se multiplica por su peso y se suman los resultados: <b>promedio = parcial × peso del parcial + trabajo × peso del trabajo + final × peso del final</b>. Los pesos deben sumar 100%, por lo que el peso del examen final será lo que quede tras restar los pesos del parcial y del trabajo."
+    ],
+    [
+      "Ejemplo resuelto",
+      "Con un <b>62</b> en el parcial (40%) y un <b>75</b> en el examen final (60%), el promedio es 62 × 0.40 + 75 × 0.60 = 24.8 + 45 = <b>69.8</b>. Como muchas universidades, Calculadora de notas redondea el promedio hacia abajo: 69. En la escala A–F de EE. UU., equivale a un <b>D+</b>."
+    ],
+    [
+      "¿Y si el parcial vale el 30% y el final el 70%?",
+      "La fórmula es la misma: parcial × 0.30 + final × 0.70. Cuanto más pese el examen final, más influirá en tu promedio: con un 40 en el parcial y un 80 en el final, un reparto 40/60 da 64 y uno 30/70 da 68."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "¿Cómo calculo la media ponderada de mis notas?",
+      "Multiplica cada nota por su peso y suma los resultados. Con un parcial del 40% y un examen final del 60%, promedio = parcial × 0.40 + final × 0.60."
+    ],
+    [
+      "¿Qué ocurre si tengo la nota de un trabajo?",
+      "Introduce el peso del trabajo y se incluirá en el cálculo; el peso del examen final se calcula automáticamente con el porcentaje restante, por ejemplo, un parcial del 30% y un trabajo del 20% dejan un 50% para el final."
+    ],
+    [
+      "Mi promedio es 59.5. ¿Apruebo?",
+      "Depende de las reglas de redondeo de tu universidad. Calculadora de notas redondea los promedios hacia abajo (59.5 → 59), así que consulta la normativa de tu centro."
+    ],
+    [
+      "¿Cómo se determina mi nota en letra?",
+      "Según el intervalo en el que se encuentre tu promedio. En la escala estadounidense utilizada aquí, 93 o más es A, 90–92 es A− y 87–89 es B+. Los intervalos varían entre universidades."
+    ],
+    [
+      "¿Esta calculadora es gratis?",
+      "Sí. No requiere registro, no tiene anuncios y las notas que introduces nunca salen de tu navegador."
+    ]
+  ],
+  "gpa_slug": "calculadora-gpa",
+  "gpa_name": "Calculadora de GPA",
+  "gpa_title": "Calculadora de GPA – Promedio semestral y acumulado en escala de 4.0 | Calculadora de notas",
+  "gpa_desc": "Introduce los créditos y la nota en letra de cada asignatura para calcular al instante tu GPA o promedio de calificaciones en una escala de 4.0. Ponderado por créditos, gratis y sin registro.",
+  "gpa_h1_html": "Calculadora de <em>GPA</em>",
+  "gpa_sub": "Introduce los créditos y la nota en letra de cada asignatura para ver al instante tu GPA o promedio de calificaciones en una escala de 4.0.",
+  "gpa_card": "Calcula tu GPA semestral o acumulado en una escala de 4.0 a partir de los créditos y las notas en letra.",
+  "gpa_body": [
+    [
+      "¿Cómo se calcula el GPA?",
+      "Los puntos de cada asignatura se multiplican por sus créditos (o ECTS). Estos productos se suman y se dividen entre el total de créditos: <b>GPA = Σ (puntos de la nota × créditos) ÷ Σ créditos</b>. El promedio semestral se calcula igual, pero utilizando únicamente las asignaturas de ese semestre."
+    ],
+    [
+      "Ejemplo resuelto",
+      "Cálculo tiene 4 créditos con un A− (3.7), Física tiene 3 créditos con un B (3.0) y Biología tiene 3 créditos con un A (4.0). El total ponderado es 4 × 3.7 + 3 × 3.0 + 3 × 4.0 = 14.8 + 9 + 12 = 35.8. El total de créditos es 10, por lo que tu GPA es 35.8 ÷ 10 = <b>3.58</b>."
+    ],
+    [
+      "Promedio semestral y promedio general acumulado",
+      "Tu promedio semestral incluye las asignaturas de un semestre; tu promedio general acumulado incluye todas las asignaturas que has cursado. La app agrupa tus asignaturas por semestre y lleva el seguimiento de ambos."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "¿Cómo calculo mi GPA?",
+      "Multiplica los puntos de cada asignatura (A = 4.0, A− = 3.7, B+ = 3.3 …) por sus créditos, suma los resultados y divide entre el total de créditos."
+    ],
+    [
+      "¿Debo usar créditos o ECTS?",
+      "Utiliza el sistema que emplee tu universidad para ponderar los promedios. La fórmula es la misma; solo cambia el valor de ponderación."
+    ],
+    [
+      "¿Las asignaturas suspensas cuentan para mi GPA?",
+      "Normalmente sí, con 0 puntos. Cuando repites y apruebas una asignatura, muchas universidades sustituyen la nota anterior; la norma depende de cada centro."
+    ],
+    [
+      "¿Puedo convertir mi GPA en un porcentaje?",
+      "Las tablas de conversión varían según el país y la universidad, y normalmente no son lineales. Esta calculadora muestra tu GPA en una escala de 4.0."
+    ],
+    [
+      "¿Puedo guardar mis asignaturas?",
+      "La calculadora web no guarda nada. En la app Calculadora de notas puedes guardar tus asignaturas por semestre y mantener actualizado tu GPA."
+    ]
+  ]
+}

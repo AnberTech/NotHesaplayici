@@ -1,0 +1,81 @@
+{
+  "pv_title": "Kebijakan Privasi",
+  "pv_desc": "Kebijakan privasi Kalkulator Nilai: aplikasi ini tidak mengumpulkan data pribadi, tidak menampilkan iklan, dan tidak melakukan pelacakan; mata kuliah dan nilai Anda tetap berada di perangkat Anda.",
+  "pv_updated": "Terakhir diperbarui:",
+  "pv_date": "30 September 2026",
+  "pv_dev": "Pengembang:",
+  "pv_contact": "Kontak:",
+  "pv_sections": [
+    [
+      "Singkatnya",
+      "<p>Kalkulator Nilai <b>tidak mengumpulkan data pribadi dari Anda</b>. Tidak diperlukan akun, aplikasi ini tidak menampilkan iklan, dan tidak menggunakan alat analitik atau pelacakan pihak ketiga. Mata kuliah dan nilai yang Anda masukkan hanya disimpan di perangkat Anda.</p>"
+    ],
+    [
+      "Data yang kami kumpulkan",
+      "<p>Aplikasi ini tidak mengumpulkan, mengirimkan, atau menjual nama, alamat email, lokasi, pengenal perangkat, pengenal iklan, atau informasi pribadi serupa milik Anda.</p>"
+    ],
+    [
+      "Data yang disimpan di perangkat Anda",
+      "<p>Nama mata kuliah, semester, SKS, nilai, bobot, skala nilai kustom, serta preferensi Anda (tema, bahasa) disimpan <b>hanya di perangkat Anda</b>. Data ini tidak pernah dikirim ke server kami. Saat Anda mencopot pemasangan aplikasi, data ini dihapus dari perangkat Anda.</p>"
+    ],
+    [
+      "Koneksi internet",
+      "<p>Aplikasi ini berfungsi tanpa koneksi internet. Aplikasi ini tidak memerlukan internet untuk mengirim data Anda ke mana pun.</p>"
+    ],
+    [
+      "Ekspor dan berbagi PDF",
+      "<p>Jika Anda memilih untuk membuat dan membagikan PDF laporan nilai, file tersebut diteruskan melalui lembar berbagi perangkat Anda ke aplikasi atau orang yang Anda pilih. Hal ini sepenuhnya berada di bawah kendali Anda; kami tidak pernah melihat atau menyimpan file tersebut. PDF yang dibuat dengan aplikasi ini tidak memiliki keabsahan resmi.</p>"
+    ],
+    [
+      "Pihak ketiga",
+      "<p>Aplikasi ini tidak memuat layanan pihak ketiga untuk periklanan, analitik, pelaporan kerusakan, atau pelacakan pengguna. Toko aplikasi (Apple App Store dan Google Play) dapat memproses data berdasarkan kebijakan privasi mereka sendiri saat Anda mengunduh aplikasi; hal ini berada di luar kendali kami.</p>"
+    ],
+    [
+      "Privasi anak-anak",
+      "<p>Karena aplikasi ini tidak mengumpulkan data pribadi, aplikasi ini juga tidak mengumpulkan data dari anak-anak.</p>"
+    ],
+    [
+      "Keamanan",
+      "<p>Karena data Anda tetap berada di perangkat Anda, keamanan perangkat Anda (kunci layar, pengaturan pencadangan, dll.) menentukan keamanan data Anda. Layanan pencadangan perangkat (iCloud, pencadangan Google) dapat mencadangkan data Anda sesuai dengan pengaturan Anda sendiri.</p>"
+    ],
+    [
+      "Perubahan",
+      "<p>Jika kebijakan ini diperbarui, versi baru akan dipublikasikan di halaman ini dan tanggal \"Terakhir diperbarui\" akan berubah.</p>"
+    ],
+    [
+      "Kontak",
+      "<p>Pertanyaan:</p>"
+    ]
+  ],
+  "sp_title": "Ada yang bisa kami bantu?",
+  "sp_desc": "Dukungan Kalkulator Nilai: pertanyaan yang sering diajukan dan kontak melalui email.",
+  "sp_lead": "Ada pertanyaan, masukan, atau ide? Tulis kepada kami — kami biasanya membalas dalam beberapa hari kerja.",
+  "sp_btn": "Kirim email",
+  "sp_faq_h2": "Pertanyaan yang sering diajukan",
+  "sp_faq": [
+    [
+      "Di mana data saya disimpan?",
+      "Mata kuliah, nilai, dan preferensi Anda hanya disimpan di perangkat Anda. Tidak ada yang dikirim ke server kami."
+    ],
+    [
+      "Bisakah saya mengubah skala nilai?",
+      "Ya. Di Pengaturan, Anda dapat mengedit rentang nilai huruf, bobot nilai, dan syarat kelulusan agar sesuai dengan universitas Anda."
+    ],
+    [
+      "Bagaimana cara mengubah bahasa?",
+      "Buka Pengaturan → Bahasa dan pilih salah satu dari 17 bahasa. Secara default, aplikasi mengikuti bahasa perangkat Anda."
+    ],
+    [
+      "Apakah transkrip PDF ini resmi?",
+      "Tidak. PDF tersebut hanya untuk informasi dan tidak memiliki keabsahan resmi."
+    ],
+    [
+      "Saya ganti ponsel — di mana data saya?",
+      "Data tersimpan di perangkat Anda, sehingga bergantung pada pencadangan perangkat Anda (iCloud / pencadangan Google). Pulihkan dari cadangan Anda."
+    ],
+    [
+      "Apakah aplikasi ini berbayar? Apakah ada iklan?",
+      "Tidak. Aplikasi ini gratis, tanpa iklan dan tanpa pembelian dalam aplikasi."
+    ]
+  ]
+}

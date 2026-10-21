@@ -1,0 +1,81 @@
+{
+  "pv_title": "Datenschutzerklärung",
+  "pv_desc": "Datenschutzerklärung von Notenrechner: Die App erhebt keine personenbezogenen Daten, zeigt keine Werbung an und verwendet kein Tracking; Ihre Kurse und Noten bleiben auf Ihrem Gerät.",
+  "pv_updated": "Zuletzt aktualisiert:",
+  "pv_date": "30. September 2026",
+  "pv_dev": "Entwickler:",
+  "pv_contact": "Kontakt:",
+  "pv_sections": [
+    [
+      "Kurz zusammengefasst",
+      "<p>Notenrechner <b>erhebt keine personenbezogenen Daten von Ihnen</b>. Es ist kein Konto erforderlich, die App zeigt keine Werbung an und verwendet keine Analyse- oder Tracking-Tools von Drittanbietern. Die von Ihnen eingegebenen Kurse und Noten werden ausschließlich auf Ihrem Gerät gespeichert.</p>"
+    ],
+    [
+      "Daten, die wir erheben",
+      "<p>Die App erhebt, übermittelt oder verkauft weder Ihren Namen, Ihre E-Mail-Adresse, Ihren Standort, Gerätekennungen, Werbekennungen noch ähnliche personenbezogene Informationen.</p>"
+    ],
+    [
+      "Auf Ihrem Gerät gespeicherte Daten",
+      "<p>Kursnamen, Semester, Credits, Noten, Gewichtungen, Ihre benutzerdefinierte Notenskala und Ihre Einstellungen (Design, Sprache) werden <b>ausschließlich auf Ihrem Gerät</b> gespeichert. Diese Daten werden niemals an unsere Server gesendet. Wenn Sie die App deinstallieren, werden diese Daten von Ihrem Gerät entfernt.</p>"
+    ],
+    [
+      "Internetverbindung",
+      "<p>Die App funktioniert ohne Internetverbindung. Sie benötigt das Internet nicht, um Ihre Daten irgendwohin zu senden.</p>"
+    ],
+    [
+      "PDF-Export und Teilen",
+      "<p>Wenn Sie einen Notenbericht als PDF erstellen und teilen, wird die Datei über das Teilen-Menü Ihres Geräts an die von Ihnen ausgewählte App oder Person weitergegeben. Dies liegt vollständig in Ihrer Hand; wir sehen oder speichern die Datei niemals. Mit der App erstellte PDFs haben keine offizielle Gültigkeit.</p>"
+    ],
+    [
+      "Dritte",
+      "<p>Die App enthält keine Dienste von Drittanbietern für Werbung, Analysen, Absturzberichte oder Nutzertracking. Die App-Stores (Apple App Store und Google Play) können beim Herunterladen der App Daten gemäß ihren eigenen Datenschutzerklärungen verarbeiten; dies liegt außerhalb unseres Einflussbereichs.</p>"
+    ],
+    [
+      "Datenschutz für Kinder",
+      "<p>Da die App keine personenbezogenen Daten erhebt, erhebt sie auch keine Daten von Kindern.</p>"
+    ],
+    [
+      "Sicherheit",
+      "<p>Da Ihre Daten auf Ihrem Gerät bleiben, bestimmt die Sicherheit Ihres Geräts (Bildschirmsperre, Sicherungseinstellungen usw.) die Sicherheit Ihrer Daten. Dienste zur Gerätesicherung (iCloud, Google-Sicherung) können Ihre Daten entsprechend Ihren eigenen Einstellungen sichern.</p>"
+    ],
+    [
+      "Änderungen",
+      "<p>Wenn diese Datenschutzerklärung aktualisiert wird, wird die neue Version auf dieser Seite veröffentlicht und das Datum unter „Zuletzt aktualisiert“ geändert.</p>"
+    ],
+    [
+      "Kontakt",
+      "<p>Fragen:</p>"
+    ]
+  ],
+  "sp_title": "Wie können wir helfen?",
+  "sp_desc": "Support für Notenrechner: häufig gestellte Fragen und Kontakt per E-Mail.",
+  "sp_lead": "Fragen, Feedback oder Ideen? Schreiben Sie uns — wir antworten in der Regel innerhalb weniger Werktage.",
+  "sp_btn": "E-Mail senden",
+  "sp_faq_h2": "Häufig gestellte Fragen",
+  "sp_faq": [
+    [
+      "Wo werden meine Daten gespeichert?",
+      "Ihre Kurse, Noten und Einstellungen werden ausschließlich auf Ihrem Gerät gespeichert. Es wird nichts an unsere Server gesendet."
+    ],
+    [
+      "Kann ich die Notenskala ändern?",
+      "Ja. In den Einstellungen können Sie die Bereiche für Buchstabennoten, Notenpunkte und Bestehensbedingungen an Ihre Hochschule anpassen."
+    ],
+    [
+      "Wie ändere ich die Sprache?",
+      "Gehen Sie zu Einstellungen → Sprache und wählen Sie eine von 17 Sprachen aus. Standardmäßig übernimmt die App die Sprache Ihres Geräts."
+    ],
+    [
+      "Ist der Notenbericht als PDF offiziell?",
+      "Nein. Die PDF dient nur zur Information und hat keine offizielle Gültigkeit."
+    ],
+    [
+      "Ich habe das Smartphone gewechselt — wo sind meine Daten?",
+      "Die Daten befinden sich auf Ihrem Gerät, daher hängt ihre Wiederherstellung von Ihrer Gerätesicherung ab (iCloud / Google-Sicherung). Stellen Sie die Daten aus Ihrer Sicherung wieder her."
+    ],
+    [
+      "Ist die App kostenpflichtig? Gibt es Werbung?",
+      "Nein. Die App ist kostenlos, ohne Werbung und ohne In-App-Käufe."
+    ]
+  ]
+}

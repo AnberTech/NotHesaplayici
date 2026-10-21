@@ -1,0 +1,33 @@
+{
+  "pv_title": "Gizlilik Politikası",
+  "pv_desc": "Not Hesaplayıcı gizlilik politikası: uygulama kişisel veri toplamaz, reklam ve takip içermez; derslerin ve notların yalnızca cihazında saklanır.",
+  "pv_updated": "Son güncelleme:",
+  "pv_date": "30 Eylül 2026",
+  "pv_dev": "Geliştirici:",
+  "pv_contact": "İletişim:",
+  "pv_sections": [
+    ["Kısaca", "<p>Not Hesaplayıcı <b>sizden kişisel veri toplamaz</b>. Hesap açmanız gerekmez, reklam göstermez ve üçüncü taraf analiz ya da takip araçları kullanmaz. Girdiğiniz dersler ve notlar yalnızca cihazınızda saklanır.</p>"],
+    ["Toplanan veriler", "<p>Uygulama; adınızı, e-posta adresinizi, konumunuzu, cihaz kimliğinizi, reklam kimliğinizi veya benzeri hiçbir kişisel bilgiyi toplamaz, iletmez ya da satmaz.</p>"],
+    ["Cihazda saklanan veriler", "<p>Ders adları, dönemler, krediler, notlar, ağırlıklar, özel not skalanız ve tercihleriniz (tema, dil) <b>yalnızca cihazınızda</b> tutulur. Bu veriler sunucularımıza gönderilmez. Uygulamayı sildiğinizde bu veriler de cihazınızdan silinir.</p>"],
+    ["İnternet bağlantısı", "<p>Uygulama internet bağlantısı olmadan çalışır. Verilerinizi başka bir yere göndermek için internete ihtiyaç duymaz.</p>"],
+    ["PDF dışa aktarma ve paylaşma", "<p>\"Not dökümü\" PDF'ini oluşturup paylaşmayı siz seçerseniz, dosya cihazınızın paylaşım menüsü aracılığıyla sizin seçtiğiniz uygulamaya veya kişiye gönderilir. Bu aktarım tamamen sizin kontrolünüzdedir; dosyayı biz görmeyiz ya da saklamayız. Oluşturulan PDF'lerin resmi bir geçerliliği yoktur.</p>"],
+    ["Üçüncü taraflar", "<p>Uygulama; reklam, analiz, çökme raporlama veya kullanıcı takibi yapan üçüncü taraf bir hizmet içermez. Uygulama mağazaları (Apple App Store ve Google Play), uygulamayı indirmeniz sırasında kendi gizlilik politikalarına göre veri işleyebilir; bu bizim kontrolümüz dışındadır.</p>"],
+    ["Çocukların gizliliği", "<p>Uygulama kişisel veri toplamadığı için çocuklardan da veri toplamaz.</p>"],
+    ["Güvenlik", "<p>Verileriniz cihazınızda saklandığı için cihazınızın güvenliği (ekran kilidi, yedekleme ayarları vb.) verilerinizin güvenliğini belirler. Cihaz yedekleme hizmetleri (iCloud, Google yedekleme) verilerinizi kendi ayarlarınıza göre yedekleyebilir.</p>"],
+    ["Değişiklikler", "<p>Bu politika güncellenirse yeni sürüm bu sayfada yayımlanır ve \"Son güncelleme\" tarihi değiştirilir.</p>"],
+    ["İletişim", "<p>Sorularınız için:</p>"]
+  ],
+  "sp_title": "Nasıl yardımcı olabiliriz?",
+  "sp_desc": "Not Hesaplayıcı destek: sık sorulan sorular ve e-posta ile iletişim.",
+  "sp_lead": "Sorun, öneri ya da görüşün için bize yaz; genellikle birkaç iş günü içinde dönüş yaparız.",
+  "sp_btn": "E-posta gönder",
+  "sp_faq_h2": "Sık sorulan sorular",
+  "sp_faq": [
+    ["Verilerim nerede saklanıyor?", "Dersler, notlar ve tercihlerin yalnızca cihazında saklanır. Sunucularımıza hiçbir şey gönderilmez."],
+    ["Not skalasını değiştirebilir miyim?", "Evet. Ayarlar bölümünden harf notu aralıklarını, katsayıları ve geçme koşullarını üniversitene göre düzenleyebilirsin."],
+    ["Dili nasıl değiştiririm?", "Ayarlar → Dil bölümünden 17 dilden birini seçebilirsin. Varsayılan olarak cihaz dili kullanılır."],
+    ["PDF not dökümü resmi geçerli mi?", "Hayır. PDF yalnızca bilgilendirme amaçlıdır ve resmi bir belge değildir."],
+    ["Telefon değiştirdim, verilerim nerede?", "Veriler cihazda tutulduğundan, cihaz yedekleme (iCloud / Google yedekleme) ayarlarına bağlıdır. Yedeğinden geri yükleyebilirsin."],
+    ["Uygulama ücretli mi, reklam var mı?", "Hayır. Uygulama ücretsizdir; reklam ve uygulama içi satın alma yoktur."]
+  ]
+}

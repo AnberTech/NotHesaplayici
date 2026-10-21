@@ -1,0 +1,81 @@
+{
+  "pv_title": "Privacybeleid",
+  "pv_desc": "Privacybeleid van Cijfercalculator: de app verzamelt geen persoonsgegevens, toont geen advertenties en volgt je niet; je vakken en cijfers blijven op je apparaat.",
+  "pv_updated": "Laatst bijgewerkt:",
+  "pv_date": "30 september 2026",
+  "pv_dev": "Ontwikkelaar:",
+  "pv_contact": "Contact:",
+  "pv_sections": [
+    [
+      "Kort samengevat",
+      "<p>Cijfercalculator <b>verzamelt geen persoonsgegevens van je</b>. Er is geen account nodig, de app toont geen advertenties en gebruikt geen analyse- of trackingtools van derden. De vakken en cijfers die je invoert, worden alleen op je apparaat opgeslagen.</p>"
+    ],
+    [
+      "Gegevens die we verzamelen",
+      "<p>De app verzamelt, verzendt of verkoopt geen namen, e-mailadressen, locatiegegevens, apparaat-ID's, advertentie-ID's of vergelijkbare persoonsgegevens van je.</p>"
+    ],
+    [
+      "Gegevens die op je apparaat worden opgeslagen",
+      "<p>Vaknamen, semesters, studiepunten, cijfers, wegingen, je aangepaste cijferschaal en je voorkeuren (thema, taal) worden <b>alleen op je apparaat</b> opgeslagen. Deze gegevens worden nooit naar onze servers verzonden. Wanneer je de app verwijdert, worden deze gegevens van je apparaat verwijderd.</p>"
+    ],
+    [
+      "Internetverbinding",
+      "<p>De app werkt zonder internetverbinding. De app heeft geen internet nodig om je gegevens ergens naartoe te sturen.</p>"
+    ],
+    [
+      "PDF exporteren en delen",
+      "<p>Als je ervoor kiest een cijferoverzicht als PDF te maken en te delen, wordt het bestand via het deelmenu van je apparaat doorgegeven aan de app of persoon die je kiest. Je hebt hier volledig zelf de controle over; wij zien of bewaren het bestand nooit. PDF-bestanden die met de app worden gemaakt, hebben geen officiële geldigheid.</p>"
+    ],
+    [
+      "Derden",
+      "<p>De app bevat geen diensten van derden voor advertenties, analyses, crashrapportage of het volgen van gebruikers. De appwinkels (Apple App Store en Google Play) kunnen bij het downloaden van de app gegevens verwerken volgens hun eigen privacybeleid; dit valt buiten onze controle.</p>"
+    ],
+    [
+      "Privacy van kinderen",
+      "<p>Omdat de app geen persoonsgegevens verzamelt, verzamelt de app ook geen gegevens van kinderen.</p>"
+    ],
+    [
+      "Beveiliging",
+      "<p>Omdat je gegevens op je apparaat blijven, bepaalt de beveiliging van je apparaat (schermvergrendeling, back-upinstellingen, enz.) hoe veilig je gegevens zijn. Back-updiensten voor apparaten (iCloud, Google back-up) kunnen een back-up van je gegevens maken volgens je eigen instellingen.</p>"
+    ],
+    [
+      "Wijzigingen",
+      "<p>Als dit beleid wordt bijgewerkt, wordt de nieuwe versie op deze pagina gepubliceerd en verandert de datum bij \"Laatst bijgewerkt\".</p>"
+    ],
+    [
+      "Contact",
+      "<p>Vragen:</p>"
+    ]
+  ],
+  "sp_title": "Hoe kunnen we je helpen?",
+  "sp_desc": "Ondersteuning voor Cijfercalculator: veelgestelde vragen en contact per e-mail.",
+  "sp_lead": "Vragen, feedback of ideeën? Mail ons — we reageren meestal binnen enkele werkdagen.",
+  "sp_btn": "Stuur een e-mail",
+  "sp_faq_h2": "Veelgestelde vragen",
+  "sp_faq": [
+    [
+      "Waar worden mijn gegevens opgeslagen?",
+      "Je vakken, cijfers en voorkeuren worden alleen op je apparaat opgeslagen. Er wordt niets naar onze servers verzonden."
+    ],
+    [
+      "Kan ik de cijferschaal wijzigen?",
+      "Ja. In Instellingen kun je de bereiken voor lettercijfers, cijferpunten en slagingsvoorwaarden aanpassen aan je universiteit."
+    ],
+    [
+      "Hoe wijzig ik de taal?",
+      "Ga naar Instellingen → Taal en kies een van de 17 talen. Standaard gebruikt de app de taal van je apparaat."
+    ],
+    [
+      "Is het cijferoverzicht in PDF-formaat officieel?",
+      "Nee. De PDF is uitsluitend ter informatie en heeft geen officiële geldigheid."
+    ],
+    [
+      "Ik heb een nieuwe telefoon — waar zijn mijn gegevens?",
+      "Je gegevens staan op je apparaat, dus dit hangt af van de back-up van je apparaat (iCloud / Google back-up). Zet je gegevens terug vanuit je back-up."
+    ],
+    [
+      "Is de app betaald? Zijn er advertenties?",
+      "Nee. De app is gratis, zonder advertenties en zonder in-appaankopen."
+    ]
+  ]
+}

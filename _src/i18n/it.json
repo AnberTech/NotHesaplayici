@@ -1,0 +1,278 @@
+{
+  "brand": "Calcolo Voti",
+  "title": "Calcolo Voti – Calcolatore voto finale, media del corso e GPA",
+  "meta_desc": "Calcola la media ponderata del corso, scopri quanto devi prendere all'esame finale per passare o ottenere una A e tieni sotto controllo il GPA. Calcolatori online gratuiti e app per iPhone senza pubblicità, senza account e utilizzabile offline.",
+  "nav_home": "Home",
+  "nav_support": "Assistenza",
+  "nav_privacy": "Privacy",
+  "aria_theme": "Tema chiaro / scuro",
+  "aria_lang": "Lingua",
+  "store_alt": "Scarica su App Store",
+  "soon": "In arrivo",
+  "pill": "Per iPhone e iPad · Presto su Android",
+  "h1_html": "Conosci i tuoi voti,<br><em>pianifica il tuo futuro.</em>",
+  "lead": "La media del corso, il voto necessario all'esame finale e il GPA in un'unica app. Senza pubblicità, senza account, completamente offline.",
+  "trust": [
+    "Gratis",
+    "Senza pubblicità",
+    "Senza account",
+    "Offline"
+  ],
+  "demo_h2": "Calcola subito",
+  "demo_p": "Provala qui prima di scaricare l'app. Modifica i valori e il risultato si aggiorna all'istante.",
+  "tab_avg": "Media",
+  "tab_need": "Finale necessario",
+  "tab_gpa": "Media",
+  "f_mid": "Voto della prova intermedia",
+  "f_mid_w": "Intermedia (%)",
+  "f_hw": "Voto del compito",
+  "f_hw_w": "Compito (%)",
+  "f_final": "Voto dell'esame finale",
+  "f_final_w": "Finale (%)",
+  "f_scale": "Scala di valutazione",
+  "f_min_final": "Voto minimo al finale",
+  "f_target": "Voto in lettere desiderato",
+  "out_avg": "La tua media",
+  "out_letter": "Lettera",
+  "out_need": "Finale necessario",
+  "out_gpa": "Media",
+  "out_credits": "Crediti totali",
+  "add_course": "+ Aggiungi corso",
+  "ph_course": "Nome del corso",
+  "aria_credit": "Crediti",
+  "aria_letter": "Lettera",
+  "aria_remove": "Rimuovi corso",
+  "msg_impossible": "Neanche 100 all'esame finale basta per ottenere questo voto.",
+  "msg_already": "Hai già raggiunto questo voto, qualunque sia il risultato dell'esame finale.",
+  "msg_min_final": "Il voto dell'esame finale è inferiore al minimo richiesto, quindi non superi il corso.",
+  "msg_baraj": "Per rispettare la soglia minima, devi prendere almeno %d all'esame finale.",
+  "msg_weights": "La somma dei pesi della prova intermedia e del compito non può superare 100.",
+  "demo_courses": [
+    "Analisi matematica",
+    "Fisica",
+    "Biologia"
+  ],
+  "scale_aa": "AA–FF (scala 4,00)",
+  "scale_a1": "A1–F1 (scala 4,00)",
+  "scale_us": "A–F (USA, 4,0)",
+  "th_letter": "Voto",
+  "th_min": "Media minima",
+  "th_coef": "Punti",
+  "th_need": "Finale necessario",
+  "why_h2": "Perché scegliere Calcolo Voti?",
+  "cards": [
+    [
+      "Media del corso",
+      "Inserisci i voti della prova intermedia, dell'esame finale e del compito con i rispettivi pesi: vedrai subito la media e il voto in lettere."
+    ],
+    [
+      "Finale necessario",
+      "Visualizza in un'unica schermata il voto minimo da prendere all'esame finale per ogni voto in lettere."
+    ],
+    [
+      "GPA sempre aggiornato",
+      "Salva i corsi semestre per semestre: la media del semestre e la media generale cumulativa si aggiornano automaticamente."
+    ],
+    [
+      "Scala di valutazione personalizzata",
+      "Modifica gli intervalli dei voti in lettere e i punti corrispondenti in base alle regole del tuo istituto."
+    ],
+    [
+      "Report dei voti in PDF",
+      "Condividi i tuoi corsi e la tua media in PDF con un tocco."
+    ],
+    [
+      "17 lingue",
+      "Inglese, spagnolo, tedesco, giapponese, arabo, turco e altre ancora."
+    ],
+    [
+      "La privacy prima di tutto",
+      "Nessun account, nessuna pubblicità, nessun tracciamento. I tuoi dati restano sul tuo dispositivo."
+    ],
+    [
+      "Funziona offline",
+      "Non serve internet: durante la settimana degli esami, in biblioteca, ovunque."
+    ]
+  ],
+  "tools_h2": "Calcolatori gratuiti",
+  "tools_p": "Usali nel browser senza scaricare nulla. Non serve registrarsi e i voti che inserisci restano sul tuo dispositivo.",
+  "shots_h2": "Uno sguardo all'app",
+  "cap_home": "Home",
+  "cap_calc": "Calcola",
+  "cap_courses": "I miei corsi",
+  "cap_gpa": "Media",
+  "cap_settings": "Impostazioni",
+  "cap_report": "Report dei voti",
+  "faq_h2": "Domande frequenti",
+  "faq_home": [
+    [
+      "Come calcolo la media del corso?",
+      "Moltiplica ogni voto per il suo peso e somma i risultati. Con una prova intermedia che pesa il 40% e un esame finale che pesa il 60%: media = intermedia × 0,40 + finale × 0,60. Con 62 alla prova intermedia e 75 al finale ottieni 62 × 0,40 + 75 × 0,60 = 69,8. Se è previsto anche un compito, aggiungi il suo voto ponderato; la somma dei pesi deve essere 100%."
+    ],
+    [
+      "Quanto devo prendere all'esame finale per passare?",
+      "Finale necessario = (media desiderata − intermedia × peso intermedia) ÷ peso finale. Con 55 alla prova intermedia, un peso del 40% e una media minima di 50 per passare: (50 − 22) ÷ 0,60 = 46,7, quindi devi prendere almeno 47 al finale. Calcolo Voti esegue questo calcolo per tutti i voti in lettere contemporaneamente."
+    ],
+    [
+      "Come si calcola il GPA?",
+      "Moltiplica i punti associati al voto di ogni corso (A = 4,0, B = 3,0 …) per i relativi crediti, somma i risultati e dividi per i crediti totali. Il risultato è il tuo GPA, cioè la media dei voti su scala 4,0."
+    ],
+    [
+      "Gli intervalli dei voti in lettere sono uguali ovunque?",
+      "No. Gli intervalli e i punti associati ai voti cambiano da un Paese all'altro, tra università e persino tra corsi. Nell'app puoi modificare la scala di valutazione per adattarla esattamente alla tua."
+    ],
+    [
+      "Che cos'è il voto minimo al finale?",
+      "Alcuni istituti non consentono di superare il corso se il voto dell'esame finale è inferiore a una certa soglia (per esempio 30, 45 o 50), anche quando la media è sufficiente. Inserisci la soglia minima: il calcolo del finale necessario ne terrà conto."
+    ],
+    [
+      "Calcolo Voti è gratis?",
+      "Sì. L'app è gratuita su App Store, senza pubblicità, abbonamenti o acquisti in-app. Anche i calcolatori su questo sito sono gratuiti."
+    ],
+    [
+      "Dove vengono salvati i miei voti?",
+      "Solo sul tuo dispositivo. Non serve un account e non viene inviato nulla a un server. I voti che inserisci nei calcolatori online restano nel tuo browser."
+    ],
+    [
+      "Esiste una versione per Android?",
+      "La versione Android arriverà presto su Google Play. Al momento l'app è disponibile su App Store per iPhone e iPad con iOS 17.6 o versioni successive."
+    ]
+  ],
+  "cta_h2": "Tutti i tuoi corsi in un unico posto",
+  "cta_p": "Gratis. Senza pubblicità. Senza account.",
+  "rights": "Tutti i diritti riservati.",
+  "pdf_note": "I documenti PDF creati dall'app non hanno validità ufficiale.",
+  "tool_cta_title": "Tieni i tuoi voti nell'app",
+  "tool_cta_text": "Aggiungi i tuoi corsi a Calcolo Voti una sola volta: man mano che inserisci i voti delle prove intermedie e degli esami finali, la media, il voto in lettere e il GPA si aggiornano automaticamente. Gratis, senza pubblicità e utilizzabile offline.",
+  "other_tools": "Altri calcolatori",
+  "scale_note": "Gli intervalli dei voti in lettere variano tra istituti. Nell'app puoi personalizzare la tua scala.",
+  "fin_slug": "calcolatore-voto-esame-finale",
+  "fin_name": "Calcolatore voto esame finale",
+  "fin_title": "Calcolatore voto esame finale – Quanto devo prendere per passare? | Calcolo Voti",
+  "fin_desc": "Quanto devi prendere all'esame finale? Inserisci il voto della prova intermedia e i pesi: il calcolatore mostra il voto necessario per passare o ottenere ogni voto in lettere (A, B, C …). Tiene conto del voto minimo al finale. Gratis, senza registrazione.",
+  "fin_h1_html": "Quanto devo prendere <em>all'esame finale?</em>",
+  "fin_sub": "Inserisci il voto della prova intermedia e scopri quanto devi prendere all'esame finale per passare e per ottenere ogni voto in lettere.",
+  "fin_card": "Scopri il voto necessario all'esame finale per passare o raggiungere il voto che desideri.",
+  "fin_body": [
+    [
+      "Come si calcola il voto necessario all'esame finale?",
+      "La media è la somma ponderata dei tuoi voti: <b>media = intermedia × peso intermedia + finale × peso finale</b>. Ricavando il voto del finale si ottiene <b>finale necessario = (media desiderata − intermedia × peso intermedia) ÷ peso finale</b>. Se hai anche il voto di un compito, il suo contributo viene sottratto dalla media desiderata. Il risultato viene sempre arrotondato per eccesso: se ti serve 46,2, devi prendere 47."
+    ],
+    [
+      "Esempio di calcolo",
+      "Hai preso <b>55</b> alla prova intermedia, che pesa il <b>40%</b>; il finale pesa il <b>60%</b> e per passare serve una media di <b>50</b>. La prova intermedia contribuisce con 55 × 0,40 = 22 punti. Il finale deve fornire i restanti 50 − 22 = 28 punti: 28 ÷ 0,60 = 46,7. Quindi devi prendere almeno <b>47</b> al finale. Con lo stesso calcolo, servono 80 per una media di 70 e 97 per una media di 80."
+    ],
+    [
+      "Cosa cambia se è previsto un voto minimo al finale?",
+      "In molti istituti non superi il corso se il voto dell'esame finale è inferiore a una soglia prestabilita, anche se la media sarebbe sufficiente. Se inserisci una soglia minima, il finale necessario è il valore <b>più alto</b> tra il risultato della formula della media e la soglia minima."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "Come scopro quanto devo prendere all'esame finale?",
+      "Inserisci il voto della prova intermedia, il suo peso e la media che vuoi raggiungere. Il calcolatore usa la formula (obiettivo − intermedia × peso intermedia) ÷ peso finale e mostra il risultato per ogni voto in lettere."
+    ],
+    [
+      "Il risultato supera 100. Cosa significa?",
+      "Nemmeno il punteggio massimo all'esame finale basta per ottenere quel voto. Guarda la riga del voto immediatamente inferiore."
+    ],
+    [
+      "Il risultato è 0. Cosa significa?",
+      "I voti della prova intermedia e dell'eventuale compito ti garantiscono già quel voto. Se è previsto un voto minimo al finale, devi comunque raggiungerlo."
+    ],
+    [
+      "Posso usarlo per un esame di recupero?",
+      "Sì. Se il voto del recupero sostituisce quello del finale, il calcolo è lo stesso: considera il recupero come esame finale."
+    ],
+    [
+      "Il mio istituto usa intervalli di voto diversi.",
+      "Questa pagina propone alcune scale comuni. Se la tua è diversa, nell'app puoi impostare la scala di valutazione esatta."
+    ]
+  ],
+  "avg_slug": "calcolatore-media-voti",
+  "avg_name": "Calcolatore media del corso",
+  "avg_title": "Calcolatore media ponderata voti – Media del corso e voto in lettere | Calcolo Voti",
+  "avg_desc": "Calcola subito la media ponderata del corso e il voto in lettere: inserisci i voti della prova intermedia, dell'esame finale e del compito con i rispettivi pesi. Calcolatore gratuito nel browser, senza registrazione.",
+  "avg_h1_html": "Calcolatore <em>media del corso</em>",
+  "avg_sub": "Inserisci i voti della prova intermedia, dell'esame finale e del compito con i rispettivi pesi e visualizza subito la media e il voto in lettere.",
+  "avg_card": "Calcola la media ponderata del corso e il voto in lettere a partire dai voti della prova intermedia, dell'esame finale e del compito.",
+  "avg_body": [
+    [
+      "Come si calcola la media del corso?",
+      "Moltiplica ogni voto per il suo peso e somma i risultati: <b>media = intermedia × peso intermedia + compito × peso compito + finale × peso finale</b>. La somma dei pesi deve essere 100%, quindi il peso del finale corrisponde a ciò che resta dopo aver sottratto i pesi della prova intermedia e del compito."
+    ],
+    [
+      "Esempio di calcolo",
+      "Con <b>62</b> alla prova intermedia (40%) e <b>75</b> al finale (60%), la media è 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Come molte università, Calcolo Voti arrotonda la media per difetto: 69. Nella scala statunitense A–F corrisponde a <b>D+</b>."
+    ],
+    [
+      "E se la prova intermedia pesa il 30% e il finale il 70%?",
+      "La formula resta la stessa: intermedia × 0,30 + finale × 0,70. Più pesa il finale, più incide sulla media: con 40 alla prova intermedia e 80 al finale, una ripartizione 40/60 dà 64 e una ripartizione 30/70 dà 68."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "Come calcolo la media ponderata dei voti?",
+      "Moltiplica ogni voto per il suo peso e somma i risultati. Con una prova intermedia che pesa il 40% e un finale che pesa il 60%, media = intermedia × 0,40 + finale × 0,60."
+    ],
+    [
+      "E se ho anche il voto di un compito?",
+      "Inserisci il peso del compito per includerlo nel calcolo; il peso del finale viene calcolato automaticamente in base a ciò che resta (per esempio, una prova intermedia al 30% e un compito al 20% lasciano il 50% al finale)."
+    ],
+    [
+      "Ho una media di 59,5. Passo?",
+      "Dipende dalle regole di arrotondamento del tuo istituto. Calcolo Voti arrotonda le medie per difetto (59,5 → 59), quindi controlla il regolamento del tuo istituto."
+    ],
+    [
+      "Come viene determinato il voto in lettere?",
+      "Dipende dall'intervallo in cui rientra la tua media. Nella scala statunitense usata qui, da 93 in su si ottiene A, con 90–92 si ottiene A− e con 87–89 si ottiene B+. Gli intervalli variano tra istituti."
+    ],
+    [
+      "Questo calcolatore è gratuito?",
+      "Sì. Nessuna registrazione, nessuna pubblicità e i voti che inserisci restano nel tuo browser."
+    ]
+  ],
+  "gpa_slug": "calcolatore-gpa",
+  "gpa_name": "Calcolatore GPA",
+  "gpa_title": "Calcolatore GPA – Media del semestre e media generale cumulativa su scala 4,0 | Calcolo Voti",
+  "gpa_desc": "Calcola subito il GPA, la media dei voti su scala 4,0: inserisci i crediti e il voto in lettere di ogni corso. Media ponderata per crediti, gratis e senza registrazione.",
+  "gpa_h1_html": "Calcolatore <em>GPA</em>",
+  "gpa_sub": "Inserisci i crediti e il voto in lettere di ogni corso e visualizza subito la tua media dei voti su scala 4,0.",
+  "gpa_card": "Calcola il GPA del semestre o la media generale cumulativa su scala 4,0 a partire dai crediti e dai voti in lettere.",
+  "gpa_body": [
+    [
+      "Come si calcola il GPA?",
+      "I punti associati al voto di ogni corso vengono moltiplicati per i relativi crediti (o ECTS). I risultati vengono sommati e divisi per i crediti totali: <b>GPA = Σ (punti voto × crediti) ÷ Σ crediti</b>. La media del semestre si calcola allo stesso modo, usando solo i corsi di quel semestre."
+    ],
+    [
+      "Esempio di calcolo",
+      "Analisi matematica vale 4 crediti con A− (3,7), Fisica 3 crediti con B (3,0) e Biologia 3 crediti con A (4,0). Il totale ponderato è 4 × 3,7 + 3 × 3,0 + 3 × 4,0 = 14,8 + 9 + 12 = 35,8. I crediti totali sono 10, quindi il GPA è 35,8 ÷ 10 = <b>3,58</b>."
+    ],
+    [
+      "Media del semestre e media generale cumulativa",
+      "La media del semestre comprende i corsi di un solo semestre; la media generale cumulativa comprende tutti i corsi che hai sostenuto. L'app raggruppa i corsi per semestre e tiene aggiornate entrambe."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "Come calcolo il mio GPA?",
+      "Moltiplica i punti associati al voto di ogni corso (A = 4,0, A− = 3,7, B+ = 3,3 …) per i relativi crediti, somma i risultati e dividi per i crediti totali."
+    ],
+    [
+      "Devo usare i crediti o gli ECTS?",
+      "Usa quelli che il tuo istituto adotta per ponderare la media. La formula è la stessa; cambia solo il valore usato come peso."
+    ],
+    [
+      "Gli esami non superati contano nel GPA?",
+      "Di solito sì, con 0 punti. Quando ripeti e superi un esame, molti istituti sostituiscono il vecchio voto; la regola dipende dal tuo istituto."
+    ],
+    [
+      "Posso convertire il GPA in percentuale?",
+      "Le tabelle di conversione variano tra Paesi e istituti e di solito non sono lineari. Questo calcolatore restituisce il GPA su scala 4,0."
+    ],
+    [
+      "Posso salvare i miei corsi?",
+      "Il calcolatore online non salva nulla. Nell'app Calcolo Voti puoi salvare i corsi semestre per semestre e tenere aggiornato il GPA."
+    ]
+  ]
+}

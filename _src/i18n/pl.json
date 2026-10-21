@@ -1,0 +1,278 @@
+{
+  "brand": "Kalkulator ocen",
+  "title": "Kalkulator ocen – ocena z egzaminu, średnia z przedmiotu i GPA",
+  "meta_desc": "Oblicz średnią z przedmiotu i GPA oraz sprawdź, ile musisz dostać na egzaminie, żeby zdać lub uzyskać A. Darmowy kalkulator ocen online i aplikacja na iPhone działająca offline, bez reklam i konta.",
+  "nav_home": "Strona główna",
+  "nav_support": "Pomoc",
+  "nav_privacy": "Prywatność",
+  "aria_theme": "Jasny / ciemny motyw",
+  "aria_lang": "Język",
+  "store_alt": "Pobierz z App Store",
+  "soon": "Już wkrótce",
+  "pill": "Na iPhone i iPad · Wkrótce na Android",
+  "h1_html": "Poznaj swoje wyniki,<br><em>zaplanuj przyszłość.</em>",
+  "lead": "Średnia z przedmiotu, wymagana ocena z egzaminu i średnia GPA w jednej aplikacji. Bez reklam, bez konta, w pełni offline.",
+  "trust": [
+    "Za darmo",
+    "Bez reklam",
+    "Bez konta",
+    "Offline"
+  ],
+  "demo_h2": "Oblicz teraz",
+  "demo_p": "Wypróbuj kalkulator tutaj, zanim pobierzesz aplikację. Zmień wartości, a wynik zaktualizuje się od razu.",
+  "tab_avg": "Średnia",
+  "tab_need": "Wymagany egzamin",
+  "tab_gpa": "Średnia",
+  "f_mid": "Ocena z kolokwium",
+  "f_mid_w": "Waga kolokwium (%)",
+  "f_hw": "Ocena z pracy domowej",
+  "f_hw_w": "Waga pracy domowej (%)",
+  "f_final": "Ocena z egzaminu",
+  "f_final_w": "Waga egzaminu",
+  "f_scale": "Skala ocen",
+  "f_min_final": "Minimalna ocena z egzaminu",
+  "f_target": "Docelowa ocena literowa",
+  "out_avg": "Twoja średnia",
+  "out_letter": "Ocena literowa",
+  "out_need": "Wymagany egzamin",
+  "out_gpa": "Średnia",
+  "out_credits": "Suma punktów ECTS",
+  "add_course": "+ Dodaj kurs",
+  "ph_course": "Nazwa przedmiotu",
+  "aria_credit": "Punkty ECTS",
+  "aria_letter": "Litera",
+  "aria_remove": "Usuń kurs",
+  "msg_impossible": "Nawet 100 z egzaminu nie wystarczy, by uzyskać tę ocenę.",
+  "msg_already": "Masz już tę ocenę niezależnie od wyniku egzaminu.",
+  "msg_min_final": "Ocena z egzaminu jest poniżej minimum, więc przedmiot pozostaje niezaliczony.",
+  "msg_baraj": "Ze względu na wymagane minimum musisz uzyskać z egzaminu co najmniej %d.",
+  "msg_weights": "Suma wag kolokwium i pracy domowej nie może przekraczać 100.",
+  "demo_courses": [
+    "Analiza matematyczna",
+    "Fizyka",
+    "Biologia"
+  ],
+  "scale_aa": "AA–FF (skala 4,00)",
+  "scale_a1": "A1–F1 (skala 4,00)",
+  "scale_us": "A–F (USA, 4,0)",
+  "th_letter": "Ocena",
+  "th_min": "Minimalna średnia",
+  "th_coef": "Punkty",
+  "th_need": "Wymagany egzamin",
+  "why_h2": "Dlaczego Kalkulator ocen?",
+  "cards": [
+    [
+      "Średnia z przedmiotu",
+      "Wpisz oceny z kolokwium, egzaminu i pracy domowej wraz z ich wagami, a od razu zobaczysz średnią i ocenę literową."
+    ],
+    [
+      "Wymagana ocena z egzaminu",
+      "Sprawdź na jednym ekranie, jaki minimalny wynik egzaminu pozwoli uzyskać każdą z ocen literowych."
+    ],
+    [
+      "Śledzenie średniej GPA",
+      "Zapisuj kursy według semestrów. Średnia semestralna i średnia ogólna aktualizują się automatycznie."
+    ],
+    [
+      "Własna skala ocen",
+      "Dostosuj progi ocen literowych i przypisane im punkty do zasad swojej uczelni."
+    ],
+    [
+      "Zestawienie ocen w PDF",
+      "Jednym dotknięciem udostępnij zestawienie kursów i średnią w formacie PDF."
+    ],
+    [
+      "17 języków",
+      "Angielski, hiszpański, niemiecki, japoński, arabski, turecki i inne."
+    ],
+    [
+      "Prywatność przede wszystkim",
+      "Bez konta, reklam i śledzenia. Twoje dane zostają na Twoim urządzeniu."
+    ],
+    [
+      "Działa offline",
+      "Bez internetu: w sesji, w bibliotece, gdziekolwiek jesteś."
+    ]
+  ],
+  "tools_h2": "Darmowe kalkulatory",
+  "tools_p": "Korzystaj w przeglądarce bez pobierania aplikacji. Bez rejestracji, a wpisane oceny nigdy nie opuszczają Twojego urządzenia.",
+  "shots_h2": "Zobacz aplikację",
+  "cap_home": "Strona główna",
+  "cap_calc": "Oblicz",
+  "cap_courses": "Moje kursy",
+  "cap_gpa": "Średnia",
+  "cap_settings": "Ustawienia",
+  "cap_report": "Zestawienie ocen",
+  "faq_h2": "Najczęściej zadawane pytania",
+  "faq_home": [
+    [
+      "Jak obliczyć średnią z przedmiotu?",
+      "Pomnóż każdą ocenę przez jej wagę i dodaj wyniki. Jeśli kolokwium ma wagę 40%, a egzamin 60%: średnia = kolokwium × 0,40 + egzamin × 0,60. Wynik 62 z kolokwium i 75 z egzaminu daje 62 × 0,40 + 75 × 0,60 = 69,8. Jeśli masz też ocenę z pracy domowej, uwzględnij ją wraz z wagą. Suma wag musi wynosić 100%."
+    ],
+    [
+      "Ile muszę dostać na egzaminie, żeby zdać?",
+      "Wymagany wynik egzaminu = (docelowa średnia − kolokwium × waga kolokwium) ÷ waga egzaminu. Przy wyniku 55 z kolokwium o wadze 40% i progu zaliczenia 50: (50 − 22) ÷ 0,60 = 46,7, więc potrzebujesz co najmniej 47 z egzaminu. Kalkulator ocen oblicza to dla wszystkich ocen literowych jednocześnie."
+    ],
+    [
+      "Jak oblicza się średnią GPA?",
+      "Pomnóż punkty przypisane ocenie z każdego przedmiotu (A = 4,0, B = 3,0 …) przez liczbę punktów ECTS tego przedmiotu, dodaj wyniki i podziel przez sumę punktów ECTS. Otrzymasz średnią GPA w skali 4,0."
+    ],
+    [
+      "Czy progi ocen literowych są wszędzie takie same?",
+      "Nie. Progi i punkty przypisane ocenom różnią się między krajami, uczelniami, a nawet przedmiotami. W aplikacji możesz dostosować skalę ocen dokładnie do swoich zasad."
+    ],
+    [
+      "Co oznacza minimalna ocena z egzaminu?",
+      "Na niektórych uczelniach wynik egzaminu poniżej określonego progu (na przykład 30, 45 lub 50) oznacza brak zaliczenia, nawet jeśli średnia jest wystarczająco wysoka. Wpisz wymagane minimum, a kalkulator uwzględni je przy obliczaniu potrzebnego wyniku egzaminu."
+    ],
+    [
+      "Czy aplikacja Kalkulator ocen jest darmowa?",
+      "Tak. Aplikacja jest dostępna za darmo w App Store, bez reklam, subskrypcji i zakupów w aplikacji. Kalkulatory na tej stronie też są darmowe."
+    ],
+    [
+      "Gdzie są przechowywane moje oceny?",
+      "Wyłącznie na Twoim urządzeniu. Nie potrzebujesz konta i nic nie jest wysyłane na serwer. Oceny wpisane w kalkulatorach online nigdy nie opuszczają Twojej przeglądarki."
+    ],
+    [
+      "Czy jest wersja na Android?",
+      "Wersja na Android pojawi się wkrótce w Google Play. Obecnie aplikacja jest dostępna w App Store na iPhone i iPad (iOS 17.6 lub nowszy)."
+    ]
+  ],
+  "cta_h2": "Miej wszystkie kursy w jednym miejscu",
+  "cta_p": "Za darmo. Bez reklam. Bez konta.",
+  "rights": "Wszelkie prawa zastrzeżone.",
+  "pdf_note": "Dokumenty PDF utworzone w aplikacji nie mają mocy urzędowej.",
+  "tool_cta_title": "Zapisuj oceny w aplikacji",
+  "tool_cta_text": "Dodaj kursy do aplikacji Kalkulator ocen. Gdy wpiszesz kolejne wyniki kolokwiów i egzaminów, średnia, ocena literowa i GPA zaktualizują się automatycznie. Za darmo, bez reklam i offline.",
+  "other_tools": "Więcej kalkulatorów",
+  "scale_note": "Progi ocen literowych różnią się między uczelniami. W aplikacji możesz dostosować własną skalę.",
+  "fin_slug": "kalkulator-oceny-z-egzaminu",
+  "fin_name": "Kalkulator oceny z egzaminu",
+  "fin_title": "Kalkulator oceny z egzaminu – ile muszę dostać, żeby zdać? | Kalkulator ocen",
+  "fin_desc": "Wpisz ocenę z kolokwium i wagi, a kalkulator oceny z egzaminu pokaże, ile musisz dostać, żeby zdać lub uzyskać każdą ocenę literową (A, B, C …). Uwzględnia wymagane minimum. Za darmo, bez rejestracji.",
+  "fin_h1_html": "Ile muszę dostać <em>na egzaminie?</em>",
+  "fin_sub": "Wpisz ocenę z kolokwium i sprawdź, jaki wynik egzaminu pozwoli Ci zdać oraz uzyskać każdą z ocen literowych.",
+  "fin_card": "Sprawdź, ile musisz dostać na egzaminie, żeby zdać lub uzyskać wybraną ocenę.",
+  "fin_body": [
+    [
+      "Jak obliczyć wymagany wynik egzaminu?",
+      "Średnia to suma ocen pomnożonych przez ich wagi: <b>średnia = kolokwium × waga kolokwium + egzamin × waga egzaminu</b>. Po przekształceniu wzoru otrzymujemy <b>wymagany wynik egzaminu = (docelowa średnia − kolokwium × waga kolokwium) ÷ waga egzaminu</b>. Jeśli masz ocenę z pracy domowej, od docelowej średniej odejmujemy również jej udział. Wynik zawsze zaokrąglamy w górę: jeśli wychodzi 46,2, potrzebujesz 47."
+    ],
+    [
+      "Przykład obliczenia",
+      "Masz <b>55</b> z kolokwium o wadze <b>40%</b>, egzamin ma wagę <b>60%</b>, a do zaliczenia potrzebujesz średniej <b>50</b>. Kolokwium wnosi 55 × 0,40 = 22 punkty. Egzamin musi zapewnić pozostałe 50 − 22 = 28 punktów: 28 ÷ 0,60 = 46,7. Potrzebujesz więc co najmniej <b>47</b> z egzaminu. Z tego samego wzoru wynika, że do średniej 70 potrzeba 80, a do średniej 80 potrzeba 97."
+    ],
+    [
+      "Co zmienia minimalna ocena z egzaminu?",
+      "Na wielu uczelniach wynik egzaminu poniżej ustalonego progu oznacza brak zaliczenia, nawet jeśli średnia byłaby wystarczająca. Jeśli wpiszesz wymagane minimum, potrzebny wynik egzaminu będzie <b>wyższą</b> z dwóch wartości: wyniku obliczonego ze wzoru na średnią lub ustalonego minimum."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "Jak sprawdzić, ile muszę dostać na egzaminie?",
+      "Wpisz ocenę z kolokwium, jego wagę i potrzebną średnią. Kalkulator korzysta ze wzoru (docelowa średnia − kolokwium × waga kolokwium) ÷ waga egzaminu i pokazuje wynik dla każdej oceny literowej."
+    ],
+    [
+      "Wynik przekracza 100. Co to oznacza?",
+      "Nawet maksymalny wynik egzaminu nie wystarczy do uzyskania tej oceny. Sprawdź wiersz z kolejną niższą oceną."
+    ],
+    [
+      "Wynik to 0. Co to oznacza?",
+      "Oceny z kolokwium i pracy domowej już zapewniają Ci tę ocenę. Jeśli obowiązuje minimalny wynik egzaminu, nadal musisz go osiągnąć."
+    ],
+    [
+      "Czy mogę użyć kalkulatora do egzaminu poprawkowego lub w dodatkowym terminie?",
+      "Tak. Jeśli ocena z tego egzaminu zastępuje poprzednią ocenę z egzaminu, obliczenia są takie same. Po prostu potraktuj go jak zwykły egzamin."
+    ],
+    [
+      "Na mojej uczelni obowiązują inne progi ocen.",
+      "Na tej stronie znajdziesz popularne skale. Jeśli Twoja jest inna, w aplikacji możesz ustawić dokładnie taką skalę, jakiej potrzebujesz."
+    ]
+  ],
+  "avg_slug": "kalkulator-sredniej-wazonej-ocen",
+  "avg_name": "Kalkulator średniej z przedmiotu",
+  "avg_title": "Kalkulator średniej ważonej ocen – średnia z przedmiotu i ocena literowa | Kalkulator ocen",
+  "avg_desc": "Wpisz oceny z kolokwium, egzaminu i pracy domowej wraz z wagami. Kalkulator średniej ważonej ocen od razu obliczy średnią z przedmiotu i ocenę literową. Za darmo, bez rejestracji, w przeglądarce.",
+  "avg_h1_html": "Kalkulator <em>średniej z przedmiotu</em>",
+  "avg_sub": "Wpisz oceny z kolokwium, egzaminu i pracy domowej wraz z ich wagami, a od razu zobaczysz średnią i ocenę literową.",
+  "avg_card": "Oblicz średnią ważoną z przedmiotu i ocenę literową na podstawie ocen z kolokwium, egzaminu i pracy domowej.",
+  "avg_body": [
+    [
+      "Jak obliczyć średnią z przedmiotu?",
+      "Każdą ocenę mnożymy przez jej wagę, a następnie dodajemy wyniki: <b>średnia = kolokwium × waga kolokwium + praca domowa × waga pracy domowej + egzamin × waga egzaminu</b>. Suma wag musi wynosić 100%, więc waga egzaminu to część pozostała po odjęciu wag kolokwium i pracy domowej."
+    ],
+    [
+      "Przykład obliczenia",
+      "Przy wyniku <b>62</b> z kolokwium (40%) i <b>75</b> z egzaminu (60%) średnia wynosi 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Podobnie jak wiele uczelni, aplikacja Kalkulator ocen zaokrągla średnią w dół: do 69. W amerykańskiej skali A–F oznacza to ocenę <b>D+</b>."
+    ],
+    [
+      "A jeśli kolokwium ma wagę 30%, a egzamin 70%?",
+      "Wzór pozostaje taki sam: kolokwium × 0,30 + egzamin × 0,70. Im większa waga egzaminu, tym mocniej wpływa on na średnią: przy wyniku 40 z kolokwium i 80 z egzaminu podział 40/60 daje 64, a podział 30/70 daje 68."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "Jak obliczyć średnią ważoną ocen?",
+      "Pomnóż każdą ocenę przez jej wagę i dodaj wyniki. Jeśli kolokwium ma wagę 40%, a egzamin 60%, średnia = kolokwium × 0,40 + egzamin × 0,60."
+    ],
+    [
+      "Co zrobić, jeśli mam ocenę z pracy domowej?",
+      "Wpisz wagę pracy domowej, a kalkulator ją uwzględni. Waga egzaminu zostanie obliczona automatycznie jako pozostała część (na przykład kolokwium o wadze 30% i praca domowa o wadze 20% zostawiają 50% na egzamin)."
+    ],
+    [
+      "Moja średnia to 59,5. Czy to wystarczy, żeby zdać?",
+      "To zależy od zasad zaokrąglania na Twojej uczelni. Kalkulator ocen zaokrągla średnie w dół (59,5 → 59), więc sprawdź regulamin uczelni."
+    ],
+    [
+      "Od czego zależy moja ocena literowa?",
+      "Od przedziału, w którym mieści się Twoja średnia. W używanej tutaj amerykańskiej skali wynik 93 lub wyższy to A, 90–92 to A−, a 87–89 to B+. Progi różnią się między uczelniami."
+    ],
+    [
+      "Czy ten kalkulator jest darmowy?",
+      "Tak. Bez rejestracji i reklam, a wpisane oceny nigdy nie opuszczają Twojej przeglądarki."
+    ]
+  ],
+  "gpa_slug": "kalkulator-sredniej-gpa",
+  "gpa_name": "Kalkulator GPA",
+  "gpa_title": "Kalkulator GPA – średnia semestralna i ogólna w skali 4,0 | Kalkulator ocen",
+  "gpa_desc": "Wpisz punkty ECTS i ocenę literową z każdego przedmiotu. Kalkulator GPA od razu obliczy średnią ocen w skali 4,0, ważoną punktami ECTS. Za darmo i bez rejestracji.",
+  "gpa_h1_html": "Kalkulator <em>GPA</em>",
+  "gpa_sub": "Wpisz punkty ECTS i ocenę literową z każdego przedmiotu, a od razu zobaczysz swoją średnią GPA w skali 4,0.",
+  "gpa_card": "Oblicz średnią semestralną lub ogólną GPA w skali 4,0 na podstawie punktów ECTS i ocen literowych.",
+  "gpa_body": [
+    [
+      "Jak oblicza się średnią GPA?",
+      "Punkty przypisane ocenie z każdego przedmiotu mnożymy przez liczbę punktów zaliczeniowych (lub ECTS) tego przedmiotu. Dodajemy otrzymane wyniki i dzielimy je przez sumę punktów zaliczeniowych: <b>GPA = Σ (punkty za ocenę × punkty zaliczeniowe) ÷ Σ punktów zaliczeniowych</b>. Średnią semestralną obliczamy tak samo, uwzględniając tylko przedmioty z danego semestru."
+    ],
+    [
+      "Przykład obliczenia",
+      "Analiza matematyczna ma 4 punkty ECTS i ocenę A− (3,7), Fizyka 3 punkty ECTS i ocenę B (3,0), a Biologia 3 punkty ECTS i ocenę A (4,0). Suma ważona wynosi 4 × 3,7 + 3 × 3,0 + 3 × 4,0 = 14,8 + 9 + 12 = 35,8. Łącznie masz 10 punktów ECTS, więc Twoja średnia GPA wynosi 35,8 ÷ 10 = <b>3,58</b>."
+    ],
+    [
+      "Średnia semestralna i średnia ogólna",
+      "Średnia semestralna obejmuje przedmioty z jednego semestru, a średnia ogólna wszystkie dotychczasowe przedmioty. Aplikacja grupuje kursy według semestrów i na bieżąco oblicza obie średnie."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "Jak obliczyć średnią GPA?",
+      "Pomnóż punkty przypisane ocenie z każdego przedmiotu (A = 4,0, A− = 3,7, B+ = 3,3 …) przez liczbę punktów ECTS tego przedmiotu, dodaj wyniki i podziel przez sumę punktów ECTS."
+    ],
+    [
+      "Użyć punktów zaliczeniowych czy ECTS?",
+      "Użyj tych punktów, które Twoja uczelnia uwzględnia jako wagi przy obliczaniu średniej. Wzór jest taki sam, zmienia się tylko wartość wagi."
+    ],
+    [
+      "Czy niezaliczone przedmioty wliczają się do GPA?",
+      "Zwykle tak, z wartością 0 punktów za ocenę. Po ponownym podejściu i zaliczeniu przedmiotu wiele uczelni zastępuje poprzednią ocenę nową. Zasady zależą od uczelni."
+    ],
+    [
+      "Czy mogę przeliczyć GPA na procenty?",
+      "Tabele przeliczeniowe różnią się między krajami i uczelniami, a przeliczenie zwykle nie jest liniowe. Ten kalkulator podaje średnią GPA w skali 4,0."
+    ],
+    [
+      "Czy mogę zapisać swoje kursy?",
+      "Kalkulator online niczego nie zapisuje. W aplikacji Kalkulator ocen możesz zapisywać kursy według semestrów i na bieżąco śledzić swoją średnią GPA."
+    ]
+  ]
+}

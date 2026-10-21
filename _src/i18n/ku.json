@@ -1,0 +1,278 @@
+{
+  "brand": "Hesabkera Notan",
+  "title": "Hesabkera Notan – Nota Finalê ya Pêwîst, Navînîya Dersê û Hesabkera GPA",
+  "meta_desc": "Navînîya dersê hesab bike, bibîne ji bo derbasbûnê an bidestxistina A di imtîhana finalê de çend pêwîst e û GPA-ya xwe bişopîne. Hesabkera webê ya belaş û sepana iPhone ya bê reklam, bê hesab û offline.",
+  "nav_home": "Mal",
+  "nav_support": "Piştgirî",
+  "nav_privacy": "Nepenî",
+  "aria_theme": "Temaya ronî / tarî",
+  "aria_lang": "Ziman",
+  "store_alt": "Ji App Store daxîne",
+  "soon": "Nêzîk de tê",
+  "pill": "Ji bo iPhone û iPad · Android nêzîk de tê",
+  "h1_html": "Nota xwe bizane,<br><em>pêşeroja xwe plan bike.</em>",
+  "lead": "Navînîya dersê, nota imtîhana finalê ya ku pêwîst e û GPA-ya te di sepanekê de. Bê reklam, bê hesab û bi tevahî offline.",
+  "trust": [
+    "Belaş",
+    "Bê reklam",
+    "Bê hesab",
+    "Offline"
+  ],
+  "demo_h2": "Niha hesab bike",
+  "demo_p": "Berî daxistina sepanê li vir biceribîne. Nirxan biguherîne û encam wê tavilê nû bibe.",
+  "tab_avg": "Navînî",
+  "tab_need": "Final a Pêwîst",
+  "tab_gpa": "GPA",
+  "f_mid": "Nota vîzeyê",
+  "f_mid_w": "Giraniya vîzeyê (%)",
+  "f_hw": "Nota peywirê",
+  "f_hw_w": "Giraniya peywirê (%)",
+  "f_final": "Nota imtîhana finalê",
+  "f_final_w": "Giraniya imtîhana finalê",
+  "f_scale": "Pîvana notan",
+  "f_min_final": "Nota finalê ya herî kêm",
+  "f_target": "Nota herfî ya armancê",
+  "out_avg": "Navînîya te",
+  "out_letter": "Nota herfî",
+  "out_need": "Final a Pêwîst",
+  "out_gpa": "GPA",
+  "out_credits": "Krêdiyên giştî",
+  "add_course": "+ Ders lê zêde bike",
+  "ph_course": "Navê dersê",
+  "aria_credit": "Krêdî",
+  "aria_letter": "Nota herfî",
+  "aria_remove": "Dersê rake",
+  "msg_impossible": "Di finalê de 100 jî ji bo vê notê têrê nake.",
+  "msg_already": "Te jixwe ev not heye, di finalê de çi notê bistînî jî.",
+  "msg_min_final": "Nota finalê ya te ji asta herî kêm nizimtir e, ji ber vê yekê tu dersê derbas nakî.",
+  "msg_baraj": "Ji ber asta herî kêm, di finalê de herî kêm %d pêwîst e.",
+  "msg_weights": "Giraniya vîzeyê û peywirê bi hev re nikare ji 100 zêdetir bibe.",
+  "demo_courses": [
+    "Matematîka Pêşketî",
+    "Fîzîk",
+    "Biyolojî"
+  ],
+  "scale_aa": "AA–FF (pîvana 4.00)",
+  "scale_a1": "A1–F1 (pîvana 4.00)",
+  "scale_us": "A–F (DYA, 4.0)",
+  "th_letter": "Not",
+  "th_min": "Navînîya herî kêm",
+  "th_coef": "Pûan",
+  "th_need": "Final a Pêwîst",
+  "why_h2": "Çima Hesabkera Notan?",
+  "cards": [
+    [
+      "Navînîya dersê",
+      "Notên vîze, final û peywirê bi giraniya wan re binivîse û navînî û nota xwe ya herfî tavilê bibîne."
+    ],
+    [
+      "Final a Pêwîst",
+      "Nota imtîhana finalê ya herî kêm ji bo her nota herfî di ekranekê de bibîne."
+    ],
+    [
+      "Şopandina GPA",
+      "Dersên xwe li gorî heyaman tomar bike; GPA-ya heyamê û GPA-ya giştî bixwe nû dibin."
+    ],
+    [
+      "Pîvana notan ya te",
+      "Navberên notên herfî û pûanên notan li gorî dibistana xwe biguherîne."
+    ],
+    [
+      "Raporta notan ya PDF",
+      "Ders û navînîya xwe bi yek pêlê wek PDF parve bike."
+    ],
+    [
+      "17 ziman",
+      "Îngilîzî, Spanî, Almanî, Japonî, Erebî, Tirkî û zêdetir."
+    ],
+    [
+      "Pêşî nepenî",
+      "Bê hesab, bê reklam, bê şopandin. Daneyên te li ser cîhaza te dimînin."
+    ],
+    [
+      "Offline dixebite",
+      "Înternet ne pêwîst e: di hefteya imtîhanan de, li pirtûkxaneyê an li her derê."
+    ]
+  ],
+  "tools_h2": "Hesabkerên belaş",
+  "tools_p": "Bêyî daxistina tiştekî wan di geroka xwe de bikar bîne. Tomarkirin ne pêwîst e û notên ku tu dinivîsî tu carî ji cîhaza te dernakevin.",
+  "shots_h2": "Nêrînek li sepanê",
+  "cap_home": "Mal",
+  "cap_calc": "Hesab Bike",
+  "cap_courses": "Dersên Min",
+  "cap_gpa": "GPA",
+  "cap_settings": "Mîheng",
+  "cap_report": "Raporta Notan",
+  "faq_h2": "Pirsên pir tên pirsîn",
+  "faq_home": [
+    [
+      "Ez ê navînîya dersa xwe çawa hesab bikim?",
+      "Her notê bi giraniya wê re pir bike û encaman li hev zêde bike. Bi vîzeya 40% û finala 60%: navînî = vîze × 0.40 + final × 0.60. Vîzeya 62 û finala 75 encama 62 × 0.40 + 75 × 0.60 = 69.8 dide. Heke peywirek hebe, nota wê ya bi giranî jî lê zêde bike; divê giranî bi hev re bibin 100%."
+    ],
+    [
+      "Ji bo derbasbûnê di finalê de çend pêwîst e?",
+      "Final a pêwîst = (navînîya armancê − vîze × giraniya vîzeyê) ÷ giraniya finalê. Bi vîzeya 55 ya bi giraniya 40% û navînîya derbasbûnê ya 50: (50 − 22) ÷ 0.60 = 46.7, ji ber vê yekê di finalê de herî kêm 47 pêwîst e. Hesabkera Notan vê yekê ji bo hemû notên herfî bi carekê re hesab dike."
+    ],
+    [
+      "GPA çawa tê hesabkirin?",
+      "Pûanên nota her dersê (A = 4.0, B = 3.0 …) bi krêdiyên wê re pir bike, encaman li hev zêde bike û li krêdiyên giştî parve bike. Encam Navînîya Giştî ya Notan a te li ser pîvana 4.0 ye."
+    ],
+    [
+      "Navberên notên herfî li her derê yek in?",
+      "Na. Navber û pûanên notan di navbera welat, zanîngeh û heta dersan de diguherin. Di sepanê de dikarî pîvana notan li gorî ya xwe bi temamî biguherînî."
+    ],
+    [
+      "Nota finalê ya herî kêm çi ye?",
+      "Hin dibistan, heta ku navînîya te têrê bike jî, heke nota imtîhana finalê ji astekê nizimtir be (mînak 30, 45 an 50), te ji dersê derbas nakin. Asta herî kêm binivîse û finala pêwîst wê hesabê wê bike."
+    ],
+    [
+      "Hesabkera Notan belaş e?",
+      "Erê. Sepan li App Store belaş e û reklam, abonetî an kirînên nav sepanê tune ne. Hesabkerên vê malperê jî belaş in."
+    ],
+    [
+      "Notên min li ku tên hilanîn?",
+      "Tenê li ser cîhaza te. Hesab ne pêwîst e û tiştek ji serverekê re nayê şandin. Notên ku tu di hesabkerên webê de dinivîsî tu carî ji geroka te dernakevin."
+    ],
+    [
+      "Guhertoya Android heye?",
+      "Guhertoya Android nêzîk de tê Google Play. Niha sepan ji bo iPhone û iPad (iOS 17.6 an nûtir) li App Store heye."
+    ]
+  ],
+  "cta_h2": "Hemû dersên xwe li cîhekî bişopîne",
+  "cta_p": "Belaş. Bê reklam. Bê hesab.",
+  "rights": "Hemû maf parastî ne.",
+  "pdf_note": "Belgeyên PDF yên ku sepan diafirîne tu derbasdariya fermî nînin.",
+  "tool_cta_title": "Notên xwe di sepanê de bihêle",
+  "tool_cta_text": "Dersên xwe carekê li Hesabkera Notan zêde bike: dema notên vîze û finalê tên, navînî, nota herfî û GPA-ya te bixwe nû dibin. Belaş, bê reklam û offline.",
+  "other_tools": "Hesabkerên din",
+  "scale_note": "Navberên notên herfî li gorî dibistanan diguherin. Dikarî pîvana xwe di sepanê de biguherînî.",
+  "fin_slug": "hesabkera-nota-final",
+  "fin_name": "Hesabkera Nota Finalê",
+  "fin_title": "Di Finalê de Çend Pêwîst e? – Hesabkera Nota Finalê | Hesabkera Notan",
+  "fin_desc": "Nota vîzeyê û giraniyan binivîse û bibîne ji bo derbasbûnê an bidestxistina her nota herfî (A, B, C …) di imtîhana finalê de çend pêwîst e. Nota finalê ya herî kêm jî piştgirî dike. Belaş û bê tomarkirin.",
+  "fin_h1_html": "Di finalê de <em>çend pêwîst e?</em>",
+  "fin_sub": "Nota vîzeyê binivîse û nota imtîhana finalê ya pêwîst ji bo derbasbûnê û her nota herfî bibîne.",
+  "fin_card": "Bibîne ji bo derbasbûnê an gihîştina nota armancê di imtîhana finalê de çend pêwîst e.",
+  "fin_body": [
+    [
+      "Nota finalê ya pêwîst çawa tê hesabkirin?",
+      "Navînîya te berhevoka bi giraniya notên te ye: <b>navînî = vîze × giraniya vîzeyê + final × giraniya finalê</b>. Dema final tê veqetandin, encam ev e: <b>final a pêwîst = (navînîya armancê − vîze × giraniya vîzeyê) ÷ giraniya finalê</b>. Heke nota peywirê hebe, beşa wê jî ji armancê tê derxistin. Encam her tim ber bi jor ve tê dorpêçkirin: heke 46.2 pêwîst be, 47 pêwîst e."
+    ],
+    [
+      "Mînaka hesabkirî",
+      "Vîzeya te <b>55</b> e û giraniya wê <b>40%</b> e, giraniya finalê <b>60%</b> e û ji bo derbasbûnê navînîya <b>50</b> pêwîst e. Beşdariya vîzeyê 55 × 0.40 = 22 pûan e. Divê final 50 − 22 = 28 pûanên mayî bîne: 28 ÷ 0.60 = 46.7. Ji ber vê yekê di finalê de herî kêm <b>47</b> pêwîst e. Heman hesab ji bo navînîya 70 encama 80 û ji bo 80 encama 97 dide."
+    ],
+    [
+      "Nota finalê ya herî kêm çi diguherîne?",
+      "Li gelek dibistanan, heta ku navînîya te têrê bike jî, heke nota imtîhana finalê ji asteke diyarkirî nizimtir be tu derbas nabî. Heke tu asteke herî kêm binivîsî, finala pêwîst ji her du encaman ya <b>bilindtir</b> e: encama formula navînîyê an asta herî kêm."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "Ez ê çawa bibînim di finalê de çend pêwîst e?",
+      "Nota vîzeyê, giraniya wê û navînîya pêwîst binivîse. Hesabker formula (armanc − vîze × giraniya vîzeyê) ÷ giraniya finalê bikar tîne û encama her nota herfî nîşan dide."
+    ],
+    [
+      "Encam ji 100 mezintir e. Ev tê çi wateyê?",
+      "Di finalê de nota bêkêmasî jî wê vê notê nede te. Li rêza nota yek ast nizimtir binêre."
+    ],
+    [
+      "Encam 0 e. Ev tê çi wateyê?",
+      "Notên vîzeyê (û peywirê) jixwe vê notê misoger dikin. Heke nota finalê ya herî kêm hebe, divê dîsa jî bigihîjî wê."
+    ],
+    [
+      "Ez dikarim wê ji bo imtîhana dubare an telafî bikar bînim?",
+      "Erê. Heke nota imtîhana dubare li şûna nota finalê were, hesab heman e; tenê imtîhana dubare wek finalê bihesibîne."
+    ],
+    [
+      "Dibistana min navberên notan yên cuda bikar tîne.",
+      "Ev rûpel pîvanên hevpar pêşkêş dike. Heke ya te cuda be, dikarî pîvana notan ya rastîn di sepanê de saz bikî."
+    ]
+  ],
+  "avg_slug": "hesabkera-naviniya-ders",
+  "avg_name": "Hesabkera Navînîya Dersê",
+  "avg_title": "Hesabkera Notên Bi Giranî – Navînîya Dersê û Nota Herfî | Hesabkera Notan",
+  "avg_desc": "Notên vîze, final û peywirê bi giraniya wan re binivîse û navînîya dersê ya bi giranî û nota herfî tavilê hesab bike. Belaş, bê tomarkirin û di geroka te de dixebite.",
+  "avg_h1_html": "Hesabkera <em>navînîya dersê</em>",
+  "avg_sub": "Notên vîze, final û peywirê bi giraniya wan re binivîse û navînî û nota xwe ya herfî tavilê bibîne.",
+  "avg_card": "Navînîya dersê ya bi giranî û nota herfî ji notên vîze, final û peywirê hesab bike.",
+  "avg_body": [
+    [
+      "Navînîya dersê çawa tê hesabkirin?",
+      "Her not bi giraniya wê re tê pir kirin û encam li hev tên zêdekirin: <b>navînî = vîze × giraniya vîzeyê + peywir × giraniya peywirê + final × giraniya finalê</b>. Divê giranî bi hev re bibin 100%, ji ber vê yekê giraniya finalê piştî giraniya vîze û peywirê beşa mayî ye."
+    ],
+    [
+      "Mînaka hesabkirî",
+      "Bi vîzeya <b>62</b> (40%) û finala <b>75</b> (60%), navînî 62 × 0.40 + 75 × 0.60 = 24.8 + 45 = <b>69.8</b> e. Wek gelek zanîngehan, Hesabkera Notan navînî ber bi jêr ve dorpêç dike: 69. Li ser pîvana A–F ya DYA ev <b>D+</b> e."
+    ],
+    [
+      "Heke vîze 30% û final 70% be çi dibe?",
+      "Formula heman dimîne: vîze × 0.30 + final × 0.70. Çiqas giraniya finalê zêdetir be, ew qas navînîya te zêdetir diguherîne: bi vîzeya 40 û finala 80, dabeşkirina 40/60 encama 64 û dabeşkirina 30/70 encama 68 dide."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "Ez ê navînîya bi giraniya notên xwe çawa hesab bikim?",
+      "Her notê bi giraniya wê re pir bike û encaman li hev zêde bike. Bi vîzeya 40% û finala 60%, navînî = vîze × 0.40 + final × 0.60."
+    ],
+    [
+      "Heke nota peywirê hebe çi dibe?",
+      "Giraniya peywirê binivîse û ew tê hesibandin; giraniya finalê bixwe ji beşa mayî tê hesabkirin (mînak vîzeya 30% û peywira 20% ji bo finalê 50% dihêlin)."
+    ],
+    [
+      "Navînîya min 59.5 e. Ez derbas dibim?",
+      "Ev bi rêbaza dorpêçkirina dibistana te ve girêdayî ye. Hesabkera Notan navînî ber bi jêr ve dorpêç dike (59.5 → 59), ji ber vê yekê rêzikên dibistana xwe kontrol bike."
+    ],
+    [
+      "Nota min ya herfî çawa tê diyarkirin?",
+      "Li gorî navbera ku navînîya te dikeve navê. Li ser pîvana DYA ya ku li vir tê bikaranîn, 93 û jortir A ye, 90–92 A− ye, 87–89 B+ ye. Navber li gorî dibistanan diguherin."
+    ],
+    [
+      "Ev hesabker belaş e?",
+      "Erê. Tomarkirin ne pêwîst e, reklam tune ne û notên ku tu dinivîsî tu carî ji geroka te dernakevin."
+    ]
+  ],
+  "gpa_slug": "hesabkera-gpa",
+  "gpa_name": "Hesabkera GPA",
+  "gpa_title": "Hesabkera GPA – GPA-ya Heyamê û Giştî li ser Pîvana 4.0 | Hesabkera Notan",
+  "gpa_desc": "Krêdî û nota herfî ya her dersê binivîse û GPA an Navînîya Giştî ya Notan a xwe li ser pîvana 4.0 tavilê hesab bike. Li gorî krêdiyan bi giranî, belaş û bê tomarkirin.",
+  "gpa_h1_html": "Hesabkera <em>GPA</em>",
+  "gpa_sub": "Krêdî û nota herfî ya her dersê binivîse û Navînîya Giştî ya Notan a xwe li ser pîvana 4.0 tavilê bibîne.",
+  "gpa_card": "GPA-ya heyamê an GPA-ya giştî li ser pîvana 4.0 ji krêdî û notên herfî hesab bike.",
+  "gpa_body": [
+    [
+      "GPA çawa tê hesabkirin?",
+      "Pûanên nota her dersê bi krêdiyên wê (an ECTS) re tên pir kirin. Ev berhem li hev tên zêdekirin û li krêdiyên giştî tên parvekirin: <b>GPA = Σ (pûanên notê × krêdî) ÷ Σ krêdî</b>. GPA-ya heyamê jî heman hesab e, tenê dersên wê heyamê tê de tên bikaranîn."
+    ],
+    [
+      "Mînaka hesabkirî",
+      "Matematîka Pêşketî 4 krêdî bi A− (3.7), Fîzîk 3 krêdî bi B (3.0) û Biyolojî 3 krêdî bi A (4.0) ye. Berhevoka bi giranî 4 × 3.7 + 3 × 3.0 + 3 × 4.0 = 14.8 + 9 + 12 = 35.8 e. Krêdiyên giştî 10 in, ji ber vê yekê GPA-ya te 35.8 ÷ 10 = <b>3.58</b> e."
+    ],
+    [
+      "GPA-ya heyamê û GPA-ya giştî",
+      "GPA-ya heyamê dersên yek heyamê vedihewîne; GPA-ya giştî hemû dersên ku te girtine vedihewîne. Sepan dersên te li gorî heyaman kom dike û her duyan dişopîne."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "Ez ê GPA-ya xwe çawa hesab bikim?",
+      "Pûanên nota her dersê (A = 4.0, A− = 3.7, B+ = 3.3 …) bi krêdiyên wê re pir bike, encaman li hev zêde bike û li krêdiyên giştî parve bike."
+    ],
+    [
+      "Divê ez krêdî an ECTS bikar bînim?",
+      "Kîjanê dibistana te ji bo giraniya navînîyan bikar tîne, wê bikar bîne. Formula heman e; tenê jimara giraniyê diguhere."
+    ],
+    [
+      "Dersên ku ez têk diçim di GPA-ya min de tên hesibandin?",
+      "Bi gelemperî erê, bi 0 pûanên notê. Dema tu dersê dubare dikî û derbas dibî, gelek dibistan nota kevn diguherînin; rêzik li gorî dibistana te diguhere."
+    ],
+    [
+      "Ez dikarim GPA-ya xwe veguherînim rêjeyê?",
+      "Tabloyên veguherînê li gorî welat û dibistanan diguherin û bi gelemperî xêzikî nînin. Ev hesabker GPA-ya te li ser pîvana 4.0 dide."
+    ],
+    [
+      "Ez dikarim dersên xwe tomar bikim?",
+      "Hesabkera webê tiştekî tomar nake. Di sepana Hesabkera Notan de dikarî dersên xwe li gorî heyaman tomar bikî û GPA-ya xwe rojane bihêlî."
+    ]
+  ]
+}

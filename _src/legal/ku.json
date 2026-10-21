@@ -1,0 +1,81 @@
+{
+  "pv_title": "Siyaseta Nepenîtiyê",
+  "pv_desc": "Siyaseta nepenîtiyê ya Hesabkera Notan: sepan tu daneya kesane berhev nake, reklam nîşan nade û şopandinê nake; ders û notên we li ser amûra we dimînin.",
+  "pv_updated": "Nûvekirina dawî:",
+  "pv_date": "30ê Îlona 2026",
+  "pv_dev": "Pêşdebir:",
+  "pv_contact": "Têkilî:",
+  "pv_sections": [
+    [
+      "Bi kurtî",
+      "<p>Hesabkera Notan <b>tu daneya kesane ji we berhev nake</b>. Hesab ne pêwîst e, reklam nîşan nade û tu amûra analîzê an şopandinê ya aliyên sêyemîn bikar nayîne. Ders û notên ku hûn têxînin tenê li ser amûra we tên hilanîn.</p>"
+    ],
+    [
+      "Daneyên ku em berhev dikin",
+      "<p>Sepan nav, navnîşana e-nameyê, cih, nasnameyên amûrê, nasnameyên reklamê an agahiyên kesane yên din ên wekhev ên we berhev nake, naşîne û nafiroşe.</p>"
+    ],
+    [
+      "Daneyên ku li ser amûra we tên hilanîn",
+      "<p>Navên dersan, heyam, krêdî, not, giranî, pîvana notan a taybet a we û tercîhên we (tema, ziman) <b>tenê li ser amûra we</b> tên hilanîn. Ev dane tu carî ji serverên me re nayên şandin. Dema hûn sepanê rakirin, ev dane ji amûra we tên rakirin.</p>"
+    ],
+    [
+      "Girêdana înternetê",
+      "<p>Sepan bêyî girêdana înternetê dixebite. Ji bo şandina daneyên we bo cihekî, pêdiviya wê bi înternetê tune ye.</p>"
+    ],
+    [
+      "Derxistin û parvekirina PDF",
+      "<p>Heke hûn hilbijêrin ku raporta notan a PDF biafirînin û parve bikin, pel bi rêya rûpela parvekirinê ya amûra we ji sepan an kesê ku hûn hilbijêrin re tê şandin. Ev bi tevahî di bin kontrola we de ye; em tu carî pelê nabînin an hilnaynin. PDF yên ku bi sepanê hatine afirandin tu derbasdariya fermî nînin.</p>"
+    ],
+    [
+      "Aliyên sêyemîn",
+      "<p>Sepan ji bo reklam, analîz, raporkirina têkçûnan an şopandina bikarhêneran tu xizmeta aliyên sêyemîn nahewîne. Dikanên sepanan (Apple App Store û Google Play) dikarin dema hûn sepanê daxînin, li gorî siyasetên xwe yên nepenîtiyê daneyan biprosesînin; ev li derveyî kontrola me ye.</p>"
+    ],
+    [
+      "Nepenîtiya zarokan",
+      "<p>Ji ber ku sepan tu daneya kesane berhev nake, ji zarokan jî dane berhev nake.</p>"
+    ],
+    [
+      "Ewlehî",
+      "<p>Ji ber ku daneyên we li ser amûra we dimînin, ewlehiya amûra we (kilîta ekranê, mîhengên hilanîna piştgiriyê û hwd.) ewlehiya daneyên we diyar dike. Xizmetên hilanîna piştgiriyê yên amûrê (iCloud, hilanîna piştgiriyê ya Google) dikarin li gorî mîhengên we yên xwe kopiyeke daneyên we hilînin.</p>"
+    ],
+    [
+      "Guhertin",
+      "<p>Heke ev siyaset were nûvekirin, guhertoya nû dê li ser vê rûpelê were weşandin û dîroka \"Nûvekirina dawî\" dê biguhere.</p>"
+    ],
+    [
+      "Têkilî",
+      "<p>Pirs:</p>"
+    ]
+  ],
+  "sp_title": "Em çawa dikarin alîkariya we bikin?",
+  "sp_desc": "Piştgiriya Hesabkera Notan: pirsên ku gelek caran tên pirsîn û têkiliya bi e-nameyê.",
+  "sp_lead": "Pirs, nêrîn an ramanên we hene? Ji me re binivîsin — em bi gelemperî di nav çend rojên karî de bersiv didin.",
+  "sp_btn": "E-nameyek bişîne",
+  "sp_faq_h2": "Pirsên ku gelek caran tên pirsîn",
+  "sp_faq": [
+    [
+      "Daneyên min li ku tên hilanîn?",
+      "Ders, not û tercîhên we tenê li ser amûra we tên hilanîn. Tu tişt ji serverên me re nayê şandin."
+    ],
+    [
+      "Ez dikarim pîvana notan biguherînim?",
+      "Erê. Di Mîheng de hûn dikarin navberên notên bi herfan, xalên notan û şertên derbasbûnê li gorî zanîngeha xwe biguherînin."
+    ],
+    [
+      "Ez çawa ziman biguherînim?",
+      "Herin Mîheng → Ziman û ji 17 zimanan yekê hilbijêrin. Bi pêşdanasînî sepan li pey zimanê amûra we diçe."
+    ],
+    [
+      "Raporta notan a PDF fermî ye?",
+      "Na. PDF tenê ji bo agahdarî ye û tu derbasdariya fermî tune ye."
+    ],
+    [
+      "Min telefon guhert — daneyên min li ku ne?",
+      "Dane li ser amûra we ne, ji ber vê yekê ew bi hilanîna piştgiriyê ya amûra we ve girêdayî ne (iCloud / hilanîna piştgiriyê ya Google). Wan ji hilanîna piştgiriyê ya xwe vegerînin."
+    ],
+    [
+      "Sepan bi pere ye? Reklam hene?",
+      "Na. Sepan belaş e, reklam û kirînên nav-sepanê tune ne."
+    ]
+  ]
+}

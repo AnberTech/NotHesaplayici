@@ -1,0 +1,278 @@
+{
+  "brand": "Calculadora de Notas",
+  "title": "Calculadora de Notas – Nota Final, Média da Disciplina e GPA (CR)",
+  "meta_desc": "Calcule a média ponderada da disciplina, descubra quanto precisa tirar na prova final para passar ou obter um A e acompanhe seu GPA (CR). Calculadora grátis na web e app para iPhone, sem anúncios, sem conta e offline.",
+  "nav_home": "Início",
+  "nav_support": "Suporte",
+  "nav_privacy": "Privacidade",
+  "aria_theme": "Tema claro / escuro",
+  "aria_lang": "Idioma",
+  "store_alt": "Baixar na App Store",
+  "soon": "Em breve",
+  "pill": "Para iPhone e iPad · Android em breve",
+  "h1_html": "Saiba sua nota,<br><em>planeje seu futuro.</em>",
+  "lead": "Média da disciplina, nota necessária na prova final e GPA (CR) em um só app. Sem anúncios, sem conta e totalmente offline.",
+  "trust": [
+    "Grátis",
+    "Sem anúncios",
+    "Sem conta",
+    "Offline"
+  ],
+  "demo_h2": "Calcule agora",
+  "demo_p": "Experimente aqui antes de baixar o app. Altere os valores e veja o resultado ser atualizado na hora.",
+  "tab_avg": "Média",
+  "tab_need": "Final necessária",
+  "tab_gpa": "CR",
+  "f_mid": "Nota da parcial",
+  "f_mid_w": "Peso da parcial (%)",
+  "f_hw": "Nota do trabalho",
+  "f_hw_w": "Peso do trabalho (%)",
+  "f_final": "Nota da prova final",
+  "f_final_w": "Peso da prova final",
+  "f_scale": "Escala de notas",
+  "f_min_final": "Nota mínima na final",
+  "f_target": "Letra desejada",
+  "out_avg": "Sua média",
+  "out_letter": "Letra",
+  "out_need": "Final necessária",
+  "out_gpa": "CR",
+  "out_credits": "Total de créditos",
+  "add_course": "+ Adicionar disciplina",
+  "ph_course": "Nome da disciplina",
+  "aria_credit": "Créditos",
+  "aria_letter": "Letra",
+  "aria_remove": "Remover disciplina",
+  "msg_impossible": "Nem mesmo 100 na final é suficiente para alcançar essa nota.",
+  "msg_already": "Você já garantiu essa nota, independentemente do resultado na final.",
+  "msg_min_final": "Sua nota na final está abaixo do mínimo, então você foi reprovado na disciplina.",
+  "msg_baraj": "Por causa da nota mínima, você precisa tirar pelo menos %d na final.",
+  "msg_weights": "A soma dos pesos da parcial e do trabalho não pode passar de 100.",
+  "demo_courses": [
+    "Cálculo",
+    "Física",
+    "Biologia"
+  ],
+  "scale_aa": "AA–FF (escala 4,00)",
+  "scale_a1": "A1–F1 (escala 4,00)",
+  "scale_us": "A–F (EUA, 4,0)",
+  "th_letter": "Letra",
+  "th_min": "Média mínima",
+  "th_coef": "Pontos",
+  "th_need": "Final necessária",
+  "why_h2": "Por que usar a Calculadora de Notas?",
+  "cards": [
+    [
+      "Média da disciplina",
+      "Informe as notas e os pesos da parcial, da final e do trabalho para ver na hora sua média ponderada e sua letra."
+    ],
+    [
+      "Final necessária",
+      "Veja em uma única tela a nota mínima necessária na prova final para cada letra."
+    ],
+    [
+      "Acompanhamento do CR",
+      "Salve suas disciplinas por semestre; o CR do semestre e o Coeficiente de Rendimento acumulado são atualizados automaticamente."
+    ],
+    [
+      "Sua própria escala de notas",
+      "Edite as faixas de letras e os pontos para usar exatamente o sistema da sua instituição."
+    ],
+    [
+      "Relatório de notas em PDF",
+      "Compartilhe suas disciplinas e sua média em PDF com um toque."
+    ],
+    [
+      "17 idiomas",
+      "Inglês, espanhol, alemão, japonês, árabe, turco e muito mais."
+    ],
+    [
+      "Privacidade em primeiro lugar",
+      "Sem conta, anúncios ou rastreamento. Seus dados ficam no seu dispositivo."
+    ],
+    [
+      "Funciona offline",
+      "Não precisa de internet: use durante a semana de provas, na biblioteca ou onde quiser."
+    ]
+  ],
+  "tools_h2": "Calculadoras grátis",
+  "tools_p": "Use diretamente no navegador, sem baixar nada. Não é preciso criar conta, e as notas informadas nunca saem do seu dispositivo.",
+  "shots_h2": "Conheça o app",
+  "cap_home": "Início",
+  "cap_calc": "Calcular",
+  "cap_courses": "Minhas disciplinas",
+  "cap_gpa": "CR",
+  "cap_settings": "Ajustes",
+  "cap_report": "Relatório de notas",
+  "faq_h2": "Perguntas frequentes",
+  "faq_home": [
+    [
+      "Como calcular a média da disciplina?",
+      "Multiplique cada nota pelo respectivo peso e some os resultados. Com uma parcial de 40% e uma final de 60%: média = parcial × 0,40 + final × 0,60. Uma parcial de 62 e uma final de 75 resultam em 62 × 0,40 + 75 × 0,60 = 69,8. Se houver um trabalho, some também sua nota ponderada; os pesos devem totalizar 100%."
+    ],
+    [
+      "Quanto preciso tirar na prova final para passar?",
+      "Final necessária = (média desejada − parcial × peso da parcial) ÷ peso da final. Com uma parcial de 55 valendo 40% e média mínima de 50: (50 − 22) ÷ 0,60 = 46,7, então você precisa tirar pelo menos 47 na final. A Calculadora de Notas faz essa conta de uma só vez para todas as letras."
+    ],
+    [
+      "Como o GPA (CR) é calculado?",
+      "Multiplique os pontos de cada disciplina (A = 4,0, B = 3,0 …) pelos créditos, some os resultados e divida pelo total de créditos. O resultado é seu GPA, ou CR, em uma escala de 4,0."
+    ],
+    [
+      "As faixas de letras são iguais em todos os lugares?",
+      "Não. As faixas e os pontos variam entre países, universidades e até disciplinas. No app, você pode editar a escala de notas para deixá-la exatamente igual à sua."
+    ],
+    [
+      "O que é a nota mínima na final?",
+      "Algumas instituições reprovam o aluno quando a nota da prova final fica abaixo de um valor determinado, como 30, 45 ou 50, mesmo que a média seja suficiente. Informe esse mínimo, e o cálculo da final necessária levará essa regra em conta."
+    ],
+    [
+      "A Calculadora de Notas é grátis?",
+      "Sim. O app é grátis na App Store, sem anúncios, assinatura ou compras no app. As calculadoras deste site também são grátis."
+    ],
+    [
+      "Onde minhas notas ficam armazenadas?",
+      "Somente no seu dispositivo. Você não precisa de uma conta, e nada é enviado a um servidor. As notas digitadas nas calculadoras da web nunca saem do navegador."
+    ],
+    [
+      "Existe uma versão para Android?",
+      "A versão para Android chegará em breve ao Google Play. No momento, o app está disponível na App Store para iPhone e iPad com iOS 17.6 ou posterior."
+    ]
+  ],
+  "cta_h2": "Acompanhe todas as suas disciplinas em um só lugar",
+  "cta_p": "Grátis. Sem anúncios. Sem conta.",
+  "rights": "Todos os direitos reservados.",
+  "pdf_note": "Os documentos em PDF criados pelo app não têm validade oficial.",
+  "tool_cta_title": "Guarde suas notas no app",
+  "tool_cta_text": "Adicione suas disciplinas uma vez à Calculadora de Notas: conforme as notas da parcial e da final forem divulgadas, sua média, letra e CR serão atualizados automaticamente. Grátis, sem anúncios e offline.",
+  "other_tools": "Mais calculadoras",
+  "scale_note": "As faixas de letras variam entre instituições. No app, você pode editar sua própria escala.",
+  "fin_slug": "calculadora-nota-final",
+  "fin_name": "Calculadora de Nota Final",
+  "fin_title": "Calculadora de Nota Final – Quanto Preciso Tirar na Prova Final? | Calculadora de Notas",
+  "fin_desc": "Informe a nota da prova parcial e os pesos para descobrir quanto precisa tirar na prova final para passar ou alcançar cada letra (A, B, C …). Aceita nota mínima na final. Grátis e sem cadastro.",
+  "fin_h1_html": "Quanto preciso tirar <em>na prova final?</em>",
+  "fin_sub": "Informe sua nota da parcial e descubra quanto precisa tirar na prova final para passar e alcançar cada letra.",
+  "fin_card": "Descubra quanto precisa tirar na prova final para passar ou alcançar a nota desejada.",
+  "fin_body": [
+    [
+      "Como a nota necessária na final é calculada?",
+      "Sua média é a soma ponderada das notas: <b>média = parcial × peso da parcial + final × peso da final</b>. Isolando a nota da final, temos <b>final necessária = (média desejada − parcial × peso da parcial) ÷ peso da final</b>. Se houver um trabalho, a participação dele também será subtraída da média desejada. O resultado sempre é arredondado para cima: se você precisa de 46,2, terá que tirar 47."
+    ],
+    [
+      "Exemplo resolvido",
+      "Sua nota da parcial é <b>55</b> e vale <b>40%</b>; a final vale <b>60%</b>; e você precisa de média <b>50</b> para passar. A parcial contribui com 55 × 0,40 = 22 pontos. A final deve fornecer os 50 − 22 = 28 pontos restantes: 28 ÷ 0,60 = 46,7. Portanto, você precisa tirar pelo menos <b>47</b> na final. O mesmo cálculo resulta em 80 para uma média de 70 e em 97 para 80."
+    ],
+    [
+      "O que muda com uma nota mínima na final?",
+      "Em muitas instituições, você é reprovado se a nota da prova final ficar abaixo de um valor determinado, mesmo quando a média seria suficiente. Se você informar uma nota mínima, a final necessária será o valor <b>maior</b> entre o resultado da fórmula da média e essa nota mínima."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "Como descubro quanto preciso tirar na prova final?",
+      "Informe a nota da parcial, o peso dela e a média que deseja alcançar. A calculadora usa (meta − parcial × peso da parcial) ÷ peso da final e mostra o resultado para cada letra."
+    ],
+    [
+      "O resultado ficou acima de 100. O que isso significa?",
+      "Nem mesmo uma nota máxima na final permitirá alcançar essa letra. Consulte a linha da letra imediatamente inferior."
+    ],
+    [
+      "O resultado é 0. O que isso significa?",
+      "Suas notas da parcial e do trabalho já garantem essa letra. Se houver uma nota mínima na final, você ainda precisará alcançá-la."
+    ],
+    [
+      "Posso usar a calculadora para uma prova substitutiva ou de recuperação?",
+      "Sim. Se a nota da recuperação substituir a nota da final, o cálculo será o mesmo; basta tratá-la como a prova final."
+    ],
+    [
+      "Minha instituição usa faixas de notas diferentes.",
+      "Esta página oferece escalas comuns. Se a sua for diferente, você poderá configurar a escala exata no app."
+    ]
+  ],
+  "avg_slug": "calculadora-media-disciplina",
+  "avg_name": "Calculadora de Média da Disciplina",
+  "avg_title": "Calculadora de Média Ponderada – Média da Disciplina e Letra | Calculadora de Notas",
+  "avg_desc": "Informe as notas e os pesos da parcial, da final e do trabalho para calcular na hora a média ponderada da disciplina e a letra. Calculadora de notas grátis, sem cadastro e direto no navegador.",
+  "avg_h1_html": "Calculadora de <em>média da disciplina</em>",
+  "avg_sub": "Informe as notas e os pesos da parcial, da final e do trabalho para ver na hora sua média ponderada e sua letra.",
+  "avg_card": "Calcule a média ponderada e a letra da disciplina usando as notas da parcial, da final e do trabalho.",
+  "avg_body": [
+    [
+      "Como calcular a média da disciplina?",
+      "Cada nota é multiplicada pelo respectivo peso, e os resultados são somados: <b>média = parcial × peso da parcial + trabalho × peso do trabalho + final × peso da final</b>. Os pesos devem totalizar 100%, então o peso da final é o que resta depois dos pesos da parcial e do trabalho."
+    ],
+    [
+      "Exemplo resolvido",
+      "Com uma parcial de <b>62</b> (40%) e uma final de <b>75</b> (60%), a média é 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Assim como muitas universidades, a Calculadora de Notas arredonda a média para baixo: 69. Na escala A–F dos EUA, isso corresponde a <b>D+</b>."
+    ],
+    [
+      "E se a parcial valer 30% e a final 70%?",
+      "A fórmula continua a mesma: parcial × 0,30 + final × 0,70. Quanto maior o peso da final, maior será o impacto dela na média: com uma parcial de 40 e uma final de 80, a divisão 40/60 resulta em 64, enquanto 30/70 resulta em 68."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "Como calcular a média ponderada das minhas notas?",
+      "Multiplique cada nota pelo respectivo peso e some os resultados. Com uma parcial de 40% e uma final de 60%, média = parcial × 0,40 + final × 0,60."
+    ],
+    [
+      "E se eu tiver uma nota de trabalho?",
+      "Informe o peso do trabalho para incluí-lo no cálculo; o peso da final será calculado automaticamente com o valor restante. Por exemplo, uma parcial de 30% e um trabalho de 20% deixam 50% para a final."
+    ],
+    [
+      "Minha média é 59,5. Eu passo?",
+      "Isso depende da regra de arredondamento da sua instituição. A Calculadora de Notas arredonda as médias para baixo (59,5 → 59), então consulte o regulamento da sua instituição."
+    ],
+    [
+      "Como minha letra é definida?",
+      "Pela faixa na qual sua média se encaixa. Na escala dos EUA usada aqui, 93 ou mais corresponde a A, 90–92 a A− e 87–89 a B+. As faixas variam entre instituições."
+    ],
+    [
+      "Esta calculadora é grátis?",
+      "Sim. Não exige cadastro, não tem anúncios, e as notas informadas nunca saem do seu navegador."
+    ]
+  ],
+  "gpa_slug": "calculadora-gpa-cr",
+  "gpa_name": "Calculadora de GPA e CR",
+  "gpa_title": "Calculadora de GPA (CR) – Semestral e Acumulado na Escala 4,0 | Calculadora de Notas",
+  "gpa_desc": "Informe os créditos e a letra de cada disciplina para calcular na hora seu GPA (CR ou Coeficiente de Rendimento) na escala 4,0. Média ponderada por créditos, grátis e sem cadastro.",
+  "gpa_h1_html": "Calculadora de <em>GPA (CR)</em>",
+  "gpa_sub": "Informe os créditos e a letra de cada disciplina para ver na hora seu GPA, ou CR, em uma escala de 4,0.",
+  "gpa_card": "Calcule seu GPA (CR) semestral ou acumulado na escala 4,0 usando créditos e letras.",
+  "gpa_body": [
+    [
+      "Como o GPA (CR) é calculado?",
+      "Os pontos de cada disciplina são multiplicados pelos créditos (ou ECTS). Os produtos são somados e divididos pelo total de créditos: <b>GPA = Σ (pontos × créditos) ÷ Σ créditos</b>. O CR do semestre usa o mesmo cálculo, considerando apenas as disciplinas daquele semestre."
+    ],
+    [
+      "Exemplo resolvido",
+      "Cálculo tem 4 créditos e letra A− (3,7), Física tem 3 créditos e letra B (3,0), e Biologia tem 3 créditos e letra A (4,0). O total ponderado é 4 × 3,7 + 3 × 3,0 + 3 × 4,0 = 14,8 + 9 + 12 = 35,8. O total de créditos é 10, então seu GPA é 35,8 ÷ 10 = <b>3,58</b>."
+    ],
+    [
+      "CR do semestre e CR acumulado",
+      "O CR do semestre considera as disciplinas de um único semestre; o Coeficiente de Rendimento acumulado considera todas as disciplinas que você cursou. O app agrupa suas disciplinas por semestre e acompanha os dois valores."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "Como calcular meu GPA (CR)?",
+      "Multiplique os pontos de cada disciplina (A = 4,0, A− = 3,7, B+ = 3,3 …) pelos créditos, some os resultados e divida pelo total de créditos."
+    ],
+    [
+      "Devo usar créditos ou ECTS?",
+      "Use o sistema adotado pela sua instituição para ponderar as médias. A fórmula é a mesma; apenas o valor do peso muda."
+    ],
+    [
+      "Disciplinas reprovadas contam no meu CR?",
+      "Normalmente, sim, com 0 pontos. Quando você refaz uma disciplina e é aprovado, muitas instituições substituem a nota anterior; a regra depende da sua instituição."
+    ],
+    [
+      "Posso converter meu GPA em porcentagem?",
+      "As tabelas de conversão variam entre países e instituições e geralmente não são lineares. Esta calculadora mostra seu GPA em uma escala de 4,0."
+    ],
+    [
+      "Posso salvar minhas disciplinas?",
+      "A calculadora da web não salva nada. No app Calculadora de Notas, você pode salvar suas disciplinas por semestre e manter seu CR sempre atualizado."
+    ]
+  ]
+}

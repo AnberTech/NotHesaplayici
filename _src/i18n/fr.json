@@ -1,0 +1,278 @@
+{
+  "brand": "Calculateur de notes",
+  "title": "Calculateur de notes – Note au final, moyenne de cours et GPA",
+  "meta_desc": "Calculez votre moyenne de cours, la note nécessaire à l’examen final pour valider ou obtenir un A, et votre GPA. Calculateur web gratuit et app iPhone hors ligne, sans pub ni compte.",
+  "nav_home": "Accueil",
+  "nav_support": "Assistance",
+  "nav_privacy": "Confidentialité",
+  "aria_theme": "Thème clair / sombre",
+  "aria_lang": "Langue",
+  "store_alt": "Télécharger sur l’App Store",
+  "soon": "Bientôt disponible",
+  "pill": "Pour iPhone et iPad · Bientôt sur Android",
+  "h1_html": "Faites le point sur vos notes,<br><em>préparez la suite.</em>",
+  "lead": "Votre moyenne de cours, la note nécessaire à l’examen final et votre GPA dans une seule app. Sans pub, sans compte, entièrement hors ligne.",
+  "trust": [
+    "Gratuit",
+    "Sans pub",
+    "Sans compte",
+    "Hors ligne"
+  ],
+  "demo_h2": "Calculez dès maintenant",
+  "demo_p": "Essayez ici avant de télécharger l’app. Modifiez les valeurs : le résultat se met à jour instantanément.",
+  "tab_avg": "Moyenne",
+  "tab_need": "Final requis",
+  "tab_gpa": "GPA",
+  "f_mid": "Note du partiel",
+  "f_mid_w": "Partiel (%)",
+  "f_hw": "Note du devoir",
+  "f_hw_w": "Devoir (%)",
+  "f_final": "Note de l’examen final",
+  "f_final_w": "Pondération du final",
+  "f_scale": "Barème de notation",
+  "f_min_final": "Note minimale au final",
+  "f_target": "Note en lettre visée",
+  "out_avg": "Votre moyenne",
+  "out_letter": "Note en lettre",
+  "out_need": "Final requis",
+  "out_gpa": "GPA",
+  "out_credits": "Total des crédits",
+  "add_course": "+ Ajouter un cours",
+  "ph_course": "Nom du cours",
+  "aria_credit": "Crédits",
+  "aria_letter": "Lettre",
+  "aria_remove": "Supprimer le cours",
+  "msg_impossible": "Même avec 100 au final, vous ne pouvez pas obtenir cette note.",
+  "msg_already": "Cette note est déjà acquise, quel que soit votre résultat au final.",
+  "msg_min_final": "Votre note au final est inférieure au minimum requis : vous ne validez donc pas le cours.",
+  "msg_baraj": "Compte tenu du minimum requis, il vous faut au moins %d au final.",
+  "msg_weights": "La somme des pondérations du partiel et du devoir ne peut pas dépasser 100.",
+  "demo_courses": [
+    "Analyse",
+    "Physique",
+    "Biologie"
+  ],
+  "scale_aa": "AA–FF (échelle sur 4,00)",
+  "scale_a1": "A1–F1 (échelle sur 4,00)",
+  "scale_us": "A–F (États-Unis, 4,0)",
+  "th_letter": "Note",
+  "th_min": "Moyenne minimale",
+  "th_coef": "Points",
+  "th_need": "Final requis",
+  "why_h2": "Pourquoi Calculateur de notes ?",
+  "cards": [
+    [
+      "Moyenne de cours",
+      "Saisissez vos notes de partiel, de final et de devoir avec leurs pondérations pour voir instantanément votre moyenne et votre note en lettre."
+    ],
+    [
+      "Final requis",
+      "Consultez sur un seul écran la note minimale à obtenir à l’examen final pour chaque note en lettre."
+    ],
+    [
+      "Suivi du GPA",
+      "Enregistrez vos cours semestre par semestre : votre moyenne semestrielle et votre moyenne générale cumulée se mettent à jour automatiquement."
+    ],
+    [
+      "Votre propre barème",
+      "Adaptez les seuils des notes en lettre et les points associés au barème de votre établissement."
+    ],
+    [
+      "Relevé de notes PDF",
+      "Partagez vos cours et votre moyenne au format PDF en un geste."
+    ],
+    [
+      "17 langues",
+      "Anglais, espagnol, allemand, japonais, arabe, turc et bien d’autres."
+    ],
+    [
+      "Priorité à la confidentialité",
+      "Sans compte, sans pub, sans suivi. Vos données restent sur votre appareil."
+    ],
+    [
+      "Fonctionne hors ligne",
+      "Pas besoin d’Internet : en semaine d’examens, à la bibliothèque, partout."
+    ]
+  ],
+  "tools_h2": "Calculateurs gratuits",
+  "tools_p": "Utilisez-les dans votre navigateur, sans rien télécharger. Aucune inscription, et les notes saisies restent sur votre appareil.",
+  "shots_h2": "Découvrez l’app",
+  "cap_home": "Accueil",
+  "cap_calc": "Calculer",
+  "cap_courses": "Mes cours",
+  "cap_gpa": "GPA",
+  "cap_settings": "Réglages",
+  "cap_report": "Relevé de notes",
+  "faq_h2": "Questions fréquentes",
+  "faq_home": [
+    [
+      "Comment calculer ma moyenne de cours ?",
+      "Multipliez chaque note par sa pondération, puis additionnez les résultats. Avec un partiel à 40% et un final à 60% : moyenne = partiel × 0,40 + final × 0,60. Un partiel à 62 et un final à 75 donnent 62 × 0,40 + 75 × 0,60 = 69,8. Si vous avez un devoir, ajoutez aussi sa note pondérée ; la somme des pondérations doit être égale à 100%."
+    ],
+    [
+      "Combien me faut-il au final pour valider ?",
+      "Final requis = (moyenne visée − partiel × pondération du partiel) ÷ pondération du final. Avec un partiel à 55 qui compte pour 40% et une moyenne de 50 pour valider : (50 − 22) ÷ 0,60 = 46,7. Il vous faut donc au moins 47 au final. Calculateur de notes effectue ce calcul pour toutes les notes en lettre à la fois."
+    ],
+    [
+      "Comment calculer le GPA ?",
+      "Multipliez les points associés à la note de chaque cours (A = 4,0, B = 3,0 …) par ses crédits, additionnez les résultats, puis divisez par le total des crédits. Vous obtenez votre GPA, c’est-à-dire votre moyenne sur une échelle de 4,0."
+    ],
+    [
+      "Les seuils des notes en lettre sont-ils les mêmes partout ?",
+      "Non. Les seuils et les points associés varient selon les pays, les universités et même les cours. Dans l’app, vous pouvez modifier le barème pour qu’il corresponde exactement au vôtre."
+    ],
+    [
+      "Qu’est-ce qu’une note minimale au final ?",
+      "Certains établissements ne valident pas le cours si votre note à l’examen final est inférieure à un seuil donné (par exemple 30, 45 ou 50), même si votre moyenne est suffisante. Saisissez ce minimum : le calcul du final requis en tiendra compte."
+    ],
+    [
+      "Calculateur de notes est-il gratuit ?",
+      "Oui. L’app est gratuite sur l’App Store, sans pub, sans abonnement et sans achats intégrés. Les calculateurs de ce site sont également gratuits."
+    ],
+    [
+      "Où mes notes sont-elles enregistrées ?",
+      "Uniquement sur votre appareil. Aucun compte n’est nécessaire et rien n’est envoyé à un serveur. Les notes saisies dans les calculateurs web ne quittent jamais votre navigateur."
+    ],
+    [
+      "Existe-t-il une version Android ?",
+      "La version Android arrive bientôt sur Google Play. Pour le moment, l’app est disponible sur l’App Store pour iPhone et iPad (iOS 17.6 ou version ultérieure)."
+    ]
+  ],
+  "cta_h2": "Suivez tous vos cours au même endroit",
+  "cta_p": "Gratuit. Sans pub. Sans compte.",
+  "rights": "Tous droits réservés.",
+  "pdf_note": "Les documents PDF créés par l’app n’ont aucune valeur officielle.",
+  "tool_cta_title": "Gardez vos notes dans l’app",
+  "tool_cta_text": "Ajoutez vos cours une seule fois dans Calculateur de notes : à mesure que vos notes de partiel et de final arrivent, votre moyenne, votre note en lettre et votre GPA se mettent à jour automatiquement. Gratuit, sans pub et hors ligne.",
+  "other_tools": "Autres calculateurs",
+  "scale_note": "Les seuils des notes en lettre varient selon les établissements. Vous pouvez personnaliser votre barème dans l’app.",
+  "fin_slug": "calcul-note-final",
+  "fin_name": "Calculateur de note au final",
+  "fin_title": "Calcul de note au final – Combien me faut-il à l’examen final ? | Calculateur de notes",
+  "fin_desc": "Calculez la note nécessaire à l’examen final à partir de votre note de partiel et des pondérations, pour valider ou obtenir chaque note en lettre (A, B, C …). Tient compte d’une note minimale au final. Gratuit, sans inscription.",
+  "fin_h1_html": "Combien me faut-il <em>au final ?</em>",
+  "fin_sub": "Saisissez votre note de partiel pour connaître la note nécessaire à l’examen final pour valider et pour obtenir chaque note en lettre.",
+  "fin_card": "Trouvez la note nécessaire à l’examen final pour valider ou atteindre votre objectif.",
+  "fin_body": [
+    [
+      "Comment calculer la note nécessaire au final ?",
+      "Votre moyenne est la somme pondérée de vos notes : <b>moyenne = partiel × pondération du partiel + final × pondération du final</b>. En isolant la note du final, on obtient <b>final requis = (moyenne visée − partiel × pondération du partiel) ÷ pondération du final</b>. Si vous avez une note de devoir, sa contribution est également soustraite à la moyenne visée. Le résultat est toujours arrondi à l’entier supérieur : s’il vous faut 46,2, vous devez obtenir 47."
+    ],
+    [
+      "Exemple de calcul",
+      "Vous avez <b>55</b> au partiel, qui compte pour <b>40%</b>. Le final compte pour <b>60%</b> et il vous faut une moyenne de <b>50</b> pour valider. Le partiel apporte 55 × 0,40 = 22 points. Le final doit apporter les 50 − 22 = 28 points restants : 28 ÷ 0,60 = 46,7. Il vous faut donc au moins <b>47</b> au final. Le même calcul donne 80 pour une moyenne de 70 et 97 pour une moyenne de 80."
+    ],
+    [
+      "Que change une note minimale au final ?",
+      "Dans de nombreux établissements, vous ne validez pas le cours si votre note à l’examen final est inférieure à un seuil donné, même si votre moyenne est suffisante. Si vous saisissez un minimum, la note nécessaire au final sera la <b>plus élevée</b> des deux valeurs : le résultat du calcul de moyenne ou le minimum requis."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "Comment savoir combien il me faut au final ?",
+      "Saisissez votre note de partiel, sa pondération et la moyenne visée. Le calculateur utilise la formule (objectif − partiel × pondération du partiel) ÷ pondération du final et affiche le résultat pour chaque note en lettre."
+    ],
+    [
+      "Le résultat dépasse 100. Qu’est-ce que cela signifie ?",
+      "Même la note maximale au final ne vous permettrait pas d’obtenir cette note en lettre. Consultez la ligne correspondant à la note juste en dessous."
+    ],
+    [
+      "Le résultat est 0. Qu’est-ce que cela signifie ?",
+      "Vos notes de partiel et de devoir vous garantissent déjà cette note en lettre. Si une note minimale au final est requise, vous devez tout de même l’atteindre."
+    ],
+    [
+      "Puis-je l’utiliser pour un examen de rattrapage ou de remplacement ?",
+      "Oui. Si la note de cet examen remplace celle du final, le calcul est identique : considérez simplement cet examen comme le final."
+    ],
+    [
+      "Mon établissement utilise d’autres seuils de notes.",
+      "Cette page propose des barèmes courants. Si le vôtre est différent, vous pouvez définir le barème exact de votre établissement dans l’app."
+    ]
+  ],
+  "avg_slug": "calcul-moyenne-ponderee",
+  "avg_name": "Calculateur de moyenne de cours",
+  "avg_title": "Calcul de moyenne pondérée – Moyenne de cours et note en lettre | Calculateur de notes",
+  "avg_desc": "Saisissez vos notes de partiel, de final et de devoir avec leurs pondérations pour calculer instantanément votre moyenne pondérée de cours et votre note en lettre. Gratuit, sans inscription, dans votre navigateur.",
+  "avg_h1_html": "Calculateur de <em>moyenne de cours</em>",
+  "avg_sub": "Saisissez vos notes de partiel, de final et de devoir avec leurs pondérations pour voir instantanément votre moyenne et votre note en lettre.",
+  "avg_card": "Calculez votre moyenne pondérée de cours et votre note en lettre à partir de vos notes de partiel, de final et de devoir.",
+  "avg_body": [
+    [
+      "Comment calculer une moyenne de cours ?",
+      "Chaque note est multipliée par sa pondération, puis les résultats sont additionnés : <b>moyenne = partiel × pondération du partiel + devoir × pondération du devoir + final × pondération du final</b>. La somme des pondérations doit être égale à 100% : la pondération du final correspond donc à ce qui reste après celles du partiel et du devoir."
+    ],
+    [
+      "Exemple de calcul",
+      "Avec un partiel à <b>62</b> (40%) et un final à <b>75</b> (60%), la moyenne est de 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Comme de nombreuses universités, Calculateur de notes arrondit la moyenne à l’entier inférieur : 69. Sur le barème américain A–F, cela correspond à un <b>D+</b>."
+    ],
+    [
+      "Et si le partiel compte pour 30% et le final pour 70% ?",
+      "La formule reste la même : partiel × 0,30 + final × 0,70. Plus le final compte, plus il influence votre moyenne : avec un partiel à 40 et un final à 80, une répartition 40/60 donne 64 et une répartition 30/70 donne 68."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "Comment calculer la moyenne pondérée de mes notes ?",
+      "Multipliez chaque note par sa pondération, puis additionnez les résultats. Avec un partiel à 40% et un final à 60%, moyenne = partiel × 0,40 + final × 0,60."
+    ],
+    [
+      "Et si j’ai une note de devoir ?",
+      "Saisissez la pondération du devoir pour l’inclure dans le calcul ; celle du final est automatiquement calculée à partir de ce qui reste (par exemple, un partiel à 30% et un devoir à 20% laissent 50% pour le final)."
+    ],
+    [
+      "Ma moyenne est de 59,5. Est-ce que je valide ?",
+      "Cela dépend de la règle d’arrondi de votre établissement. Calculateur de notes arrondit les moyennes à l’entier inférieur (59,5 → 59) : vérifiez donc le règlement de votre établissement."
+    ],
+    [
+      "Comment ma note en lettre est-elle déterminée ?",
+      "Elle dépend de la tranche dans laquelle se situe votre moyenne. Sur le barème américain utilisé ici, 93 et plus correspond à un A, 90–92 à un A−, et 87–89 à un B+. Les seuils varient selon les établissements."
+    ],
+    [
+      "Ce calculateur est-il gratuit ?",
+      "Oui. Sans inscription, sans pub, et les notes saisies ne quittent jamais votre navigateur."
+    ]
+  ],
+  "gpa_slug": "calcul-gpa",
+  "gpa_name": "Calculateur de GPA",
+  "gpa_title": "Calcul de GPA – Moyenne semestrielle et générale cumulée sur 4,0 | Calculateur de notes",
+  "gpa_desc": "Saisissez les crédits et la note en lettre de chaque cours pour calculer instantanément votre GPA, ou moyenne générale, sur 4,0. Calcul pondéré par les crédits, gratuit et sans inscription.",
+  "gpa_h1_html": "<em>Calculateur</em> de GPA",
+  "gpa_sub": "Saisissez les crédits et la note en lettre de chaque cours pour voir instantanément votre GPA, c’est-à-dire votre moyenne sur une échelle de 4,0.",
+  "gpa_card": "Calculez votre GPA semestriel ou cumulé sur une échelle de 4,0 à partir des crédits et des notes en lettre.",
+  "gpa_body": [
+    [
+      "Comment calculer le GPA ?",
+      "Les points associés à la note de chaque cours sont multipliés par ses crédits (ou ECTS). On additionne ces produits, puis on divise par le total des crédits : <b>GPA = Σ (points associés à la note × crédits) ÷ Σ crédits</b>. Votre GPA semestriel se calcule de la même façon, en prenant uniquement les cours du semestre."
+    ],
+    [
+      "Exemple de calcul",
+      "Le cours d’analyse vaut 4 crédits avec un A− (3,7), la physique 3 crédits avec un B (3,0) et la biologie 3 crédits avec un A (4,0). Le total pondéré est de 4 × 3,7 + 3 × 3,0 + 3 × 4,0 = 14,8 + 9 + 12 = 35,8. Le total des crédits est de 10, donc votre GPA est de 35,8 ÷ 10 = <b>3,58</b>."
+    ],
+    [
+      "Moyenne semestrielle et moyenne générale cumulée",
+      "Votre moyenne semestrielle porte sur les cours d’un seul semestre ; votre moyenne générale cumulée porte sur tous les cours que vous avez suivis. L’app regroupe vos cours par semestre et assure le suivi des deux."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "Comment calculer mon GPA ?",
+      "Multipliez les points associés à la note de chaque cours (A = 4,0, A− = 3,7, B+ = 3,3 …) par ses crédits, additionnez les résultats, puis divisez par le total des crédits."
+    ],
+    [
+      "Dois-je utiliser les crédits ou les ECTS ?",
+      "Utilisez le système de pondération des moyennes de votre établissement. La formule reste la même ; seule la valeur utilisée pour la pondération change."
+    ],
+    [
+      "Les cours non validés comptent-ils dans mon GPA ?",
+      "En général, oui, avec 0 point. Lorsque vous repassez et validez un cours, de nombreux établissements remplacent l’ancienne note ; la règle dépend de votre établissement."
+    ],
+    [
+      "Puis-je convertir mon GPA en pourcentage ?",
+      "Les tableaux de conversion varient selon les pays et les établissements, et la conversion n’est généralement pas linéaire. Ce calculateur donne votre GPA sur une échelle de 4,0."
+    ],
+    [
+      "Puis-je enregistrer mes cours ?",
+      "Le calculateur web n’enregistre rien. Dans l’app Calculateur de notes, vous pouvez enregistrer vos cours semestre par semestre et garder votre GPA à jour."
+    ]
+  ]
+}

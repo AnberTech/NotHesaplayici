@@ -1,0 +1,81 @@
+{
+  "pv_title": "Política de Privacidade",
+  "pv_desc": "Política de privacidade da Calculadora de Notas: o app não coleta dados pessoais, não exibe anúncios nem realiza rastreamento; suas disciplinas e notas permanecem no seu dispositivo.",
+  "pv_updated": "Última atualização:",
+  "pv_date": "30 de setembro de 2026",
+  "pv_dev": "Desenvolvedor:",
+  "pv_contact": "Contato:",
+  "pv_sections": [
+    [
+      "Em resumo",
+      "<p>A Calculadora de Notas <b>não coleta seus dados pessoais</b>. Não é necessário ter uma conta, o app não exibe anúncios e não utiliza ferramentas de análise ou rastreamento de terceiros. As disciplinas e notas que você insere são armazenadas somente no seu dispositivo.</p>"
+    ],
+    [
+      "Dados que coletamos",
+      "<p>O app não coleta, transmite nem vende seu nome, endereço de e-mail, localização, identificadores do dispositivo, identificadores de publicidade ou qualquer informação pessoal semelhante.</p>"
+    ],
+    [
+      "Dados armazenados no seu dispositivo",
+      "<p>Nomes das disciplinas, semestres, créditos, notas, pesos, sua escala de notas personalizada e suas preferências (tema, idioma) são armazenados <b>somente no seu dispositivo</b>. Esses dados nunca são enviados aos nossos servidores. Quando você desinstala o app, esses dados são removidos do seu dispositivo.</p>"
+    ],
+    [
+      "Conexão com a internet",
+      "<p>O app funciona sem conexão com a internet. Ele não precisa da internet para enviar seus dados a nenhum lugar.</p>"
+    ],
+    [
+      "Exportação e compartilhamento de PDF",
+      "<p>Se você optar por criar e compartilhar um relatório de notas em PDF, o arquivo será encaminhado pela folha de compartilhamento do seu dispositivo ao app ou à pessoa que você escolher. Isso está inteiramente sob seu controle; nunca vemos nem armazenamos o arquivo. Os PDFs criados com o app não têm validade oficial.</p>"
+    ],
+    [
+      "Terceiros",
+      "<p>O app não contém nenhum serviço de terceiros para publicidade, análise, relatórios de falhas ou rastreamento de usuários. As lojas de aplicativos (Apple App Store e Google Play) podem processar dados de acordo com suas próprias políticas de privacidade quando você baixa o app; isso está fora do nosso controle.</p>"
+    ],
+    [
+      "Privacidade das crianças",
+      "<p>Como o app não coleta dados pessoais, ele também não coleta dados de crianças.</p>"
+    ],
+    [
+      "Segurança",
+      "<p>Como seus dados permanecem no seu dispositivo, a segurança do seu dispositivo (bloqueio de tela, configurações de backup etc.) determina a segurança dos seus dados. Os serviços de backup do dispositivo (iCloud, backup do Google) podem fazer backup dos seus dados de acordo com suas próprias configurações.</p>"
+    ],
+    [
+      "Alterações",
+      "<p>Se esta política for atualizada, a nova versão será publicada nesta página e a data da \"Última atualização\" será alterada.</p>"
+    ],
+    [
+      "Contato",
+      "<p>Dúvidas:</p>"
+    ]
+  ],
+  "sp_title": "Como podemos ajudar?",
+  "sp_desc": "Suporte da Calculadora de Notas: perguntas frequentes e contato por e-mail.",
+  "sp_lead": "Dúvidas, comentários ou ideias? Escreva para nós — geralmente respondemos em alguns dias úteis.",
+  "sp_btn": "Enviar um e-mail",
+  "sp_faq_h2": "Perguntas frequentes",
+  "sp_faq": [
+    [
+      "Onde meus dados são armazenados?",
+      "Suas disciplinas, notas e preferências são armazenadas somente no seu dispositivo. Nada é enviado aos nossos servidores."
+    ],
+    [
+      "Posso alterar a escala de notas?",
+      "Sim. Em Ajustes, você pode editar os intervalos das notas por letra, os pontos das notas e as condições de aprovação para corresponder aos critérios da sua universidade."
+    ],
+    [
+      "Como altero o idioma?",
+      "Acesse Ajustes → Idioma e escolha um dos 17 idiomas. Por padrão, o app segue o idioma do seu dispositivo."
+    ],
+    [
+      "O relatório de notas em PDF é oficial?",
+      "Não. O PDF é apenas informativo e não tem validade oficial."
+    ],
+    [
+      "Troquei de celular — onde estão meus dados?",
+      "Os dados ficam no seu dispositivo, portanto isso depende do backup do dispositivo (backup do iCloud / Google). Restaure-os a partir do seu backup."
+    ],
+    [
+      "O app é pago? Há anúncios?",
+      "Não. O app é gratuito, sem anúncios e sem compras dentro do app."
+    ]
+  ]
+}

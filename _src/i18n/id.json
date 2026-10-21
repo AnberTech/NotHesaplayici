@@ -1,0 +1,278 @@
+{
+  "brand": "Kalkulator Nilai",
+  "title": "Kalkulator Nilai – Hitung Nilai UAS, Rata-rata Mata Kuliah & Kalkulator IPK",
+  "meta_desc": "Hitung nilai rata-rata mata kuliah, cek nilai UAS yang dibutuhkan untuk lulus atau dapat nilai A, dan pantau IPK kamu. Kalkulator nilai online gratis serta aplikasi iPhone bebas iklan, offline, tanpa akun.",
+  "nav_home": "Beranda",
+  "nav_support": "Bantuan",
+  "nav_privacy": "Privasi",
+  "aria_theme": "Tema terang / gelap",
+  "aria_lang": "Bahasa",
+  "store_alt": "Unduh di App Store",
+  "soon": "Segera hadir",
+  "pill": "Untuk iPhone dan iPad · Android segera hadir",
+  "h1_html": "Ketahui nilaimu,<br><em>rencanakan masa depanmu.</em>",
+  "lead": "Rata-rata mata kuliah, nilai UAS yang dibutuhkan, dan IPK dalam satu aplikasi. Tanpa iklan, tanpa akun, sepenuhnya offline.",
+  "trust": [
+    "Gratis",
+    "Tanpa iklan",
+    "Tanpa akun",
+    "Offline"
+  ],
+  "demo_h2": "Hitung sekarang",
+  "demo_p": "Coba langsung di sini sebelum mengunduh aplikasinya. Ubah nilainya dan hasilnya akan langsung diperbarui.",
+  "tab_avg": "Rata-rata",
+  "tab_need": "UAS yang Dibutuhkan",
+  "tab_gpa": "IPK",
+  "f_mid": "Nilai UTS",
+  "f_mid_w": "Bobot UTS (%)",
+  "f_hw": "Nilai tugas",
+  "f_hw_w": "Bobot tugas (%)",
+  "f_final": "Nilai UAS",
+  "f_final_w": "Bobot UAS",
+  "f_scale": "Skala penilaian",
+  "f_min_final": "Nilai minimum UAS",
+  "f_target": "Target nilai huruf",
+  "out_avg": "Rata-rata kamu",
+  "out_letter": "Nilai huruf",
+  "out_need": "Nilai UAS yang dibutuhkan",
+  "out_gpa": "IPK",
+  "out_credits": "Total SKS",
+  "add_course": "+ Tambah mata kuliah",
+  "ph_course": "Nama mata kuliah",
+  "aria_credit": "SKS",
+  "aria_letter": "Nilai huruf",
+  "aria_remove": "Hapus mata kuliah",
+  "msg_impossible": "Bahkan nilai 100 di UAS belum cukup untuk mencapai nilai huruf ini.",
+  "msg_already": "Kamu sudah mengamankan nilai ini, berapa pun skor UAS kamu nanti.",
+  "msg_min_final": "Nilai UAS kamu di bawah batas minimum, sehingga kamu tidak lulus mata kuliah ini.",
+  "msg_baraj": "Karena ada batas minimum, kamu butuh setidaknya %d di UAS.",
+  "msg_weights": "Jumlah bobot UTS dan tugas tidak boleh lebih dari 100.",
+  "demo_courses": [
+    "Kalkulus",
+    "Fisika",
+    "Biologi"
+  ],
+  "scale_aa": "AA–FF (skala 4,00)",
+  "scale_a1": "A1–F1 (skala 4,00)",
+  "scale_us": "A–F (AS, 4,0)",
+  "th_letter": "Huruf",
+  "th_min": "Rata-rata minimum",
+  "th_coef": "Bobot nilai",
+  "th_need": "UAS yang Dibutuhkan",
+  "why_h2": "Mengapa Kalkulator Nilai?",
+  "cards": [
+    [
+      "Rata-rata mata kuliah",
+      "Masukkan nilai UTS, UAS, dan tugas beserta bobotnya untuk melihat nilai rata-rata dan nilai huruf secara instan."
+    ],
+    [
+      "UAS yang Dibutuhkan",
+      "Lihat skor minimum UAS yang diperlukan untuk setiap nilai huruf dalam satu layar."
+    ],
+    [
+      "Pemantauan IPK",
+      "Simpan mata kuliahmu per semester; IPS dan IPK kamu akan dihitung otomatis."
+    ],
+    [
+      "Skala penilaian sendiri",
+      "Sesuaikan rentang nilai huruf dan bobot angka agar sama persis dengan aturan kampusmu."
+    ],
+    [
+      "Transkrip PDF",
+      "Bagikan daftar mata kuliah dan nilai rata-rata kamu sebagai file PDF dengan satu ketukan."
+    ],
+    [
+      "17 bahasa",
+      "Bahasa Inggris, Spanyol, Jerman, Jepang, Arab, Turki, Indonesia, dan lainnya."
+    ],
+    [
+      "Privasi utama",
+      "Tanpa akun, tanpa iklan, tanpa pelacakan. Semua datamu tersimpan aman di perangkatmu."
+    ],
+    [
+      "Bisa diakses offline",
+      "Tidak butuh internet: saat minggu ujian, di perpustakaan, atau di mana saja."
+    ]
+  ],
+  "tools_h2": "Kalkulator gratis",
+  "tools_p": "Gunakan langsung di browser tanpa mengunduh apa pun. Tanpa daftar akun, dan nilai yang kamu masukkan tidak pernah dikirim keluar dari perangkatmu.",
+  "shots_h2": "Tampilan aplikasi",
+  "cap_home": "Beranda",
+  "cap_calc": "Hitung",
+  "cap_courses": "Mata Kuliah",
+  "cap_gpa": "IPK",
+  "cap_settings": "Pengaturan",
+  "cap_report": "Laporan Nilai",
+  "faq_h2": "Pertanyaan yang sering diajukan",
+  "faq_home": [
+    [
+      "Bagaimana cara menghitung nilai rata-rata mata kuliah?",
+      "Kalikan setiap nilai dengan bobot persentasenya lalu jumlahkan. Dengan bobot UTS 40% dan UAS 60%: rata-rata = UTS × 0,40 + UAS × 0,60. Nilai UTS 62 dan UAS 75 menghasilkan 62 × 0,40 + 75 × 0,60 = 69,8. Jika ada nilai tugas, tambahkan juga nilai tertimbangnya; total seluruh bobot harus 100%."
+    ],
+    [
+      "Berapa nilai UAS yang dibutuhkan agar lulus?",
+      "UAS yang dibutuhkan = (target rata-rata − UTS × bobot UTS) ÷ bobot UAS. Dengan nilai UTS 55 berbobot 40% dan batas rata-rata kelulusan 50: (50 − 22) ÷ 0,60 = 46,7, jadi kamu butuh setidaknya 47 di UAS. Kalkulator Nilai menghitung ini untuk semua nilai huruf sekaligus."
+    ],
+    [
+      "Bagaimana cara menghitung IPK?",
+      "Kalikan bobot angka setiap mata kuliah (A = 4,0, B = 3,0 …) dengan jumlah SKS-nya, jumlahkan semuanya, lalu bagi dengan total SKS. Hasilnya adalah Indeks Prestasi Kumulatif (IPK) pada skala 4,0."
+    ],
+    [
+      "Apakah rentang nilai huruf sama di setiap kampus?",
+      "Tidak. Rentang nilai dan bobot angka berbeda-beda antar negara, universitas, dan bahkan mata kuliah. Di aplikasi, kamu bisa mengubah skala penilaian agar sesuai dengan aturan kampusmu."
+    ],
+    [
+      "Apa itu nilai minimum UAS?",
+      "Beberapa kampus menetapkan batas nilai minimum pada ujian akhir (misalnya 30, 45, atau 50) agar bisa lulus, meskipun nilai rata-rata akhir kamu sudah mencukupi. Masukkan batas minimum tersebut agar perhitungan nilai UAS yang dibutuhkan ikut memperhitungkannya."
+    ],
+    [
+      "Apakah Kalkulator Nilai gratis?",
+      "Ya. Aplikasi ini gratis di App Store tanpa iklan, tanpa langganan, dan tanpa pembelian dalam aplikasi. Semua kalkulator di situs web ini juga sepenuhnya gratis."
+    ],
+    [
+      "Di mana data nilai saya disimpan?",
+      "Hanya di perangkatmu sendiri. Kamu tidak perlu membuat akun dan tidak ada data yang dikirim ke server. Nilai yang kamu ketik di kalkulator web tidak pernah meninggalkan browser kamu."
+    ],
+    [
+      "Apakah ada versi Android?",
+      "Versi Android akan segera hadir di Google Play. Saat ini aplikasi tersedia untuk iPhone dan iPad (iOS 17.6 atau versi lebih baru) di App Store."
+    ]
+  ],
+  "cta_h2": "Pantau semua mata kuliahmu di satu tempat",
+  "cta_p": "Gratis. Tanpa iklan. Tanpa akun.",
+  "rights": "Hak cipta dilindungi undang-undang.",
+  "pdf_note": "Dokumen PDF yang dibuat oleh aplikasi ini tidak memiliki kekuatan hukum resmi.",
+  "tool_cta_title": "Simpan nilaimu di aplikasi",
+  "tool_cta_text": "Tambahkan mata kuliahmu ke Kalkulator Nilai cukup sekali: saat nilai UTS dan UAS keluar, nilai rata-rata, nilai huruf, dan IPK kamu akan diperbarui secara otomatis. Gratis, bebas iklan, dan offline.",
+  "other_tools": "Kalkulator lainnya",
+  "scale_note": "Rentang nilai huruf berbeda-beda di setiap kampus. Kamu bisa mengatur skala penilaian sendiri di dalam aplikasi.",
+  "fin_slug": "kalkulator-nilai-uas",
+  "fin_name": "Kalkulator Nilai UAS",
+  "fin_title": "Kalkulator Nilai UAS – Berapa Nilai UAS yang Dibutuhkan? | Kalkulator Nilai",
+  "fin_desc": "Masukkan nilai UTS dan bobot persentasenya untuk mengetahui skor UAS yang dibutuhkan agar lulus atau mendapat nilai huruf tertentu (A, B, C …). Mendukung batas nilai minimum UAS. Gratis, tanpa daftar.",
+  "fin_h1_html": "Berapa nilai yang kubutuhkan <em>di UAS?</em>",
+  "fin_sub": "Masukkan nilai UTS kamu dan lihat skor ujian akhir (UAS) yang dibutuhkan untuk lulus serta untuk setiap nilai huruf.",
+  "fin_card": "Cari tahu skor yang kamu butuhkan pada ujian akhir (UAS) untuk lulus atau mencapai target nilaimu.",
+  "fin_body": [
+    [
+      "Bagaimana cara menghitung nilai UAS yang dibutuhkan?",
+      "Nilai akhir adalah jumlah tertimbang dari seluruh komponen nilaimu: <b>rata-rata = UTS × bobot UTS + UAS × bobot UAS</b>. Jika dibalik untuk mencari nilai UAS, rumusnya menjadi <b>UAS yang dibutuhkan = (target rata-rata − UTS × bobot UTS) ÷ bobot UAS</b>. Jika ada nilai tugas, kontribusi nilai tugas juga dikurangi dari target rata-rata. Hasilnya selalu dibulatkan ke atas: jika perhitungannya 46,2, maka kamu membutuhkan 47."
+    ],
+    [
+      "Contoh perhitungan",
+      "Nilai UTS kamu <b>55</b> dengan bobot <b>40%</b>, bobot UAS <b>60%</b>, dan kamu butuh rata-rata <b>50</b> untuk lulus. UTS menyumbang 55 × 0,40 = 22 poin. UAS harus menyumbang sisa 50 − 22 = 28 poin: 28 ÷ 0,60 = 46,7. Jadi kamu butuh setidaknya <b>47</b> saat UAS. Perhitungan yang sama menghasilkan 80 untuk target rata-rata 70 dan 97 untuk rata-rata 80."
+    ],
+    [
+      "Apa pengaruh batas nilai minimum UAS?",
+      "Di banyak universitas, kamu tetap dinyatakan tidak lulus jika nilai UAS berada di bawah batas tertentu, walaupun rata-rata totalmu sudah cukup. Jika kamu memasukkan nilai minimum, maka nilai UAS yang dibutuhkan adalah angka yang <b>lebih tinggi</b> di antara hasil rumus rata-rata atau batas minimum tersebut."
+    ]
+  ],
+  "fin_faq": [
+    [
+      "Bagaimana cara mengetahui nilai UAS yang saya butuhkan?",
+      "Masukkan nilai UTS, bobotnya, dan target nilai rata-rata yang ingin dicapai. Kalkulator ini menggunakan rumus (target − UTS × bobot UTS) ÷ bobot UAS dan menampilkan hasilnya untuk setiap nilai huruf."
+    ],
+    [
+      "Hasilnya di atas 100. Apa artinya?",
+      "Artinya, bahkan nilai sempurna 100 saat UAS belum cukup untuk mencapai nilai huruf tersebut. Coba lihat baris nilai huruf satu tingkat di bawahnya."
+    ],
+    [
+      "Hasilnya 0. Apa artinya?",
+      "Nilai UTS (dan tugas) kamu sudah cukup untuk mengamankan nilai huruf tersebut. Namun jika ada syarat nilai minimum UAS, kamu tetap harus mencapai batas minimum itu."
+    ],
+    [
+      "Apakah bisa digunakan untuk ujian remedial atau ujian susulan?",
+      "Bisa. Jika nilai remedial menggantikan nilai UAS, cara perhitungannya sama persis; anggap saja ujian remedial tersebut sebagai UAS."
+    ],
+    [
+      "Kampus saya menggunakan rentang nilai yang berbeda.",
+      "Halaman ini menyediakan skala penilaian yang umum digunakan. Jika sistem penilaian di kampusmu berbeda, kamu bisa mengatur skala penilaian khusus di dalam aplikasi."
+    ]
+  ],
+  "avg_slug": "kalkulator-rata-rata-nilai",
+  "avg_name": "Kalkulator Rata-rata Mata Kuliah",
+  "avg_title": "Kalkulator Nilai Rata-rata Tertimbang – Nilai Akhir & Nilai Huruf | Kalkulator Nilai",
+  "avg_desc": "Masukkan nilai UTS, UAS, dan tugas beserta bobotnya untuk menghitung rata-rata nilai mata kuliah tertimbang dan nilai huruf secara instan. Gratis, tanpa daftar, langsung di browser.",
+  "avg_h1_html": "Kalkulator <em>rata-rata mata kuliah</em>",
+  "avg_sub": "Masukkan nilai UTS, UAS, dan tugas beserta bobotnya untuk melihat nilai rata-rata dan nilai huruf secara instan.",
+  "avg_card": "Hitung nilai rata-rata tertimbang dan nilai huruf mata kuliah dari nilai UTS, UAS, dan tugas.",
+  "avg_body": [
+    [
+      "Bagaimana cara menghitung nilai rata-rata mata kuliah?",
+      "Setiap nilai dikalikan dengan bobot persentasenya lalu dijumlahkan: <b>rata-rata = UTS × bobot UTS + tugas × bobot tugas + UAS × bobot UAS</b>. Total bobot harus berjumlah 100%, sehingga bobot UAS adalah sisa persentase setelah dikurangi bobot UTS dan tugas."
+    ],
+    [
+      "Contoh perhitungan",
+      "Dengan nilai UTS <b>62</b> (40%) dan UAS <b>75</b> (60%), rata-ratanya adalah 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Seperti kebanyakan universitas, Kalkulator Nilai membulatkan rata-rata ke bawah: 69. Pada skala A–F AS, nilai tersebut setara dengan <b>D+</b>."
+    ],
+    [
+      "Bagaimana jika bobot UTS 30% dan UAS 70%?",
+      "Rumusnya tetap sama: UTS × 0,30 + UAS × 0,70. Semakin besar bobot UAS, semakin besar pengaruhnya terhadap nilai akhir: dengan UTS 40 dan UAS 80, pembagian bobot 40/60 menghasilkan 64, sedangkan pembagian 30/70 menghasilkan 68."
+    ]
+  ],
+  "avg_faq": [
+    [
+      "Bagaimana cara menghitung rata-rata tertimbang dari nilai kuliah?",
+      "Kalikan masing-masing nilai dengan bobot persentasenya lalu jumlahkan hasilnya. Untuk UTS 40% dan UAS 60%, rata-rata = UTS × 0,40 + UAS × 0,60."
+    ],
+    [
+      "Bagaimana jika ada nilai tugas atau kuis?",
+      "Masukkan bobot tugas dan nilainya akan ikut dihitung; bobot UAS akan dihitung otomatis dari sisa persentase (misalnya UTS 30% dan tugas 20% menyisakan 50% untuk UAS)."
+    ],
+    [
+      "Rata-rata saya 59,5. Apakah saya lulus?",
+      "Itu tergantung pada aturan pembulatan di kampusmu. Kalkulator Nilai membulatkan rata-rata ke bawah (59,5 → 59), jadi pastikan untuk memeriksa pedoman akademik kampusmu."
+    ],
+    [
+      "Bagaimana nilai huruf saya ditentukan?",
+      "Berdasarkan rentang nilai tempat rata-rata kamu berada. Pada skala AS yang digunakan di sini, 93 ke atas adalah A, 90–92 adalah A−, dan 87–89 adalah B+. Rentang ini bisa berbeda di setiap kampus."
+    ],
+    [
+      "Apakah kalkulator ini gratis?",
+      "Ya. Tanpa daftar akun, tanpa iklan, dan nilai yang kamu masukkan tidak pernah dikirim keluar dari browser kamu."
+    ]
+  ],
+  "gpa_slug": "kalkulator-ipk",
+  "gpa_name": "Kalkulator IPK",
+  "gpa_title": "Kalkulator IPK – Hitung IPS dan IPK Skala 4.0 Online | Kalkulator Nilai",
+  "gpa_desc": "Masukkan jumlah SKS dan nilai huruf setiap mata kuliah untuk menghitung IPK skala 4.0 secara instan. Perhitungan tertimbang berdasarkan SKS, gratis, dan tanpa daftar.",
+  "gpa_h1_html": "Kalkulator <em>IPK</em>",
+  "gpa_sub": "Masukkan SKS dan nilai huruf setiap mata kuliah untuk melihat Indeks Prestasi Kumulatif (IPK) pada skala 4,0 secara instan.",
+  "gpa_card": "Hitung IPS semester atau IPK kumulatif pada skala 4,0 dari jumlah SKS dan nilai huruf.",
+  "gpa_body": [
+    [
+      "Bagaimana cara menghitung IPK?",
+      "Bobot nilai angka dari setiap mata kuliah dikalikan dengan jumlah SKS (atau ECTS). Hasil perkalian tersebut dijumlahkan lalu dibagi dengan total SKS: <b>IPK = Σ (bobot nilai × SKS) ÷ Σ SKS</b>. Indeks Prestasi Semester (IPS) dihitung dengan rumus yang sama, namun hanya menggunakan mata kuliah pada semester tersebut."
+    ],
+    [
+      "Contoh perhitungan",
+      "Kalkulus 4 SKS dengan nilai A− (3,7), Fisika 3 SKS dengan nilai B (3,0), dan Biologi 3 SKS dengan nilai A (4,0). Total nilai tertimbang adalah 4 × 3,7 + 3 × 3,0 + 3 × 4,0 = 14,8 + 9 + 12 = 35,8. Total SKS adalah 10, sehingga IPK kamu adalah 35,8 ÷ 10 = <b>3,58</b>."
+    ],
+    [
+      "IPS (Semester) dan IPK (Kumulatif)",
+      "IPS mencakup mata kuliah yang diambil pada satu semester saja, sedangkan IPK mencakup seluruh mata kuliah yang telah kamu tempuh selama kuliah. Aplikasi ini mengelompokkan mata kuliah per semester dan memantau keduanya secara otomatis."
+    ]
+  ],
+  "gpa_faq": [
+    [
+      "Bagaimana cara menghitung IPK saya?",
+      "Kalikan bobot angka setiap mata kuliah (A = 4,0, A− = 3,7, B+ = 3,3 …) dengan jumlah SKS-nya, jumlahkan seluruh hasilnya, lalu bagi dengan total SKS."
+    ],
+    [
+      "Apakah saya harus menggunakan SKS atau ECTS?",
+      "Gunakan sistem kredit yang dipakai oleh kampusmu untuk menghitung rata-rata nilai. Rumusnya tetap sama; hanya angka pembobotannya saja yang menyesuaikan."
+    ],
+    [
+      "Apakah mata kuliah yang tidak lulus ikut dihitung dalam IPK?",
+      "Biasanya ya, dengan bobot nilai 0. Saat kamu mengulang dan lulus mata kuliah tersebut, banyak kampus mengganti nilai lama dengan nilai baru; kebijakannya tergantung pada aturan masing-masing kampus."
+    ],
+    [
+      "Bisakah saya mengonversi IPK ke skala persentase?",
+      "Tabel konversi berbeda-beda di setiap negara dan universitas serta umumnya tidak bersifat linear. Kalkulator ini menghitung IPK pada skala 4,0."
+    ],
+    [
+      "Bisakah saya menyimpan daftar mata kuliah saya?",
+      "Kalkulator web ini tidak menyimpan data apa pun. Di aplikasi Kalkulator Nilai, kamu bisa menyimpan mata kuliah per semester dan memantau IPK kamu setiap saat."
+    ]
+  ]
+}
