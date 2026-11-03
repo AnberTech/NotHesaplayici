@@ -9,7 +9,7 @@
   "aria_lang": "Dil",
   "store_alt": "App Store'dan indir",
   "soon": "Yakında",
-  "pill": "iPhone ve iPad için · Android yakında",
+  "pill": "iPhone ve iPad için · Android",
   "h1_html": "Notunu hesapla,<br><em>geleceğini planla.</em>",
   "lead": "Vize–final ortalaması, geçmek için gereken final notu ve GANO tek uygulamada. Reklamsız, hesapsız, tamamen çevrimdışı.",
   "trust": ["Ücretsiz", "Reklamsız", "Hesapsız", "Çevrimdışı"],
@@ -79,7 +79,7 @@
     ["Final barajı nedir?", "Bazı üniversitelerde ortalaman yetse bile finalden belirli bir notun (ör. 30, 45 veya 50) altında alırsan dersten kalırsın. Hesaplayıcıda barajı girersen gereken final notu buna göre gösterilir."],
     ["Not Hesaplayıcı ücretsiz mi?", "Evet. Uygulama App Store'da ücretsizdir; reklam, abonelik ve uygulama içi satın alma yoktur. Bu sayfadaki hesaplayıcılar da ücretsizdir."],
     ["Notlarım nerede saklanıyor?", "Yalnızca kendi cihazında. Hesap açman gerekmez, hiçbir veri sunucuya gönderilmez. Web hesaplayıcıya girdiğin notlar da tarayıcından çıkmaz."],
-    ["Android sürümü var mı?", "Android sürümü yakında Google Play'de. Şu an iPhone ve iPad (iOS 17.6 ve üzeri) için App Store'da."]
+    ["Android sürümü var mı?", "Evet. Android sürümü Google Play'de yayında. Uygulama iPhone ve iPad (iOS 17.6 ve üzeri) için App Store'da da bulunuyor."]
   ],
   "cta_h2": "Bütün derslerini tek yerde takip et",
   "cta_p": "Ücretsiz. Reklamsız. Hesapsız.",

@@ -9,7 +9,7 @@
   "aria_lang": "Language",
   "store_alt": "Download on the App Store",
   "soon": "Coming soon",
-  "pill": "For iPhone and iPad · Android coming soon",
+  "pill": "For iPhone and iPad · Android",
   "h1_html": "Know your grade,<br><em>plan your future.</em>",
   "lead": "Course average, the final exam grade you need and your GPA in one app. No ads, no account, fully offline.",
   "trust": ["Free", "No ads", "No account", "Offline"],
@@ -79,7 +79,7 @@
     ["What is a minimum final grade?", "Some schools fail you if your final exam grade is below a certain mark (for example 30, 45 or 50), even when your average is high enough. Enter the minimum and the required final grade takes it into account."],
     ["Is Grade Calculator free?", "Yes. The app is free on the App Store with no ads, no subscription and no in-app purchases. The calculators on this site are free too."],
     ["Where are my grades stored?", "Only on your own device. You do not need an account and nothing is sent to a server. Grades you type into the web calculators never leave your browser."],
-    ["Is there an Android version?", "The Android version is coming soon to Google Play. Right now the app is available for iPhone and iPad (iOS 17.6 or later) on the App Store."]
+    ["Is there an Android version?", "Yes. The Android version is available on Google Play. The app is also available for iPhone and iPad (iOS 17.6 or later) on the App Store."]
   ],
   "cta_h2": "Track all your courses in one place",
   "cta_p": "Free. No ads. No account.",

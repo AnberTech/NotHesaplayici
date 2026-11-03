@@ -9,7 +9,7 @@
   "aria_lang": "언어",
   "store_alt": "App Store에서 다운로드",
   "soon": "출시 예정",
-  "pill": "iPhone 및 iPad용 · Android 출시 예정",
+  "pill": "iPhone 및 iPad용 · Android",
   "h1_html": "내 성적을 한눈에,<br><em>미래를 계획하세요.</em>",
   "lead": "과목 평균, 필요한 기말 점수와 평점 평균(GPA)을 앱 하나로. 광고 없음, 계정 불필요, 완벽한 오프라인 지원.",
   "trust": [
@@ -135,7 +135,7 @@
     ],
     [
       "Android 버전도 있나요?",
-      "Android 버전은 곧 Google Play에 출시될 예정입니다. 현재는 App Store에서 iPhone 및 iPad용(iOS 17.6 이상)으로 이용하실 수 있습니다."
+      "네. Android 버전은 Google Play에서 이용하실 수 있습니다. iPhone 및 iPad용(iOS 17.6 이상)으로는 App Store에서도 이용하실 수 있습니다."
     ]
   ],
   "cta_h2": "모든 과목 성적을 한곳에서 관리하세요",

@@ -9,7 +9,7 @@
   "aria_lang": "Langue",
   "store_alt": "Télécharger sur l’App Store",
   "soon": "Bientôt disponible",
-  "pill": "Pour iPhone et iPad · Bientôt sur Android",
+  "pill": "Pour iPhone et iPad · Android",
   "h1_html": "Faites le point sur vos notes,<br><em>préparez la suite.</em>",
   "lead": "Votre moyenne de cours, la note nécessaire à l’examen final et votre GPA dans une seule app. Sans pub, sans compte, entièrement hors ligne.",
   "trust": [
@@ -135,7 +135,7 @@
     ],
     [
       "Existe-t-il une version Android ?",
-      "La version Android arrive bientôt sur Google Play. Pour le moment, l’app est disponible sur l’App Store pour iPhone et iPad (iOS 17.6 ou version ultérieure)."
+      "Oui. La version Android est disponible sur Google Play. L’app est aussi disponible sur l’App Store pour iPhone et iPad (iOS 17.6 ou version ultérieure)."
     ]
   ],
   "cta_h2": "Suivez tous vos cours au même endroit",

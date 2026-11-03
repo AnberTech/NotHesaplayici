@@ -9,7 +9,7 @@
   "aria_lang": "Sprache",
   "store_alt": "Im App Store laden",
   "soon": "Demnächst verfügbar",
-  "pill": "Für iPhone und iPad · Bald auch für Android",
+  "pill": "Für iPhone und iPad · Android",
   "h1_html": "Kenne deine Noten,<br><em>plane deine Zukunft.</em>",
   "lead": "Kursdurchschnitt, nötige Abschlussnote und dein Schnitt in einer App. Ohne Werbung, ohne Konto, komplett offline.",
   "trust": [
@@ -135,7 +135,7 @@
     ],
     [
       "Gibt es eine Android-Version?",
-      "Die Android-Version erscheint bald bei Google Play. Aktuell ist die App für iPhone und iPad (ab iOS 17.6) im App Store erhältlich."
+      "Ja. Die Android-Version gibt es bei Google Play. Außerdem ist die App für iPhone und iPad (ab iOS 17.6) im App Store erhältlich."
     ]
   ],
   "cta_h2": "Alle deine Kurse an einem Ort",

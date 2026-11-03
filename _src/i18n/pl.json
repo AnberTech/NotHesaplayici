@@ -9,7 +9,7 @@
   "aria_lang": "Język",
   "store_alt": "Pobierz z App Store",
   "soon": "Już wkrótce",
-  "pill": "Na iPhone i iPad · Wkrótce na Android",
+  "pill": "Na iPhone i iPad · Android",
   "h1_html": "Poznaj swoje wyniki,<br><em>zaplanuj przyszłość.</em>",
   "lead": "Średnia z przedmiotu, wymagana ocena z egzaminu i średnia GPA w jednej aplikacji. Bez reklam, bez konta, w pełni offline.",
   "trust": [
@@ -135,7 +135,7 @@
     ],
     [
       "Czy jest wersja na Android?",
-      "Wersja na Android pojawi się wkrótce w Google Play. Obecnie aplikacja jest dostępna w App Store na iPhone i iPad (iOS 17.6 lub nowszy)."
+      "Tak. Wersja na Android jest dostępna w Google Play. Aplikacja jest też dostępna w App Store na iPhone i iPad (iOS 17.6 lub nowszy)."
     ]
   ],
   "cta_h2": "Miej wszystkie kursy w jednym miejscu",

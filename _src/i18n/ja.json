@@ -9,7 +9,7 @@
   "aria_lang": "言語",
   "store_alt": "App Storeからダウンロード",
   "soon": "近日公開",
-  "pill": "iPhone・iPad対応 · Android版は近日公開",
+  "pill": "iPhone・iPad対応 · Android",
   "h1_html": "成績を把握して、<br><em>将来を計画しよう。</em>",
   "lead": "科目の平均、必要な期末点、GPAをひとつのアプリで。広告なし、アカウント登録不要、完全オフライン対応。",
   "trust": [
@@ -135,7 +135,7 @@
     ],
     [
       "Android版はありますか？",
-      "Android版はGoogle Playにて近日公開予定です。現在はiPhoneおよびiPad（iOS 17.6以降）向けにApp Storeで配信しています。"
+      "はい。Android版はGoogle Playで配信中です。iPhoneおよびiPad（iOS 17.6以降）向けにはApp Storeでも配信しています。"
     ]
   ],
   "cta_h2": "すべての履修科目をひとつで管理",
