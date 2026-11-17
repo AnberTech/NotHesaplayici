@@ -256,10 +256,10 @@ T_BRAND = {}
 
 
 def stores(code, t, base, pos):
-    return (f'<div class="stores"><a data-goatcounter-click="appstore-nothesaplayici-{code.lower()}-{pos}" href="{e(app_store_url(code))}" '
+    return (f'<div class="stores"><a data-goatcounter-click="nh/{code.lower()}/appstore-{pos}" href="{e(app_store_url(code))}" '
             f'target="_blank" rel="noopener noreferrer" aria-label="{e(t["store_alt"])}" title="App Store">'
             f'<img src="{base}assets/img/app-store-badge.png" alt="{e(t["store_alt"])}" width="1062" height="318"></a>\n'
-            f'<a data-goatcounter-click="googleplay-nothesaplayici-{code.lower()}-{pos}" href="{e(play_url(code))}" '
+            f'<a data-goatcounter-click="nh/{code.lower()}/googleplay-{pos}" href="{e(play_url(code))}" '
             f'target="_blank" rel="noopener noreferrer" aria-label="Google Play" title="Google Play">'
             f'<img src="{base}assets/img/google-play-badge.png" alt="Google Play" width="1062" height="318"></a></div>')
 
