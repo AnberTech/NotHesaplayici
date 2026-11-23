@@ -1,7 +1,7 @@
 {
   "brand": "Calculadora de notas",
   "title": "Calculadora de notas – Nota del examen final, media ponderada de la asignatura y GPA",
-  "meta_desc": "Calcula la media ponderada de una asignatura con el parcial y los trabajos, averigua qué necesitas sacar en el examen final y controla tu GPA y tus créditos. Calculadora web gratis y app para iPhone sin anuncios, sin cuenta y sin conexión.",
+  "meta_desc": "Calcula la media ponderada de una asignatura con el parcial y los trabajos, averigua qué necesitas sacar en el examen final y controla tu GPA y tus créditos. Calculadora web gratis y app para iPhone y Android sin anuncios, sin cuenta y sin conexión.",
   "nav_home": "Inicio",
   "nav_support": "Ayuda",
   "nav_privacy": "Privacidad",
@@ -54,7 +54,7 @@
   ],
   "scale_aa": "AA–FF (escala de 4.00)",
   "scale_a1": "A1–F1 (escala de 4.00)",
-  "scale_us": "A–F (EE. UU., 4.0)",
+  "scale_us": "A+/A− … F (EE. UU., 4.0)",
   "th_letter": "Nota",
   "th_min": "Promedio mínimo",
   "th_coef": "Puntos",
@@ -62,8 +62,8 @@
   "why_h2": "¿Por qué elegir Calculadora de notas?",
   "cards": [
     [
-      "Promedio de la asignatura",
-      "Introduce las notas del parcial, el examen final y los trabajos con sus pesos para ver al instante tu promedio y tu nota en letra."
+      "Tu propia estructura de curso",
+      "Parcial, final, tareas, quizzes, proyectos, laboratorio… añade cualquier componente (p. ej. Quiz ×3), fija los pesos y guarda la estructura."
     ],
     [
       "Final necesario",
@@ -74,12 +74,12 @@
       "Guarda tus asignaturas por semestre; tu promedio semestral y tu promedio general acumulado se actualizan automáticamente."
     ],
     [
-      "Tu propia escala de calificación",
-      "Edita los intervalos de las notas en letra y sus puntos para adaptarlos a tu universidad."
+      "5 sistemas de calificación",
+      "AA–FF, A1–F1, A–F, A+/A− y 5…2. Ajusta los rangos, las notas mínimas y el redondeo a tu universidad."
     ],
     [
-      "Informe de notas en PDF",
-      "Comparte tus asignaturas y tu promedio como PDF con un solo toque."
+      "Expediente en PDF",
+      "Comparte tus asignaturas, promedios y componentes de nota en PDF con un toque."
     ],
     [
       "17 idiomas",
@@ -90,8 +90,8 @@
       "Sin cuenta, anuncios ni seguimiento. Tus datos permanecen en tu dispositivo."
     ],
     [
-      "Funciona sin conexión",
-      "No necesitas internet: durante los exámenes, en la biblioteca o donde quieras."
+      "iPhone, iPad y Android",
+      "Los mismos resultados en cualquier dispositivo. Sin internet: funciona en cualquier lugar en semana de exámenes."
     ]
   ],
   "tools_h2": "Calculadoras gratuitas",
@@ -203,7 +203,7 @@
     ],
     [
       "Ejemplo resuelto",
-      "Con un <b>62</b> en el parcial (40%) y un <b>75</b> en el examen final (60%), el promedio es 62 × 0.40 + 75 × 0.60 = 24.8 + 45 = <b>69.8</b>. Como muchas universidades, Calculadora de notas redondea el promedio hacia abajo: 69. En la escala A–F de EE. UU., equivale a un <b>D+</b>."
+      "Con un <b>62</b> en el parcial (40%) y un <b>75</b> en el examen final (60%), el promedio es 62 × 0.40 + 75 × 0.60 = 24.8 + 45 = <b>69.8</b>. En la escala de EE. UU. A+/A−…F, Calculadora de notas usa el promedio sin redondear por defecto, así que 69.8 es un <b>D+</b>. Si tu universidad redondea, elige abajo, más cercano o arriba: redondeado al más cercano queda en 70, un <b>C−</b>."
     ],
     [
       "¿Y si el parcial vale el 30% y el final el 70%?",
@@ -221,7 +221,7 @@
     ],
     [
       "Mi promedio es 59.5. ¿Apruebo?",
-      "Depende de las reglas de redondeo de tu universidad. Calculadora de notas redondea los promedios hacia abajo (59.5 → 59), así que consulta la normativa de tu centro."
+      "Depende de las reglas de redondeo de tu universidad. En Calculadora de notas eliges la regla: al más cercano 59.5 → 60, hacia abajo 59 y sin redondeo se queda en 59.5. Consulta la normativa de tu centro."
     ],
     [
       "¿Cómo se determina mi nota en letra?",
@@ -274,5 +274,12 @@
       "¿Puedo guardar mis asignaturas?",
       "La calculadora web no guarda nada. En la app Calculadora de notas puedes guardar tus asignaturas por semestre y mantener actualizado tu GPA."
     ]
-  ]
+  ],
+  "scale_af": "A, B, C, D, F",
+  "scale_five": "5 … 2",
+  "f_round": "Redondeo del promedio",
+  "round_down": "Hacia abajo",
+  "round_near": "Al más cercano",
+  "round_up": "Hacia arriba",
+  "round_none": "Sin redondeo"
 }

@@ -1,7 +1,7 @@
 {
   "brand": "Kalkulator Nilai",
   "title": "Kalkulator Nilai – Hitung Nilai UAS, Rata-rata Mata Kuliah & Kalkulator IPK",
-  "meta_desc": "Hitung nilai rata-rata mata kuliah, cek nilai UAS yang dibutuhkan untuk lulus atau dapat nilai A, dan pantau IPK kamu. Kalkulator nilai online gratis serta aplikasi iPhone bebas iklan, offline, tanpa akun.",
+  "meta_desc": "Hitung nilai rata-rata mata kuliah, cek nilai UAS yang dibutuhkan untuk lulus atau dapat nilai A, dan pantau IPK kamu. Kalkulator nilai online gratis serta aplikasi iPhone dan Android bebas iklan, offline, tanpa akun.",
   "nav_home": "Beranda",
   "nav_support": "Bantuan",
   "nav_privacy": "Privasi",
@@ -54,7 +54,7 @@
   ],
   "scale_aa": "AA–FF (skala 4,00)",
   "scale_a1": "A1–F1 (skala 4,00)",
-  "scale_us": "A–F (AS, 4,0)",
+  "scale_us": "A+/A− … F (AS, 4,0)",
   "th_letter": "Huruf",
   "th_min": "Rata-rata minimum",
   "th_coef": "Bobot nilai",
@@ -62,8 +62,8 @@
   "why_h2": "Mengapa Kalkulator Nilai?",
   "cards": [
     [
-      "Rata-rata mata kuliah",
-      "Masukkan nilai UTS, UAS, dan tugas beserta bobotnya untuk melihat nilai rata-rata dan nilai huruf secara instan."
+      "Susunan mata kuliah sendiri",
+      "UTS, UAS, tugas, kuis, proyek, praktikum… tambahkan komponen apa pun (mis. Kuis ×3), atur bobotnya, dan simpan susunannya."
     ],
     [
       "UAS yang Dibutuhkan",
@@ -74,12 +74,12 @@
       "Simpan mata kuliahmu per semester; IPS dan IPK kamu akan dihitung otomatis."
     ],
     [
-      "Skala penilaian sendiri",
-      "Sesuaikan rentang nilai huruf dan bobot angka agar sama persis dengan aturan kampusmu."
+      "5 sistem penilaian",
+      "AA–FF, A1–F1, A–F, A+/A−, dan 5…2. Sesuaikan rentang nilai, nilai minimum, dan pembulatan dengan kampusmu."
     ],
     [
       "Transkrip PDF",
-      "Bagikan daftar mata kuliah dan nilai rata-rata kamu sebagai file PDF dengan satu ketukan."
+      "Bagikan mata kuliah, rata-rata, dan komponen nilai sebagai PDF dengan sekali ketuk."
     ],
     [
       "17 bahasa",
@@ -90,8 +90,8 @@
       "Tanpa akun, tanpa iklan, tanpa pelacakan. Semua datamu tersimpan aman di perangkatmu."
     ],
     [
-      "Bisa diakses offline",
-      "Tidak butuh internet: saat minggu ujian, di perpustakaan, atau di mana saja."
+      "iPhone, iPad, dan Android",
+      "Hasil yang sama di setiap perangkat. Tanpa internet, bisa dipakai di mana saja saat pekan ujian."
     ]
   ],
   "tools_h2": "Kalkulator gratis",
@@ -203,7 +203,7 @@
     ],
     [
       "Contoh perhitungan",
-      "Dengan nilai UTS <b>62</b> (40%) dan UAS <b>75</b> (60%), rata-ratanya adalah 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Seperti kebanyakan universitas, Kalkulator Nilai membulatkan rata-rata ke bawah: 69. Pada skala A–F AS, nilai tersebut setara dengan <b>D+</b>."
+      "Dengan nilai UTS <b>62</b> (40%) dan UAS <b>75</b> (60%), rata-ratanya adalah 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Pada skala AS A+/A−…F, Kalkulator Nilai secara bawaan memakai rata-rata tanpa pembulatan, jadi 69,8 setara <b>D+</b>. Jika kampusmu membulatkan, pilih ke bawah, terdekat, atau ke atas: dibulatkan ke terdekat menjadi 70, yaitu <b>C−</b>."
     ],
     [
       "Bagaimana jika bobot UTS 30% dan UAS 70%?",
@@ -221,7 +221,7 @@
     ],
     [
       "Rata-rata saya 59,5. Apakah saya lulus?",
-      "Itu tergantung pada aturan pembulatan di kampusmu. Kalkulator Nilai membulatkan rata-rata ke bawah (59,5 → 59), jadi pastikan untuk memeriksa pedoman akademik kampusmu."
+      "Itu tergantung pada aturan pembulatan di kampusmu. Di Kalkulator Nilai kamu yang memilih aturannya: ke terdekat 59,5 → 60, ke bawah 59, dan tanpa pembulatan tetap 59,5. Periksa pedoman akademik kampusmu."
     ],
     [
       "Bagaimana nilai huruf saya ditentukan?",
@@ -274,5 +274,12 @@
       "Bisakah saya menyimpan daftar mata kuliah saya?",
       "Kalkulator web ini tidak menyimpan data apa pun. Di aplikasi Kalkulator Nilai, kamu bisa menyimpan mata kuliah per semester dan memantau IPK kamu setiap saat."
     ]
-  ]
+  ],
+  "scale_af": "A, B, C, D, F",
+  "scale_five": "5 … 2",
+  "f_round": "Pembulatan rata-rata",
+  "round_down": "Ke bawah",
+  "round_near": "Terdekat",
+  "round_up": "Ke atas",
+  "round_none": "Tanpa pembulatan"
 }

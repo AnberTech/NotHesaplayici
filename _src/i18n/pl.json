@@ -1,7 +1,7 @@
 {
   "brand": "Kalkulator ocen",
   "title": "Kalkulator ocen – ocena z egzaminu, średnia z przedmiotu i GPA",
-  "meta_desc": "Oblicz średnią z przedmiotu i GPA oraz sprawdź, ile musisz dostać na egzaminie, żeby zdać lub uzyskać A. Darmowy kalkulator ocen online i aplikacja na iPhone działająca offline, bez reklam i konta.",
+  "meta_desc": "Oblicz średnią z przedmiotu i GPA oraz sprawdź, ile musisz dostać na egzaminie, żeby zdać lub uzyskać A. Darmowy kalkulator ocen online i aplikacja na iPhone i Androida działająca offline, bez reklam i konta.",
   "nav_home": "Strona główna",
   "nav_support": "Pomoc",
   "nav_privacy": "Prywatność",
@@ -54,7 +54,7 @@
   ],
   "scale_aa": "AA–FF (skala 4,00)",
   "scale_a1": "A1–F1 (skala 4,00)",
-  "scale_us": "A–F (USA, 4,0)",
+  "scale_us": "A+/A− … F (USA, 4,0)",
   "th_letter": "Ocena",
   "th_min": "Minimalna średnia",
   "th_coef": "Punkty",
@@ -62,8 +62,8 @@
   "why_h2": "Dlaczego Kalkulator ocen?",
   "cards": [
     [
-      "Średnia z przedmiotu",
-      "Wpisz oceny z kolokwium, egzaminu i pracy domowej wraz z ich wagami, a od razu zobaczysz średnią i ocenę literową."
+      "Własny układ przedmiotu",
+      "Kolokwium, egzamin, zadania, kartkówki, projekty, laboratoria… dodaj dowolny składnik (np. Kartkówka ×3), ustaw wagi i zapisz układ."
     ],
     [
       "Wymagana ocena z egzaminu",
@@ -74,12 +74,12 @@
       "Zapisuj kursy według semestrów. Średnia semestralna i średnia ogólna aktualizują się automatycznie."
     ],
     [
-      "Własna skala ocen",
-      "Dostosuj progi ocen literowych i przypisane im punkty do zasad swojej uczelni."
+      "5 systemów oceniania",
+      "AA–FF, A1–F1, A–F, A+/A− i 5…2. Dostosuj progi ocen, minimalne oceny i zaokrąglanie do swojej uczelni."
     ],
     [
-      "Zestawienie ocen w PDF",
-      "Jednym dotknięciem udostępnij zestawienie kursów i średnią w formacie PDF."
+      "Wykaz ocen w PDF",
+      "Udostępnij przedmioty, średnie i składowe ocen jako PDF jednym dotknięciem."
     ],
     [
       "17 języków",
@@ -90,8 +90,8 @@
       "Bez konta, reklam i śledzenia. Twoje dane zostają na Twoim urządzeniu."
     ],
     [
-      "Działa offline",
-      "Bez internetu: w sesji, w bibliotece, gdziekolwiek jesteś."
+      "iPhone, iPad i Android",
+      "Te same wyniki na każdym urządzeniu. Bez internetu: działa wszędzie, także w sesji."
     ]
   ],
   "tools_h2": "Darmowe kalkulatory",
@@ -203,7 +203,7 @@
     ],
     [
       "Przykład obliczenia",
-      "Przy wyniku <b>62</b> z kolokwium (40%) i <b>75</b> z egzaminu (60%) średnia wynosi 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Podobnie jak wiele uczelni, aplikacja Kalkulator ocen zaokrągla średnią w dół: do 69. W amerykańskiej skali A–F oznacza to ocenę <b>D+</b>."
+      "Przy wyniku <b>62</b> z kolokwium (40%) i <b>75</b> z egzaminu (60%) średnia wynosi 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. W amerykańskiej skali A+/A−…F Kalkulator ocen domyślnie nie zaokrągla średniej: 69,8 to <b>D+</b>. Jeśli Twoja uczelnia zaokrągla, wybierz w dół, do najbliższej lub w górę: po zaokrągleniu do najbliższej wychodzi 70, czyli <b>C−</b>."
     ],
     [
       "A jeśli kolokwium ma wagę 30%, a egzamin 70%?",
@@ -221,7 +221,7 @@
     ],
     [
       "Moja średnia to 59,5. Czy to wystarczy, żeby zdać?",
-      "To zależy od zasad zaokrąglania na Twojej uczelni. Kalkulator ocen zaokrągla średnie w dół (59,5 → 59), więc sprawdź regulamin uczelni."
+      "To zależy od zasad zaokrąglania na Twojej uczelni. W Kalkulatorze ocen sam wybierasz zasadę: do najbliższej 59,5 → 60, w dół 59, a bez zaokrąglania zostaje 59,5. Sprawdź regulamin uczelni."
     ],
     [
       "Od czego zależy moja ocena literowa?",
@@ -274,5 +274,12 @@
       "Czy mogę zapisać swoje kursy?",
       "Kalkulator online niczego nie zapisuje. W aplikacji Kalkulator ocen możesz zapisywać kursy według semestrów i na bieżąco śledzić swoją średnią GPA."
     ]
-  ]
+  ],
+  "scale_af": "A, B, C, D, F",
+  "scale_five": "5 … 2",
+  "f_round": "Zaokrąglanie średniej",
+  "round_down": "W dół",
+  "round_near": "Najbliższe",
+  "round_up": "W górę",
+  "round_none": "Bez zaokrąglania"
 }

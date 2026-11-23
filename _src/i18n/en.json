@@ -1,7 +1,7 @@
 {
   "brand": "Grade Calculator",
   "title": "Grade Calculator – Final Grade, Course Average & GPA Calculator",
-  "meta_desc": "Calculate your course average, find out what you need on your final exam to pass or get an A, and track your GPA. Free web calculator plus an ad-free, offline iPhone app with no account.",
+  "meta_desc": "Calculate your course average, find out what you need on your final exam to pass or get an A, and track your GPA. Free web calculator plus an ad-free, offline app for iPhone and Android with no account.",
   "nav_home": "Home",
   "nav_support": "Support",
   "nav_privacy": "Privacy",
@@ -45,21 +45,21 @@
   "demo_courses": ["Calculus", "Physics", "Biology"],
   "scale_aa": "AA–FF (4.00 scale)",
   "scale_a1": "A1–F1 (4.00 scale)",
-  "scale_us": "A–F (US, 4.0)",
+  "scale_us": "A+/A− … F (US, 4.0)",
   "th_letter": "Grade",
   "th_min": "Minimum average",
   "th_coef": "Points",
   "th_need": "Final needed",
   "why_h2": "Why Grade Calculator?",
   "cards": [
-    ["Course average", "Enter midterm, final and assignment grades with their weights and see your average and letter grade instantly."],
+    ["Your own course layout", "Midterm, final, homework, quizzes, projects, labs… add any component (e.g. Quiz ×3), set the weights and save the layout."],
     ["Final grade needed", "See the minimum final exam grade for every letter grade on one screen."],
     ["GPA tracking", "Save your courses term by term; your term and cumulative GPA update themselves."],
-    ["Your own grading scale", "Edit letter-grade ranges and grade points to match your school."],
-    ["PDF transcript", "Share your courses and average as a PDF with one tap."],
+    ["5 grading systems", "AA–FF, A1–F1, A–F, A+/A− and 5…2. Adjust grade ranges, minimum grades and rounding to match your school."],
+    ["PDF transcript", "Share your courses, averages and grade components as a PDF with one tap."],
     ["17 languages", "English, Spanish, German, Japanese, Arabic, Turkish and more."],
     ["Privacy first", "No account, no ads, no tracking. Your data stays on your device."],
-    ["Works offline", "No internet needed: in exam week, in the library, anywhere."]
+    ["iPhone, iPad and Android", "The same results on every device. No internet needed, so it works anywhere during exam week."]
   ],
   "tools_h2": "Free calculators",
   "tools_p": "Use them in your browser without downloading anything. No sign-up, and the grades you enter never leave your device.",
@@ -117,13 +117,13 @@
   "avg_card": "Calculate your weighted course average and letter grade from midterm, final and assignment grades.",
   "avg_body": [
     ["How is a course average calculated?", "Each grade is multiplied by its weight and the results are added: <b>average = midterm × midterm weight + assignment × assignment weight + final × final weight</b>. The weights must add up to 100%, so the final weight is whatever is left after the midterm and assignment weights."],
-    ["Worked example", "With a midterm of <b>62</b> (40%) and a final of <b>75</b> (60%), the average is 62 × 0.40 + 75 × 0.60 = 24.8 + 45 = <b>69.8</b>. Like many universities, Grade Calculator rounds the average down: 69. On the US A–F scale that is a <b>D+</b>."],
+    ["Worked example", "With a midterm of <b>62</b> (40%) and a final of <b>75</b> (60%), the average is 62 × 0.40 + 75 × 0.60 = 24.8 + 45 = <b>69.8</b>. On the US A+/A−…F scale Grade Calculator uses the average as is by default, so 69.8 is a <b>D+</b>. If your school rounds averages, choose down, nearest or up: rounded to the nearest it becomes 70, a <b>C−</b>."],
     ["What if the midterm is 30% and the final 70%?", "The formula stays the same: midterm × 0.30 + final × 0.70. The heavier the final, the more it moves your average: with a midterm of 40 and a final of 80, a 40/60 split gives 64 and a 30/70 split gives 68."]
   ],
   "avg_faq": [
     ["How do I calculate a weighted average of my grades?", "Multiply each grade by its weight and add the results. With a 40% midterm and a 60% final, average = midterm × 0.40 + final × 0.60."],
     ["What if I have an assignment grade?", "Enter the assignment weight and it is included; the final weight is calculated automatically from what is left (for example a 30% midterm and 20% assignment leave 50% for the final)."],
-    ["My average is 59.5. Do I pass?", "That depends on your school's rounding rule. Grade Calculator rounds averages down (59.5 → 59), so check your school's regulations."],
+    ["My average is 59.5. Do I pass?", "That depends on your school's rounding rule. In Grade Calculator you choose the rule: rounding to the nearest gives 59.5 → 60, rounding down gives 59, and with no rounding the average stays 59.5. Check your school's regulations."],
     ["How is my letter grade decided?", "By the range your average falls into. On the US scale used here, 93 and above is an A, 90–92 an A−, 87–89 a B+. Ranges vary between schools."],
     ["Is this calculator free?", "Yes. No sign-up, no ads, and the grades you enter never leave your browser."]
   ],
@@ -145,5 +145,12 @@
     ["Do failed courses count towards my GPA?", "Usually yes, with 0 grade points. When you retake and pass a course, many schools replace the old grade; the rule depends on your school."],
     ["Can I convert my GPA to a percentage?", "Conversion tables differ by country and school and are usually not linear. This calculator gives your GPA on a 4.0 scale."],
     ["Can I save my courses?", "The web calculator does not save anything. In the Grade Calculator app you can save your courses term by term and keep your GPA up to date."]
-  ]
+  ],
+  "scale_af": "A, B, C, D, F",
+  "scale_five": "5 … 2",
+  "f_round": "Average rounding",
+  "round_down": "Down",
+  "round_near": "Nearest",
+  "round_up": "Up",
+  "round_none": "No rounding"
 }

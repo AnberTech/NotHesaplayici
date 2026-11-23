@@ -46,10 +46,10 @@ LANGS = [
 LANG = {l[0]: l for l in LANGS}
 TOOLS = ('fin', 'avg', 'gpa')
 
-# Ekran görüntüleri (assets/img/ss/<dil>_<tür>.jpg); Almancada "hesapla" ekranı yok, Kürtçede İngilizce kullanılır
-SHOTS = {'de': ('home', 'courses', 'gpa', 'settings', 'report')}
-SHOT_LANG = {'ku': 'en'}
-CARD_ICONS = ['🎯', '🧮', '📚', '🎚️', '📄', '🌍', '🔒', '✈️']
+# Ekran görüntüleri (assets/img/ss/<dil>_<tür>.jpg): uygulamanın 4.0 tasarımı, her dil kendi ekranlarıyla
+SHOTS = {}
+SHOT_LANG = {}
+CARD_ICONS = ['🧩', '🧮', '📚', '🎚️', '📄', '🌍', '🔒', '📱']
 TOOL_ICONS = {'fin': '🧮', 'avg': '🎯', 'gpa': '📚'}
 
 LIST_LEN = {'trust': 4, 'demo_courses': 3, 'cards': 8, 'faq_home': 8,
@@ -234,7 +234,7 @@ def head_meta(code, title, desc, url, built, url_of, base):
             f'<meta name="description" content="{e(desc)}">\n'
             f'<link rel="canonical" href="{e(url)}">\n'
             f'{alts}<link rel="alternate" hreflang="x-default" href="{e(url_of(xdef))}">\n'
-            f'<link rel="icon" type="image/png" sizes="64x64" href="{base}assets/img/favicon.png?v=3">\n'
+            f'<link rel="icon" type="image/png" sizes="64x64" href="{base}assets/img/favicon.png?v=4">\n'
             f'<link rel="apple-touch-icon" href="{base}assets/img/apple-touch-icon.png">\n'
             f'<meta name="apple-itunes-app" content="app-id={APP_ID}">\n'
             f'<meta property="og:type" content="website">\n'
@@ -283,8 +283,13 @@ def field(label, k, value, extra=''):
 
 
 def scale_select(t):
-    opts = ''.join(f'<option value="{k}">{e(t[f"scale_{k}"])}</option>' for k in ('aa', 'a1', 'us'))
+    opts = ''.join(f'<option value="{k}">{e(t[f"scale_{k}"])}</option>' for k in ('aa', 'a1', 'af', 'us', 'five'))
     return f'<label>{e(t["f_scale"])}<select data-k="scale">{opts}</select></label>'
+
+
+def round_select(t):
+    opts = ''.join(f'<option value="{k}">{e(t[f"round_{k}"])}</option>' for k in ('down', 'near', 'up', 'none'))
+    return f'<label>{e(t["f_round"])}<select data-k="round">{opts}</select></label>'
 
 
 def fw_line(t):
@@ -294,7 +299,7 @@ def fw_line(t):
 def calc_avg(t, full):
     hw = (field(t['f_hw'], 'hw', 0) + field(t['f_hw_w'], 'hww', 0)) if full else ''
     return (f'<div data-calc="avg"><div class="fields four">{field(t["f_mid"], "mid", 62)}{field(t["f_mid_w"], "midw", 40)}{hw}'
-            f'{field(t["f_final"], "final", 75)}{scale_select(t)}</div>{fw_line(t)}'
+            f'{field(t["f_final"], "final", 75)}{scale_select(t)}{round_select(t)}</div>{fw_line(t)}'
             f'<div class="out"><div><small>{e(t["out_avg"])}</small><b dir="ltr" data-o="avg">0</b></div>'
             f'<div><small>{e(t["out_letter"])}</small><b dir="ltr" data-o="letter">—</b></div></div>'
             f'<input type="range" data-k="finalr" min="0" max="100" value="75" aria-label="{e(t["f_final"])}">'
@@ -307,7 +312,7 @@ def calc_need(t, full):
     table = (f'<table class="ltable"><thead><tr><th>{e(t["th_letter"])}</th><th>{e(t["th_min"])}</th><th>{e(t["th_coef"])}</th>'
              f'<th>{e(t["th_need"])}</th></tr></thead><tbody data-o="table"></tbody></table>') if full else ''
     return (f'<div data-calc="need"><div class="fields four">{field(t["f_mid"], "mid", 55)}{field(t["f_mid_w"], "midw", 40)}{hw}'
-            f'<label>{e(t["f_target"])}<select data-k="target"></select></label>{minf}{scale_select(t)}</div>{fw_line(t)}'
+            f'<label>{e(t["f_target"])}<select data-k="target"></select></label>{minf}{scale_select(t)}{round_select(t)}</div>{fw_line(t)}'
             f'<div class="out one"><div><small>{e(t["out_need"])}</small><b dir="ltr" data-o="need">0</b></div></div>'
             f'<p class="note" data-o="msg" aria-live="polite"></p>{table}</div>')
 
@@ -547,10 +552,11 @@ def build_llms(built, T):
         '- `hw`, `hww`: assignment grade and its weight in % (optional); the final weight is 100 − midw − hww',
         '- `final`: final exam grade (course average calculator)',
         '- `minf`: minimum final exam grade required by the school (final grade calculator)',
-        '- `scale`: `aa` (Turkish AA–FF, 4.00), `a1` (Turkish A1–F1, 4.00) or `us` (US A–F, 4.0)',
+        '- `scale`: `aa` (Turkish AA–FF, 4.00), `a1` (Turkish A1–F1, 4.00), `af` (plain A, B, C, D, F), `us` (US A+/A−…F, 4.0) or `five` (5.0…2.0)',
+        '- `round`: how the average is rounded: `down`, `near` (nearest), `up` or `none`; default `near` on Turkish scales, `none` on the others',
         '- `target`: target letter grade on the chosen scale, e.g. `CC`, `D2` or `B-`',
         '',
-        'Formulas used (same as the app): average = Σ grade × weight, rounded down; required final = '
+        'Formulas used (same as the app): average = Σ grade × weight, rounded by the chosen rule (letter grade uses the rounded average); required final = '
         '(target average − midterm × midterm weight − assignment × assignment weight) ÷ final weight, rounded up and never below the minimum final grade; '
         'GPA = Σ (grade points × credits) ÷ Σ credits.',
         '',
@@ -559,6 +565,8 @@ def build_llms(built, T):
         f'- App Store: https://apps.apple.com/app/id{APP_ID} (free; no ads, no in-app purchases, no account, works offline)',
         f'- Google Play: {PLAY}',
         '- Course average and letter grade from midterm, final and assignment grades with custom weights',
+        '- Custom course layouts: add quizzes, homework, projects, labs and more (e.g. Quiz ×3) with your own weights; save layouts',
+        '- Five grading systems (AA–FF, A1–F1, A–F, A+/A−…F, 5…2), multiple minimum-grade rules and a rounding option (down / nearest / up / none)',
         '- Required final grade for every letter grade, with a minimum-final-grade rule',
         '- GPA (GANO) tracking by term, with credits or ECTS',
         '- Custom grading scale: edit letter-grade ranges and grade points to match your university',

@@ -1,7 +1,7 @@
 {
   "brand": "Calculadora de Notas",
   "title": "Calculadora de Notas – Nota Final, Média da Disciplina e GPA (CR)",
-  "meta_desc": "Calcule a média ponderada da disciplina, descubra quanto precisa tirar na prova final para passar ou obter um A e acompanhe seu GPA (CR). Calculadora grátis na web e app para iPhone, sem anúncios, sem conta e offline.",
+  "meta_desc": "Calcule a média ponderada da disciplina, descubra quanto precisa tirar na prova final para passar ou obter um A e acompanhe seu GPA (CR). Calculadora grátis na web e app para iPhone e Android, sem anúncios, sem conta e offline.",
   "nav_home": "Início",
   "nav_support": "Suporte",
   "nav_privacy": "Privacidade",
@@ -54,7 +54,7 @@
   ],
   "scale_aa": "AA–FF (escala 4,00)",
   "scale_a1": "A1–F1 (escala 4,00)",
-  "scale_us": "A–F (EUA, 4,0)",
+  "scale_us": "A+/A− … F (EUA, 4,0)",
   "th_letter": "Letra",
   "th_min": "Média mínima",
   "th_coef": "Pontos",
@@ -62,8 +62,8 @@
   "why_h2": "Por que usar a Calculadora de Notas?",
   "cards": [
     [
-      "Média da disciplina",
-      "Informe as notas e os pesos da parcial, da final e do trabalho para ver na hora sua média ponderada e sua letra."
+      "Sua própria estrutura de disciplina",
+      "Parcial, final, trabalhos, quizzes, projetos, laboratório… adicione qualquer componente (ex.: Quiz ×3), defina os pesos e salve a estrutura."
     ],
     [
       "Final necessária",
@@ -74,12 +74,12 @@
       "Salve suas disciplinas por semestre; o CR do semestre e o Coeficiente de Rendimento acumulado são atualizados automaticamente."
     ],
     [
-      "Sua própria escala de notas",
-      "Edite as faixas de letras e os pontos para usar exatamente o sistema da sua instituição."
+      "5 sistemas de notas",
+      "AA–FF, A1–F1, A–F, A+/A− e 5…2. Ajuste faixas, notas mínimas e arredondamento à sua instituição."
     ],
     [
-      "Relatório de notas em PDF",
-      "Compartilhe suas disciplinas e sua média em PDF com um toque."
+      "Histórico em PDF",
+      "Compartilhe disciplinas, médias e componentes das notas em PDF com um toque."
     ],
     [
       "17 idiomas",
@@ -90,8 +90,8 @@
       "Sem conta, anúncios ou rastreamento. Seus dados ficam no seu dispositivo."
     ],
     [
-      "Funciona offline",
-      "Não precisa de internet: use durante a semana de provas, na biblioteca ou onde quiser."
+      "iPhone, iPad e Android",
+      "Os mesmos resultados em qualquer aparelho. Sem internet: funciona em qualquer lugar na semana de provas."
     ]
   ],
   "tools_h2": "Calculadoras grátis",
@@ -203,7 +203,7 @@
     ],
     [
       "Exemplo resolvido",
-      "Com uma parcial de <b>62</b> (40%) e uma final de <b>75</b> (60%), a média é 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Assim como muitas universidades, a Calculadora de Notas arredonda a média para baixo: 69. Na escala A–F dos EUA, isso corresponde a <b>D+</b>."
+      "Com uma parcial de <b>62</b> (40%) e uma final de <b>75</b> (60%), a média é 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b>. Na escala dos EUA A+/A−…F, a Calculadora de Notas usa por padrão a média sem arredondar: 69,8 é um <b>D+</b>. Se a sua instituição arredonda, escolha para baixo, mais próximo ou para cima: arredondada para o mais próximo vira 70, um <b>C−</b>."
     ],
     [
       "E se a parcial valer 30% e a final 70%?",
@@ -221,7 +221,7 @@
     ],
     [
       "Minha média é 59,5. Eu passo?",
-      "Isso depende da regra de arredondamento da sua instituição. A Calculadora de Notas arredonda as médias para baixo (59,5 → 59), então consulte o regulamento da sua instituição."
+      "Isso depende da regra de arredondamento da sua instituição. Na Calculadora de Notas você escolhe a regra: para o mais próximo 59,5 → 60, para baixo 59 e sem arredondamento continua 59,5. Confira o regulamento da sua instituição."
     ],
     [
       "Como minha letra é definida?",
@@ -274,5 +274,12 @@
       "Posso salvar minhas disciplinas?",
       "A calculadora da web não salva nada. No app Calculadora de Notas, você pode salvar suas disciplinas por semestre e manter seu CR sempre atualizado."
     ]
-  ]
+  ],
+  "scale_af": "A, B, C, D, F",
+  "scale_five": "5 … 2",
+  "f_round": "Arredondamento da média",
+  "round_down": "Para baixo",
+  "round_near": "Mais próximo",
+  "round_up": "Para cima",
+  "round_none": "Sem arredondamento"
 }

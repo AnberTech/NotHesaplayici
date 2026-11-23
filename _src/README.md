@@ -18,13 +18,13 @@ python3 _src/build.py
 | `../assets/app.js` | Tema, dil menüsü ve üç hesaplayıcı (gereken final, ortalama, GANO) |
 | `../assets/style.css` | Bütün sayfaların stili |
 
-Ekran görüntüleri `assets/img/ss/<dil>_<ekran>.jpg` (560 px genişlik). Almancada "hesapla" ekranı yok, onun yerine not dökümü kullanılır; Kürtçe sayfa İngilizce ekranları gösterir (`build.py` içindeki `SHOTS`, `SHOT_LANG`).
+Ekran görüntüleri `assets/img/ss/<dil>_<ekran>.jpg` (560 px genişlik), uygulamanın 4.0 tasarımı. Kaynak: NotHesaplayici_Local `kopru/araclar/ekran_goruntusu.sh iphone <klasör>` ham çekimleri (1_home, 2_hedef, 4_derslerim, 5_gano, 6_notturu → home, calc, courses, gpa, settings).
 
 ## Hesap kuralları
 
-Uygulamayla aynıdır: ortalama aşağı yuvarlanır; gereken final notu yukarı yuvarlanır ve final barajından düşük olamaz. Not sistemleri (AA–FF, A1–F1, ABD A–F) `assets/app.js` içindeki `SCALES` listesindedir.
+Uygulamayla (iOS 4.0, Android 2.0) aynıdır: ortalama seçilen kurala göre yuvarlanır (Aşağı / En yakın / Yukarı / Yok; Türkiye skalalarında varsayılan en yakın, diğerlerinde yuvarlama yok) ve harf notu yuvarlanmış ortalamaya göre belirlenir. Gereken final notu yukarı yuvarlanır ve final barajından düşük olamaz. Not sistemleri (AA–FF, A1–F1, A–F, ABD A+/A−…F, 5…2) `assets/app.js` içindeki `SCALES`, varsayılan yuvarlamalar `ROUND` listesindedir.
 
-Hesaplayıcılar adresle doldurulabilir: `?mid=55&midw=40&hw=&hww=&final=&minf=&target=CC&scale=aa`. Bu biçim `llms.txt` içinde yapay zekâ asistanlarına da anlatılıyor.
+Hesaplayıcılar adresle doldurulabilir: `?mid=55&midw=40&hw=&hww=&final=&minf=&target=CC&scale=aa&round=near`. Bu biçim `llms.txt` içinde yapay zekâ asistanlarına da anlatılıyor.
 
 ## Çeviri kuralları
 

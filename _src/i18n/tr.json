@@ -1,7 +1,7 @@
 {
   "brand": "Not Hesaplayıcı",
   "title": "Not Hesaplayıcı – Vize Final Ortalama, Finalden Kaç Almalıyım, GANO Hesaplama",
-  "meta_desc": "Vize-final ortalamanı hesapla, dersi geçmek için finalden kaç alman gerektiğini öğren, GANO ve AGNO'nu takip et. Ücretsiz web hesaplayıcı ve reklamsız, hesapsız, çevrimdışı çalışan iPhone uygulaması.",
+  "meta_desc": "Vize-final ortalamanı hesapla, dersi geçmek için finalden kaç alman gerektiğini öğren, GANO ve AGNO'nu takip et. Ücretsiz web hesaplayıcı ve reklamsız, hesapsız, çevrimdışı çalışan iPhone ve Android uygulaması.",
   "nav_home": "Ana Sayfa",
   "nav_support": "Destek",
   "nav_privacy": "Gizlilik",
@@ -45,21 +45,21 @@
   "demo_courses": ["Matematik", "Fizik", "Biyoloji"],
   "scale_aa": "AA–FF (4'lük sistem)",
   "scale_a1": "A1–F1 (4'lük sistem)",
-  "scale_us": "A–F (ABD, 4.0)",
+  "scale_us": "A+/A− … F (ABD, 4.0)",
   "th_letter": "Harf",
   "th_min": "En düşük ortalama",
   "th_coef": "Katsayı",
   "th_need": "Gereken final",
   "why_h2": "Neden Not Hesaplayıcı?",
   "cards": [
-    ["Ortalama hesabı", "Vize, final ve ödev notlarını ağırlıklarıyla gir; ortalamanı ve harf notunu anında gör."],
+    ["Sana özel ders düzeni", "Vize, final, ödev, quiz, proje, laboratuvar… istediğin bileşeni ekle (ör. Quiz ×3), ağırlıkları belirle ve düzeni kaydet."],
     ["Gereken final", "Her harf notu için finalden en az kaç alman gerektiğini tek ekranda gör."],
     ["GANO takibi", "Derslerini dönem dönem kaydet; dönem ve genel not ortalaman kendiliğinden hesaplansın."],
-    ["Kendi not skalan", "Harf notu aralıklarını ve katsayıları üniversitene göre düzenle."],
-    ["PDF not dökümü", "Derslerini ve ortalamanı tek dokunuşla PDF olarak paylaş."],
+    ["5 not sistemi", "AA–FF, A1–F1, A–F, A+/A− ve 5…2. Not aralıklarını, barajları ve yuvarlamayı okuluna göre ayarla."],
+    ["PDF not dökümü", "Derslerini, ortalamanı ve not bileşenlerini tek dokunuşla PDF olarak paylaş."],
     ["17 dil", "Türkçe, İngilizce, Almanca, Japonca, Arapça, Kürtçe ve daha fazlası."],
     ["Gizlilik öncelikli", "Hesap yok, reklam yok, takip yok. Verilerin yalnızca cihazında kalır."],
-    ["Çevrimdışı", "İnternet gerekmez; sınav haftasında, kütüphanede, her yerde çalışır."]
+    ["iPhone, iPad ve Android", "Her cihazda aynı sonuç. İnternet gerekmez; sınav haftasında, kütüphanede, her yerde çalışır."]
   ],
   "tools_h2": "Ücretsiz hesaplayıcılar",
   "tools_p": "Uygulamayı indirmeden tarayıcında kullan. Kayıt yok, girdiğin notlar hiçbir yere gönderilmez.",
@@ -117,13 +117,13 @@
   "avg_card": "Vize, final ve ödev notlarından ders ortalamanı ve harf notunu hesapla.",
   "avg_body": [
     ["Ders ortalaması nasıl hesaplanır?", "Her sınavın notu kendi ağırlığıyla çarpılır ve sonuçlar toplanır: <b>ortalama = vize × vize ağırlığı + ödev × ödev ağırlığı + final × final ağırlığı</b>. Ağırlıkların toplamı %100 olmalıdır; bu yüzden final ağırlığı, vize ve ödev ağırlıklarından kalan kısımdır."],
-    ["Örnek hesap", "Vize <b>62</b> (%40) ve final <b>75</b> (%60) ise ortalama 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b> olur. Not Hesaplayıcı da birçok üniversitenin yaptığı gibi ortalamayı aşağı yuvarlar: 69. AA–FF skalasında bu <b>DC</b> notuna denk gelir."],
+    ["Örnek hesap", "Vize <b>62</b> (%40) ve final <b>75</b> (%60) ise ortalama 62 × 0,40 + 75 × 0,60 = 24,8 + 45 = <b>69,8</b> olur. Not Hesaplayıcı, Türkiye'deki çoğu üniversite gibi ortalamayı en yakın tam sayıya yuvarlar: 70. AA–FF skalasında bu <b>CC</b> notuna denk gelir. Yuvarlama kuralını (aşağı, en yakın, yukarı ya da yok) okuluna göre değiştirebilirsin."],
     ["Vize %30 final %70 olursa?", "Aynı formül geçerlidir: vize × 0,30 + final × 0,70. Final ağırlığı arttıkça finalin ortalamaya etkisi büyür; vize 40, final 80 ise %40–%60 sisteminde ortalama 64, %30–%70 sisteminde 68 olur."]
   ],
   "avg_faq": [
     ["Vize final ortalaması nasıl hesaplanır?", "Vize notu vize ağırlığıyla, final notu final ağırlığıyla çarpılıp toplanır. Vize %40 ve final %60 ise ortalama = vize × 0,40 + final × 0,60."],
     ["Ödev notu varsa ne olur?", "Ödev ağırlığını girdiğinde ödev de ortalamaya katılır ve final ağırlığı kalan orandan otomatik hesaplanır (örneğin vize %30, ödev %20 ise final %50)."],
-    ["Ortalamam 49,5 çıktı, geçer miyim?", "Bu, üniversitenin yuvarlama kuralına bağlıdır. Not Hesaplayıcı ortalamayı aşağı yuvarlar (49,5 → 49); kendi yönetmeliğine bakmanı öneririz."],
+    ["Ortalamam 49,5 çıktı, geçer miyim?", "Bu, üniversitenin yuvarlama kuralına bağlıdır. Not Hesaplayıcı'da kuralı sen seçersin: en yakına yuvarlamada 49,5 → 50, aşağı yuvarlamada 49 olur. Varsayılan, çoğu üniversite gibi en yakındır; yine de kendi yönetmeliğine bakmanı öneririz."],
     ["Harf notum neye göre belirleniyor?", "Ortalamanın düştüğü aralığa göre. Örneğin AA–FF skalasında 90 ve üzeri AA, 85–89 BA, 80–84 BB'dir. Aralıklar üniversiteye göre değişebilir."],
     ["Bu hesaplayıcı ücretsiz mi?", "Evet. Kayıt gerekmez, reklam yoktur ve girdiğin notlar tarayıcından çıkmaz."]
   ],
@@ -145,5 +145,12 @@
     ["FF ve FD alınan dersler GANO'ya katılır mı?", "Genellikle evet, katsayıları 0 ve 0,50 olarak katılır. Dersi tekrar alıp geçince eski notun yerine yeni not geçer; kural üniversiteye göre değişebilir."],
     ["GANO'mu 100'lük sisteme çevirebilir miyim?", "YÖK'ün dönüşüm tablosu kullanılır ve sonuç doğrusal değildir. Bu hesaplayıcı 4'lük sistemde sonuç verir."],
     ["Derslerimi kaydedebilir miyim?", "Web hesaplayıcı kaydetmez. Not Hesaplayıcı uygulamasında derslerini dönem dönem kaydedip GANO'nu sürekli takip edebilirsin."]
-  ]
+  ],
+  "scale_af": "A, B, C, D, F",
+  "scale_five": "5 … 2",
+  "f_round": "Ortalama yuvarlama",
+  "round_down": "Aşağı",
+  "round_near": "En yakın",
+  "round_up": "Yukarı",
+  "round_none": "Yuvarlama yok"
 }

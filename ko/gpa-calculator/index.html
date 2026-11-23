@@ -25,7 +25,7 @@
 <link rel="alternate" hreflang="ru" href="https://anbertech.github.io/NotHesaplayici/ru/gpa-calculator/">
 <link rel="alternate" hreflang="zh-Hans" href="https://anbertech.github.io/NotHesaplayici/zh-hans/gpa-calculator/">
 <link rel="alternate" hreflang="x-default" href="https://anbertech.github.io/NotHesaplayici/en/gpa-calculator/">
-<link rel="icon" type="image/png" sizes="64x64" href="../../assets/img/favicon.png?v=3">
+<link rel="icon" type="image/png" sizes="64x64" href="../../assets/img/favicon.png?v=4">
 <link rel="apple-touch-icon" href="../../assets/img/apple-touch-icon.png">
 <meta name="apple-itunes-app" content="app-id=6745179531">
 <meta property="og:type" content="website">
@@ -57,7 +57,7 @@
 <h1>GPA <em>계산기</em></h1>
 <p class="lead">각 과목의 이수학점과 받은 학점을 입력하면 4.0 만점 기준의 평점 평균(GPA)을 즉시 확인할 수 있습니다.</p>
 </div></section>
-<section class="sec" style="padding-top:20px"><div class="wrap"><div class="demo calc"><div data-calc="gpa"><div class="fields"><label>성적 평가 기준<select data-k="scale"><option value="aa">AA–FF (4.00 만점)</option><option value="a1">A1–F1 (4.00 만점)</option><option value="us">A–F (미국, 4.0)</option></select></label></div><div data-o="rows" style="margin-top:14px"></div><template><div class="row"><input class="cn" placeholder="과목명" aria-label="과목명"><input class="cc" type="number" inputmode="decimal" min="0" value="3" aria-label="학점 / ECTS"><select class="cg" aria-label="학점"></select><button class="x" type="button" aria-label="과목 삭제">×</button></div></template><button class="ghost" type="button" data-act="add">+ 과목 추가</button><div class="out"><div><small>GPA</small><b dir="ltr" data-o="gpa">0.00</b></div><div><small>총 이수학점</small><b dir="ltr" data-o="credits">0</b></div></div></div></div>
+<section class="sec" style="padding-top:20px"><div class="wrap"><div class="demo calc"><div data-calc="gpa"><div class="fields"><label>성적 평가 기준<select data-k="scale"><option value="aa">AA–FF (4.00 만점)</option><option value="a1">A1–F1 (4.00 만점)</option><option value="af">A, B, C, D, F</option><option value="us">A+/A− … F (미국, 4.0)</option><option value="five">5 … 2</option></select></label></div><div data-o="rows" style="margin-top:14px"></div><template><div class="row"><input class="cn" placeholder="과목명" aria-label="과목명"><input class="cc" type="number" inputmode="decimal" min="0" value="3" aria-label="학점 / ECTS"><select class="cg" aria-label="학점"></select><button class="x" type="button" aria-label="과목 삭제">×</button></div></template><button class="ghost" type="button" data-act="add">+ 과목 추가</button><div class="out"><div><small>GPA</small><b dir="ltr" data-o="gpa">0.00</b></div><div><small>총 이수학점</small><b dir="ltr" data-o="credits">0</b></div></div></div></div>
 <p class="scale-note">학점 점수 구간은 학교마다 다릅니다. 앱에서 본인 학교에 맞게 기준을 수정할 수 있습니다.</p></div></section>
 <section class="sec"><div class="wrap prose"><h2>평점 평균(GPA)은 어떻게 계산되나요?</h2><p>각 과목의 성적 평점에 해당 과목의 이수학점(또는 ECTS)을 곱합니다. 이 값들을 모두 더한 뒤 총 이수학점으로 나눕니다: <b>GPA = Σ (과목 평점 × 학점) ÷ Σ 학점</b>. 학기 평점도 해당 학기에 수강한 과목만 포함하여 동일한 방식으로 계산합니다.</p><h2>계산 예시</h2><p>미적분학(4학점)에서 A−(3.7), 물리학(3학점)에서 B(3.0), 생물학(3학점)에서 A(4.0)를 받았다고 가정해 봅시다. 가중 총합은 4 × 3.7 + 3 × 3.0 + 3 × 4.0 = 14.8 + 9 + 12 = 35.8입니다. 총 이수학점이 10학점이므로 GPA는 35.8 ÷ 10 = <b>3.58</b>이 됩니다.</p><h2>학기 평점과 전체 평점 평균(GPA)</h2><p>학기 평점은 한 학기 동안 수강한 과목만을 대상으로 하며, 전체 평점 평균(누적 GPA)은 지금까지 수강한 모든 과목을 대상으로 합니다. 앱에서는 학기별로 과목을 분류하여 두 평점을 모두 자동으로 관리해 줍니다.</p></div></section>
 <section class="sec"><div class="wrap"><div class="tcta reveal"><img src="../../assets/img/logo.png" alt="" width="96" height="96">

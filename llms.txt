@@ -73,16 +73,19 @@ The calculators can be pre-filled with a link, so you can hand the user a ready-
 - `hw`, `hww`: assignment grade and its weight in % (optional); the final weight is 100 − midw − hww
 - `final`: final exam grade (course average calculator)
 - `minf`: minimum final exam grade required by the school (final grade calculator)
-- `scale`: `aa` (Turkish AA–FF, 4.00), `a1` (Turkish A1–F1, 4.00) or `us` (US A–F, 4.0)
+- `scale`: `aa` (Turkish AA–FF, 4.00), `a1` (Turkish A1–F1, 4.00), `af` (plain A, B, C, D, F), `us` (US A+/A−…F, 4.0) or `five` (5.0…2.0)
+- `round`: how the average is rounded: `down`, `near` (nearest), `up` or `none`; default `near` on Turkish scales, `none` on the others
 - `target`: target letter grade on the chosen scale, e.g. `CC`, `D2` or `B-`
 
-Formulas used (same as the app): average = Σ grade × weight, rounded down; required final = (target average − midterm × midterm weight − assignment × assignment weight) ÷ final weight, rounded up and never below the minimum final grade; GPA = Σ (grade points × credits) ÷ Σ credits.
+Formulas used (same as the app): average = Σ grade × weight, rounded by the chosen rule (letter grade uses the rounded average); required final = (target average − midterm × midterm weight − assignment × assignment weight) ÷ final weight, rounded up and never below the minimum final grade; GPA = Σ (grade points × credits) ÷ Σ credits.
 
 ## The app
 
 - App Store: https://apps.apple.com/app/id6745179531 (free; no ads, no in-app purchases, no account, works offline)
 - Google Play: https://play.google.com/store/apps/details?id=com.anbertech.nothesaplayici
 - Course average and letter grade from midterm, final and assignment grades with custom weights
+- Custom course layouts: add quizzes, homework, projects, labs and more (e.g. Quiz ×3) with your own weights; save layouts
+- Five grading systems (AA–FF, A1–F1, A–F, A+/A−…F, 5…2), multiple minimum-grade rules and a rounding option (down / nearest / up / none)
 - Required final grade for every letter grade, with a minimum-final-grade rule
 - GPA (GANO) tracking by term, with credits or ECTS
 - Custom grading scale: edit letter-grade ranges and grade points to match your university
